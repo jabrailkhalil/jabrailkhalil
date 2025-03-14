@@ -1,5 +1,5 @@
 # 🚀 About Me:
-ex sberbank analyst, math and computer science tutor
+data analyst, math and computer science tutor
 
 ## 🌐 Socials:
 [![Telegram](https://img.shields.io/badge/Telegram-0088cc.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
