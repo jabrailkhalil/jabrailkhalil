@@ -40,6 +40,6 @@ data analyst, math and computer science tutor
 ![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=JabrailKhalil&theme=radical)
 
 ## 📁 Projects:
-![Project: clickntranslate](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=clickntranslate&theme=radical)
+[![Project: clickntranslate](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=clickntranslate&theme=radical)](https://github.com/JabrailKhalil/clickntranslate)
 
-![Project: tutorcrm](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=tutorcrm&theme=radical)
+[![Project: tutorcrm](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=tutorcrm&theme=radical)](https://github.com/JabrailKhalil/tutorcrm)
