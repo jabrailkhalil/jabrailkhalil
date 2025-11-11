@@ -4,9 +4,6 @@ data analyst, math and computer science tutor
 ## 🌐 Socials:
 [![Telegram](https://img.shields.io/badge/Telegram-0088cc.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
 [![Profi.ru](https://img.shields.io/badge/Profi.ru-0078FF.svg?style=for-the-badge&logo=profi&logoColor=white)](https://profi.ru/profile/HalilovDE)
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@JabrailKhalil)
-[![MyShows](https://img.shields.io/badge/📺MyShows-%23FF0000.svg?style=for-the-badge&logo=tv&logoColor=white)](https://myshows.me/kiddance)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jabrailkhalilov)
 [![Steam](https://img.shields.io/badge/Steam-000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/kiddance/)
 
 ## 💻 Tech Stack:
