@@ -33,9 +33,6 @@ data analyst, math and computer science tutor
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JabrailKhalil&layout=compact&theme=radical)](https://github.com/JabrailKhalil)
 
-## 🏆 GitHub Trophies:
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=JabrailKhalil&theme=radical)](https://github.com/JabrailKhalil)
-
 ## 📁 Projects:
 [![Project: clickntranslate](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=clickntranslate&theme=radical)](https://github.com/JabrailKhalil/clickntranslate)
 
