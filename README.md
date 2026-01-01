@@ -1,86 +1,12 @@
-<div align="center">
+# 🚀 About Me:
+data analyst, math and computer science tutor
 
-```
-     ██╗ █████╗ ██████╗ ██████╗  █████╗ ██╗██╗     
-     ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║██║     
-     ██║███████║██████╔╝██████╔╝███████║██║██║     
-██   ██║██╔══██║██╔══██╗██╔══██╗██╔══██║██║██║     
-╚█████╔╝██║  ██║██████╔╝██║  ██║██║  ██║██║███████╗
- ╚════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
-```
-
-### **`Data Analyst`** · **`ML Engineer`** · **`Tutor`**
-
+## 🌐 Socials:
 [![Telegram](https://img.shields.io/badge/Telegram-0088cc.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
 [![Profi.ru](https://img.shields.io/badge/Profi.ru-0078FF.svg?style=for-the-badge&logo=profi&logoColor=white)](https://profi.ru/profile/HalilovDE)
 [![Steam](https://img.shields.io/badge/Steam-000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/kiddance/)
 
-</div>
-
----
-
-## ⚡ About
-
-```python
-class Jabrail:
-    def __init__(self):
-        self.education = "MSc Applied Mathematics & CS @ HSE FCS"
-        self.experience = ["Data Analyst @ Sberbank", "Private Tutor"]
-        self.focus = ["Data Analysis", "Machine Learning", "Teaching"]
-        self.languages = ["🇷🇺 Russian", "🇬🇧 English", "🇹🇷 Turkish", "🇦🇿 Azerbaijani"]
-    
-    def current_status(self):
-        return "Building cool stuff & teaching the next generation 🚀"
-```
-
----
-
-## 🎯 What I Do
-
-<table>
-<tr>
-<td width="50%">
-
-### � Data & Analytics
-- Former **Data Analyst at Sberbank**
-- Statistical modeling & forecasting
-- Business intelligence & insights
-- Data visualization & storytelling
-
-</td>
-<td width="50%">
-
-### 🎓 Teaching & Mentoring
-- **Mathematics** — from basics to advanced
-- **Computer Science** — algorithms & logic
-- **Programming** — Python, problem-solving
-- Making complex simple since day one
-
-</td>
-</tr>
-</table>
-
----
-
-## 🎓 Education
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  🏛️  HIGHER SCHOOL OF ECONOMICS (HSE)                          │
-│      Faculty of Computer Science                                 │
-│      ═══════════════════════════════════                        │
-│      MSc in Applied Mathematics & Computer Science               │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-## �💻 Tech Stack
-
+## 💻 Tech Stack:
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 [![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -101,76 +27,3 @@ class Jabrail:
 [![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-000000.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://github.com/microsoft/terminal)
 [![Bash Script](https://img.shields.io/badge/bash_script-000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-000000.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)](https://matplotlib.org/)
-
----
-
-## 🌍 Languages
-
-<div align="center">
-
-| 🇷🇺 Russian | 🇬🇧 English | 🇹🇷 Turkish | 🇦🇿 Azerbaijani |
-|:-----------:|:-----------:|:-----------:|:---------------:|
-| Native | Fluent | Fluent | Native |
-
-</div>
-
----
-
-## 💼 Experience Highlights
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   🏦  SBERBANK                                                   ║
-║       Data Analyst                                               ║
-║       ────────────────────────────────                          ║
-║       • Developed analytical models                              ║
-║       • Built data pipelines                                     ║
-║       • Created business dashboards                              ║
-║                                                                  ║
-╠══════════════════════════════════════════════════════════════════╣
-║                                                                  ║
-║   📚  PRIVATE TUTOR                                              ║
-║       Mathematics • Computer Science • Programming               ║
-║       ────────────────────────────────                          ║
-║       • One-on-one lessons                                       ║
-║       • Exam preparation (EGE/OGE)                               ║
-║       • University-level courses                                 ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-## 📫 Let's Connect
-
-<div align="center">
-
-**Open for:**
-
-`🔬 Data Projects` · `🤝 Collaborations` · `📚 Tutoring` · `💡 Consulting`
-
-<br>
-
-[![Telegram](https://img.shields.io/badge/📬_Message_Me-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
-
-</div>
-
----
-
-<div align="center">
-
-```
-╭──────────────────────────────────────────────╮
-│  "Data is the new oil,                       │
-│   but insights are the new gold" 💎          │
-╰──────────────────────────────────────────────╯
-```
-
-**Thanks for visiting!** ⭐
-
-</div>
