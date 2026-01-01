@@ -27,13 +27,3 @@ data analyst, math and computer science tutor
 [![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-000000.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://github.com/microsoft/terminal)
 [![Bash Script](https://img.shields.io/badge/bash_script-000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-000000.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)](https://matplotlib.org/)
-
-## 📊 GitHub Stats:
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=JabrailKhalil&show_icons=true&theme=radical)](https://github.com/JabrailKhalil)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JabrailKhalil&layout=compact&theme=radical)](https://github.com/JabrailKhalil)
-
-## 📁 Projects:
-[![Project: clickntranslate](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=clickntranslate&theme=radical)](https://github.com/JabrailKhalil/clickntranslate)
-
-[![Project: tutorcrm](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=tutorcrm&theme=radical)](https://github.com/JabrailKhalil/tutorcrm)
