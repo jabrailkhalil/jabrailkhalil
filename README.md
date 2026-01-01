@@ -29,8 +29,6 @@
 - 💼 Ex-Data Analyst at **Sber**.
 - 🎓 Master's student at **HSE Faculty of Computer Science** (Applied Mathematics and Information Science).
 - 👨‍🏫 **Math & Computer Science Tutor**.
-- 🔭 Working on personal projects: **clickntranslate** & **tutorcrm**.
-- ⚡ I combine my love for teaching with coding to build useful tools.
 
 ---
 
