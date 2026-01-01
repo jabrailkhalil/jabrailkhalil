@@ -26,13 +26,11 @@
 
 ### 👨‍💻 About Me
 
-Here are some details about my journey and interests:
-
-- 🔭 I’m currently working on my personal projects: **clickntranslate** and **tutorcrm**.
-- 📊 I specialize in **Data Analysis** and **Visualization**.
-- 👨‍🏫 I help students master **Mathematics** and **Computer Science**.
-- 🤖 I use **Python** for almost everything, from automation to AI.
-- ⚡ Fun fact: I combine my love for teaching with actual coding to create tools that help people learn better.
+- 💼 Ex-Data Analyst at **Sber**.
+- 🎓 Master's student at **HSE Faculty of Computer Science** (Applied Mathematics and Information Science).
+- 👨‍🏫 **Math & Computer Science Tutor**.
+- 🔭 Working on personal projects: **clickntranslate** & **tutorcrm**.
+- ⚡ I combine my love for teaching with coding to build useful tools.
 
 ---
 
@@ -60,9 +58,9 @@ Here are some details about my journey and interests:
 
 <div align="center">
 
-| **My GitHub Stats** | **Top Languages** |
-|:---:|:---:|
-| [![Jabrail's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JabrailKhalil&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/JabrailKhalil) | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JabrailKhalil&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/JabrailKhalil) |
+[![Jabrail's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JabrailKhalil&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/JabrailKhalil)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JabrailKhalil&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/JabrailKhalil)
 
 </div>
 
@@ -70,10 +68,13 @@ Here are some details about my journey and interests:
 
 ### 📁 Featured Projects
 
-| **Project** | **Description** |
-|:---:|:---|
-| [**clickntranslate**](https://github.com/JabrailKhalil/clickntranslate) | A tool designed to make translation easier and faster with a simple click. |
-| [**tutorcrm**](https://github.com/JabrailKhalil/tutorcrm) | A CRM system tailored for tutors to manage students, schedules, and progress (Active Development). |
+<div align="center">
+
+[![Project: clickntranslate](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=clickntranslate&theme=tokyonight&hide_border=true)](https://github.com/JabrailKhalil/clickntranslate)
+<br>
+[![Project: tutorcrm](https://github-readme-stats.vercel.app/api/pin/?username=JabrailKhalil&repo=tutorcrm&theme=tokyonight&hide_border=true)](https://github.com/JabrailKhalil/tutorcrm)
+
+</div>
 
 <div align="center"> 
   <img src="https://komarev.com/ghpvc/?username=JabrailKhalil&style=flat-square&color=blue" alt="Profile Views" /> 
