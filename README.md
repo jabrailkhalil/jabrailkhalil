@@ -1,52 +1,36 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- ██╗ █████╗ ██████╗ ██████╗  █████╗ ██╗██╗                                       -->
-<!-- ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║██║                                       -->
-<!-- ██║███████║██████╔╝██████╔╝███████║██║██║                                       -->
-<!-- ╚═╝██╔══██║██╔══██╗██╔══██╗██╔══██║██║██║                                       -->
-<!-- ██╗██║  ██║██████╔╝██║  ██║██║  ██║██║███████╗                                  -->
-<!-- ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝                                  -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-# ⚡ JABRAIL KHALIL
-
-### `Data Analyst` • `Tutor` • `Developer`
-
-<br>
-
-[![Telegram](https://img.shields.io/badge/�_Let's_Chat-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
-
----
-
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   🎓  Master's @ HSE Faculty of Computer Science                             ║
-║       Applied Mathematics & Computer Science                                 ║
-║                                                                              ║
-║   💼  Ex-Sberbank Data Analyst                                               ║
-║                                                                              ║
-║   📚  Tutor: Math • Computer Science • Programming                           ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+     ██╗ █████╗ ██████╗ ██████╗  █████╗ ██╗██╗     
+     ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║██║     
+     ██║███████║██████╔╝██████╔╝███████║██║██║     
+██   ██║██╔══██║██╔══██╗██╔══██╗██╔══██║██║██║     
+╚█████╔╝██║  ██║██████╔╝██║  ██║██║  ██║██║███████╗
+ ╚════╝ ╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝
 ```
+
+### **`Data Analyst`** · **`ML Engineer`** · **`Tutor`**
+
+[![Telegram](https://img.shields.io/badge/Telegram-0088cc.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
+[![Profi.ru](https://img.shields.io/badge/Profi.ru-0078FF.svg?style=for-the-badge&logo=profi&logoColor=white)](https://profi.ru/profile/HalilovDE)
+[![Steam](https://img.shields.io/badge/Steam-000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/kiddance/)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## ⚡ About
 
-```yaml
-name: "Jabrail Khalil"
-education: "M.Sc. Applied Mathematics & CS @ HSE Faculty of Computer Science"
-experience: "Data Analyst @ Sberbank"
-current_role: "Data Analyst | Tutor | Developer"
-teaching: ["Mathematics", "Computer Science", "Programming"]
-languages: ["🇷🇺 Russian", "🇬🇧 English", "🇹🇷 Turkish", "🇦🇿 Azerbaijani"]
-interests: ["Machine Learning", "Data Science", "Automation", "AI"]
-motto: "Turning data into decisions, and students into experts 📊✨"
+```python
+class Jabrail:
+    def __init__(self):
+        self.education = "MSc Applied Mathematics & CS @ HSE FCS"
+        self.experience = ["Data Analyst @ Sberbank", "Private Tutor"]
+        self.focus = ["Data Analysis", "Machine Learning", "Teaching"]
+        self.languages = ["🇷🇺 Russian", "🇬🇧 English", "🇹🇷 Turkish", "🇦🇿 Azerbaijani"]
+    
+    def current_status(self):
+        return "Building cool stuff & teaching the next generation 🚀"
 ```
 
 ---
@@ -57,24 +41,20 @@ motto: "Turning data into decisions, and students into experts 📊✨"
 <tr>
 <td width="50%">
 
-### 📊 Data & Analytics
-```
-▸ Transform raw data into business insights
-▸ Build predictive models & analytics
-▸ Create visualizations that tell stories
-▸ Automate data pipelines & workflows
-```
+### � Data & Analytics
+- Former **Data Analyst at Sberbank**
+- Statistical modeling & forecasting
+- Business intelligence & insights
+- Data visualization & storytelling
 
 </td>
 <td width="50%">
 
 ### 🎓 Teaching & Mentoring
-```
-▸ Math tutoring (all levels)
-▸ Computer Science fundamentals
-▸ Python & programming basics
-▸ Interview prep & career guidance
-```
+- **Mathematics** — from basics to advanced
+- **Computer Science** — algorithms & logic
+- **Programming** — Python, problem-solving
+- Making complex simple since day one
 
 </td>
 </tr>
@@ -82,21 +62,24 @@ motto: "Turning data into decisions, and students into experts 📊✨"
 
 ---
 
-## 🌐 Connect With Me
+## 🎓 Education
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-0088cc.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
-[![Profi.ru](https://img.shields.io/badge/Profi.ru-0078FF.svg?style=for-the-badge&logo=profi&logoColor=white)](https://profi.ru/profile/HalilovDE)
-[![Steam](https://img.shields.io/badge/Steam-000000.svg?style=for-the-badge&logo=steam&logoColor=white)](https://steamcommunity.com/id/kiddance/)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🏛️  HIGHER SCHOOL OF ECONOMICS (HSE)                          │
+│      Faculty of Computer Science                                 │
+│      ═══════════════════════════════════                        │
+│      MSc in Applied Mathematics & Computer Science               │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
 ---
 
-## 💻 Tech Stack
-
-<div align="center">
+## �💻 Tech Stack
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
@@ -119,47 +102,75 @@ motto: "Turning data into decisions, and students into experts 📊✨"
 [![Bash Script](https://img.shields.io/badge/bash_script-000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-000000.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)](https://matplotlib.org/)
 
-</div>
-
 ---
 
-## 🗣️ Languages
+## 🌍 Languages
 
 <div align="center">
 
 | 🇷🇺 Russian | 🇬🇧 English | 🇹🇷 Turkish | 🇦🇿 Azerbaijani |
-|:---:|:---:|:---:|:---:|
+|:-----------:|:-----------:|:-----------:|:---------------:|
 | Native | Fluent | Fluent | Native |
 
 </div>
 
 ---
 
-## 📬 Let's Work Together
+## 💼 Experience Highlights
 
 <div align="center">
 
 ```
-╭─────────────────────────────────────────────────────────────────╮
-│                                                                 │
-│   🎯  Open for freelance data projects                          │
-│   📚  Available for tutoring sessions                           │
-│   🤝  Happy to collaborate on interesting ideas                 │
-│   💬  Feel free to reach out anytime!                           │
-│                                                                 │
-╰─────────────────────────────────────────────────────────────────╯
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   🏦  SBERBANK                                                   ║
+║       Data Analyst                                               ║
+║       ────────────────────────────────                          ║
+║       • Developed analytical models                              ║
+║       • Built data pipelines                                     ║
+║       • Created business dashboards                              ║
+║                                                                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║   📚  PRIVATE TUTOR                                              ║
+║       Mathematics • Computer Science • Programming               ║
+║       ────────────────────────────────                          ║
+║       • One-on-one lessons                                       ║
+║       • Exam preparation (EGE/OGE)                               ║
+║       • University-level courses                                 ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
-<br>
-
-[![Telegram](https://img.shields.io/badge/📩_Message_Me-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
-
-<br>
-
-### 💎 *"Data tells stories. I help you understand them."* 💎
+</div>
 
 ---
 
-<sub>⭐ From [jabrailkhalil](https://github.com/jabrailkhalil) with 💙</sub>
+## 📫 Let's Connect
+
+<div align="center">
+
+**Open for:**
+
+`🔬 Data Projects` · `🤝 Collaborations` · `📚 Tutoring` · `💡 Consulting`
+
+<br>
+
+[![Telegram](https://img.shields.io/badge/📬_Message_Me-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
+
+</div>
+
+---
+
+<div align="center">
+
+```
+╭──────────────────────────────────────────────╮
+│  "Data is the new oil,                       │
+│   but insights are the new gold" 💎          │
+╰──────────────────────────────────────────────╯
+```
+
+**Thanks for visiting!** ⭐
 
 </div>
