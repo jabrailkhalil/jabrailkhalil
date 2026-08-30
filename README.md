@@ -27,9 +27,3 @@ data analyst, math and computer science tutor
 [![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-000000.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://github.com/microsoft/terminal)
 [![Bash Script](https://img.shields.io/badge/bash_script-000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-000000.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)](https://matplotlib.org/)
-
-## Open-source footprint
-
-<p align="center">
-  <img src="./assets/open-source-footprint.svg" width="100%" alt="Open-source footprint: 26 public repositories, Click'n'Translate and Xynapse, plus shipped contributions to VidBee and Codex Multi-Launcher" />
-</p>
