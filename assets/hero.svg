@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Dzhabrail Khalilov</title>
+  <desc id="desc">Software engineer, applied AI builder, and researcher</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A12"/>
+      <stop offset="0.52" stop-color="#0D1425"/>
+      <stop offset="1" stop-color="#11192D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58E6FF"/>
+      <stop offset="0.55" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#D96CFF"/>
+    </linearGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#20D9FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#20D9FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#996CFF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#996CFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#A9B7D0" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="400" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="url(#background)"/>
+    <rect width="1200" height="400" fill="url(#grid)"/>
+    <circle cx="1060" cy="60" r="330" fill="url(#violetGlow)"/>
+    <circle cx="210" cy="390" r="310" fill="url(#cyanGlow)"/>
+
+    <path d="M0 348 C210 286 358 394 586 322 S980 250 1200 306" fill="none" stroke="url(#accent)" stroke-opacity="0.17" stroke-width="1.5"/>
+    <path d="M0 374 C240 316 380 418 616 348 S986 282 1200 332" fill="none" stroke="#58E6FF" stroke-opacity="0.08" stroke-width="1"/>
+
+    <g transform="translate(72 68)">
+      <rect x="0" y="0" width="50" height="5" rx="2.5" fill="url(#accent)"/>
+      <text x="0" y="60" fill="#F5F7FF" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="1.2">DZHABRAIL</text>
+      <text x="0" y="116" fill="#F5F7FF" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="1.2">KHALILOV</text>
+      <text x="2" y="158" fill="#9CA9C2" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="3.1">SOFTWARE ENGINEER  ·  APPLIED AI  ·  RESEARCH</text>
+      <text x="2" y="213" fill="#D6DCEF" font-family="Segoe UI, Arial, sans-serif" font-size="21">Building reliable tools for real-world workflows.</text>
+
+      <g transform="translate(2 245)">
+        <rect width="108" height="34" rx="17" fill="#58E6FF" fill-opacity="0.10" stroke="#58E6FF" stroke-opacity="0.28"/>
+        <circle cx="18" cy="17" r="4" fill="#58E6FF"/>
+        <text x="31" y="22" fill="#BDEFFF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">DESKTOP</text>
+
+        <rect x="120" width="82" height="34" rx="17" fill="#8B7CFF" fill-opacity="0.10" stroke="#8B7CFF" stroke-opacity="0.30"/>
+        <circle cx="138" cy="17" r="4" fill="#9A8DFF"/>
+        <text x="151" y="22" fill="#D4CEFF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">AI/ML</text>
+
+        <rect x="214" width="114" height="34" rx="17" fill="#D96CFF" fill-opacity="0.09" stroke="#D96CFF" stroke-opacity="0.27"/>
+        <circle cx="232" cy="17" r="4" fill="#D96CFF"/>
+        <text x="245" y="22" fill="#F0C8FF" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">OPEN SOURCE</text>
+      </g>
+    </g>
+
+    <g transform="translate(778 66)" filter="url(#shadow)">
+      <rect width="356" height="258" rx="18" fill="#0A0F1C" stroke="#AAB6D0" stroke-opacity="0.17"/>
+      <path d="M0 47 H356" stroke="#AAB6D0" stroke-opacity="0.14"/>
+      <circle cx="24" cy="24" r="5" fill="#FF6B7A"/>
+      <circle cx="43" cy="24" r="5" fill="#FFC45C"/>
+      <circle cx="62" cy="24" r="5" fill="#55DEA2"/>
+      <text x="292" y="29" fill="#66728C" font-family="Consolas, monospace" font-size="11">build.log</text>
+
+      <g font-family="Consolas, Courier New, monospace" font-size="14">
+        <text x="25" y="83" fill="#66728C">01</text>
+        <text x="59" y="83" fill="#58E6FF">$</text>
+        <text x="77" y="83" fill="#D8DEEF">design --for humans</text>
+
+        <text x="25" y="116" fill="#66728C">02</text>
+        <text x="59" y="116" fill="#58E6FF">$</text>
+        <text x="77" y="116" fill="#D8DEEF">build --offline-first</text>
+
+        <text x="25" y="149" fill="#66728C">03</text>
+        <text x="59" y="149" fill="#58E6FF">$</text>
+        <text x="77" y="149" fill="#D8DEEF">test --failure-paths</text>
+
+        <text x="25" y="182" fill="#66728C">04</text>
+        <text x="59" y="182" fill="#58E6FF">$</text>
+        <text x="77" y="182" fill="#D8DEEF">ship --reproducible</text>
+
+        <rect x="24" y="207" width="308" height="30" rx="7" fill="#55DEA2" fill-opacity="0.08"/>
+        <circle cx="42" cy="222" r="4" fill="#55DEA2"/>
+        <text x="56" y="227" fill="#8FEABD" font-size="13">release ready</text>
+        <text x="241" y="227" fill="#65708A" font-size="12">exit 0</text>
+      </g>
+    </g>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="398.5" rx="27.25" fill="none" stroke="#C8D3EA" stroke-opacity="0.12" stroke-width="1.5"/>
+</svg>
