@@ -27,3 +27,16 @@ data analyst, math and computer science tutor
 [![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-000000.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)](https://github.com/microsoft/terminal)
 [![Bash Script](https://img.shields.io/badge/bash_script-000000.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-000000.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)](https://matplotlib.org/)
+
+## ⚡ Builder Mode
+
+> I turn ideas into software people can actually run.
+
+```text
+Build & ship         ██████████  100%
+Solve weird bugs     █████████░   90%
+Open-source energy   █████████░   90%
+Give up              ░░░░░░░░░░    0%
+```
+
+<sub>Metrics are vibe-based. The shipped projects are real.</sub>
