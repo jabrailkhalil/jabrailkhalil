@@ -198,22 +198,6 @@ For contribution links, the **project name opens the upstream repository** and t
 </picture>
 </div>
 
-## 📡 GitHub activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=jabrailkhalil&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=jabrailkhalil&show_icons=true&hide_border=true&theme=default&rank_icon=github&include_all_commits=true" />
-  <img alt="Jabrail's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=jabrailkhalil&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" />
-</picture>
-
-<br/>
-
-[![Jabrail's activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jabrailkhalil&theme=github-compact&hide_border=true&area=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
-
-</div>
-
 ## 🐍 Contributions in motion
 
 <div align="center">
