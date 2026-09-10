@@ -1,10 +1,10 @@
 <div align="center">
 
-# Jabrail Khalilov 🧿
+# Hey, I'm Jabrail 👋🏻
 
 ### AI systems · Developer tooling · Open-source engineering · Applied ML
 
-I build practical software, experiment with AI-assisted development, run reproducible engineering research, and contribute fixes and features upstream.
+*Glad you stopped by.* I build practical software, experiment with AI-assisted development, run reproducible engineering research, and contribute fixes and features upstream.
 
 [![GitHub](https://img.shields.io/badge/GitHub-jabrailkhalil-181717?style=flat-square&logo=github)](https://github.com/jabrailkhalil)
 [![Telegram](https://img.shields.io/badge/Telegram-@jabrail__digital-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
@@ -148,7 +148,6 @@ For contribution links, the **project name opens the upstream repository** and t
 </div>
 
 ### 🪛 Systems · DevOps · quality
-
 <div align="center">
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
