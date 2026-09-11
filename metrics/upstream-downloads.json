@@ -1,24 +1,359 @@
 {
-  "combined_downloads": 854572,
-  "combined_downloads_human": "854.6k",
-  "metric": "GitHub release-asset downloads only",
+  "combined_public_downloads": 1646128827,
+  "combined_public_downloads_human": "\u22481.65B",
+  "generated_at": "2026-09-11T19:21:54.494849+00:00",
+  "metric": "sum of publicly measurable cumulative download counters",
+  "notes": [
+    "GitHub source clone/archive traffic is not publicly available for arbitrary repositories.",
+    "Download events are not unique users and channels can overlap.",
+    "Pepy totals and explicitly marked snapshots may be rounded, so affected project totals are approximate.",
+    "Puppeteer GHCR and LibreDB Unraid values are public snapshots dated 2026-09-11.",
+    "npm totals are summed from the public npm Downloads API from each package's creation date (not before 2015-01-10) through the generation date in bounded chunks."
+  ],
   "repositories": {
-    "Agenta-AI/agenta": 0,
-    "IzanVil/datasemver": 2,
-    "JqyModi/codex-multi-launcher": 8433,
-    "TheAlgorithms/Python": 0,
-    "getsotto/sotto-action": 0,
-    "guillermomolina/protos": 9,
-    "junixlabs/traceos": 0,
-    "jzjzzzzzzz/agent-me": 0,
-    "libredb/libredb-studio": 13236,
-    "marmelab/react-admin": 0,
-    "nexmoe/VidBee": 814184,
-    "orval-labs/orval": 0,
-    "puppeteer/puppeteer": 0,
-    "roboflow/supervision": 443,
-    "soft-track/soft-track": 0,
-    "vyncint/termlens": 0,
-    "xberg-io/html-to-markdown": 18265
+    "Agenta-AI/agenta": {
+      "approximate": true,
+      "public_downloads": 1400000,
+      "sources": [
+        {
+          "approximate": true,
+          "count": 1400000,
+          "package": "agenta",
+          "source": "PyPI / Pepy",
+          "url": "https://www.pepy.tech/projects/agenta"
+        },
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/Agenta-AI/agenta/releases"
+        }
+      ]
+    },
+    "IzanVil/datasemver": {
+      "approximate": true,
+      "public_downloads": 4402,
+      "sources": [
+        {
+          "approximate": true,
+          "count": 4400,
+          "package": "datasemver",
+          "source": "PyPI / Pepy",
+          "url": "https://www.pepy.tech/projects/datasemver"
+        },
+        {
+          "approximate": false,
+          "count": 2,
+          "source": "GitHub Releases",
+          "url": "https://github.com/IzanVil/datasemver/releases"
+        }
+      ]
+    },
+    "JqyModi/codex-multi-launcher": {
+      "approximate": false,
+      "public_downloads": 8435,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 8435,
+          "source": "GitHub Releases",
+          "url": "https://github.com/JqyModi/codex-multi-launcher/releases"
+        }
+      ]
+    },
+    "TheAlgorithms/Python": {
+      "approximate": false,
+      "public_downloads": null,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/TheAlgorithms/Python/releases"
+        }
+      ]
+    },
+    "getsotto/sotto-action": {
+      "approximate": false,
+      "public_downloads": null,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/getsotto/sotto-action/releases"
+        }
+      ]
+    },
+    "guillermomolina/protos": {
+      "approximate": false,
+      "public_downloads": 9,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 9,
+          "source": "GitHub Releases",
+          "url": "https://github.com/guillermomolina/protos/releases"
+        }
+      ]
+    },
+    "junixlabs/traceos": {
+      "approximate": false,
+      "public_downloads": null,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/junixlabs/traceos/releases"
+        }
+      ]
+    },
+    "jzjzzzzzzz/agent-me": {
+      "approximate": false,
+      "public_downloads": null,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/jzjzzzzzzz/agent-me/releases"
+        }
+      ]
+    },
+    "libredb/libredb-studio": {
+      "approximate": false,
+      "public_downloads": 143030,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 9239,
+          "package": "@libredb/studio",
+          "source": "npm",
+          "url": "https://www.npmjs.com/package/@libredb/studio"
+        },
+        {
+          "approximate": false,
+          "count": 92821,
+          "package": "libredb/libredb-studio",
+          "source": "Docker Hub",
+          "url": "https://hub.docker.com/r/libredb/libredb-studio"
+        },
+        {
+          "approximate": false,
+          "count": 13239,
+          "source": "GitHub Releases",
+          "url": "https://github.com/libredb/libredb-studio/releases"
+        },
+        {
+          "approximate": false,
+          "count": 27731,
+          "snapshot": "2026-09-11",
+          "source": "Unraid Community Apps",
+          "url": "https://unraid.net/community/apps?q=libredb"
+        }
+      ]
+    },
+    "marmelab/react-admin": {
+      "approximate": false,
+      "public_downloads": 22778769,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 22778769,
+          "package": "react-admin",
+          "source": "npm",
+          "url": "https://www.npmjs.com/package/react-admin"
+        },
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/marmelab/react-admin/releases"
+        }
+      ]
+    },
+    "nexmoe/VidBee": {
+      "approximate": false,
+      "public_downloads": 814272,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 814272,
+          "source": "GitHub Releases",
+          "url": "https://github.com/nexmoe/VidBee/releases"
+        }
+      ]
+    },
+    "orval-labs/orval": {
+      "approximate": false,
+      "public_downloads": 74570633,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 74570633,
+          "package": "orval",
+          "source": "npm",
+          "url": "https://www.npmjs.com/package/orval"
+        },
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/orval-labs/orval/releases"
+        }
+      ]
+    },
+    "puppeteer/puppeteer": {
+      "approximate": true,
+      "public_downloads": 1497886064,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 1493646064,
+          "package": "puppeteer",
+          "source": "npm",
+          "url": "https://www.npmjs.com/package/puppeteer"
+        },
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/puppeteer/puppeteer/releases"
+        },
+        {
+          "approximate": true,
+          "count": 4240000,
+          "snapshot": "2026-09-11",
+          "source": "GHCR",
+          "url": "https://github.com/puppeteer/puppeteer/pkgs/container/puppeteer"
+        }
+      ]
+    },
+    "roboflow/supervision": {
+      "approximate": true,
+      "public_downloads": 38000443,
+      "sources": [
+        {
+          "approximate": true,
+          "count": 38000000,
+          "package": "supervision",
+          "source": "PyPI / Pepy",
+          "url": "https://www.pepy.tech/projects/supervision"
+        },
+        {
+          "approximate": false,
+          "count": 443,
+          "source": "GitHub Releases",
+          "url": "https://github.com/roboflow/supervision/releases"
+        }
+      ]
+    },
+    "soft-track/soft-track": {
+      "approximate": false,
+      "public_downloads": null,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/soft-track/soft-track/releases"
+        }
+      ]
+    },
+    "vyncint/termlens": {
+      "approximate": false,
+      "public_downloads": 3068,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 2810,
+          "package": "termlens",
+          "source": "crates.io",
+          "url": "https://crates.io/crates/termlens"
+        },
+        {
+          "approximate": false,
+          "count": 258,
+          "package": "termlens-cli",
+          "source": "crates.io",
+          "url": "https://crates.io/crates/termlens-cli"
+        },
+        {
+          "approximate": false,
+          "count": 0,
+          "source": "GitHub Releases",
+          "url": "https://github.com/vyncint/termlens/releases"
+        }
+      ]
+    },
+    "xberg-io/html-to-markdown": {
+      "approximate": true,
+      "public_downloads": 10519702,
+      "sources": [
+        {
+          "approximate": false,
+          "count": 91170,
+          "package": "@xberg-io/html-to-markdown",
+          "source": "npm",
+          "url": "https://www.npmjs.com/package/@xberg-io/html-to-markdown"
+        },
+        {
+          "approximate": false,
+          "count": 4587,
+          "package": "@xberg-io/html-to-markdown-wasm",
+          "source": "npm",
+          "url": "https://www.npmjs.com/package/@xberg-io/html-to-markdown-wasm"
+        },
+        {
+          "approximate": true,
+          "count": 9000000,
+          "package": "html-to-markdown",
+          "source": "PyPI / Pepy",
+          "url": "https://www.pepy.tech/projects/html-to-markdown"
+        },
+        {
+          "approximate": false,
+          "count": 1241145,
+          "package": "html-to-markdown-rs",
+          "source": "crates.io",
+          "url": "https://crates.io/crates/html-to-markdown-rs"
+        },
+        {
+          "approximate": false,
+          "count": 10250,
+          "package": "html-to-markdown-cli",
+          "source": "crates.io",
+          "url": "https://crates.io/crates/html-to-markdown-cli"
+        },
+        {
+          "approximate": false,
+          "count": 151900,
+          "package": "html-to-markdown",
+          "source": "RubyGems",
+          "url": "https://rubygems.org/gems/html-to-markdown"
+        },
+        {
+          "approximate": false,
+          "count": 58,
+          "package": "xberg-io/html-to-markdown",
+          "source": "Packagist",
+          "url": "https://packagist.org/packages/xberg-io/html-to-markdown"
+        },
+        {
+          "approximate": false,
+          "count": 2326,
+          "package": "XbergIo.HtmlToMarkdown",
+          "source": "NuGet",
+          "url": "https://www.nuget.org/packages/XbergIo.HtmlToMarkdown"
+        },
+        {
+          "approximate": false,
+          "count": 18266,
+          "source": "GitHub Releases",
+          "url": "https://github.com/xberg-io/html-to-markdown/releases"
+        }
+      ]
+    }
   }
 }
