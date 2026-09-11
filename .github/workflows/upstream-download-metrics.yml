@@ -7,7 +7,6 @@ on:
   push:
     branches: [main]
     paths:
-      - README.md
       - .github/workflows/upstream-download-metrics.yml
 
 permissions:
@@ -27,7 +26,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Calculate and render GitHub release downloads
+      - name: Calculate and render distribution metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -38,23 +37,125 @@ jobs:
           from pathlib import Path
 
           entries = [
-              ("TheAlgorithms/Python", "TheAlgorithms/Python", "~224k ⭐", 15228),
-              ("Puppeteer", "puppeteer/puppeteer", "~95.6k ⭐", 15445),
-              ("Roboflow Supervision", "roboflow/supervision", "~50.0k ⭐", 2557),
-              ("react-admin", "marmelab/react-admin", "~26.9k ⭐", 11367),
-              ("VidBee", "nexmoe/VidBee", "~10.6k ⭐", 469),
-              ("Orval", "orval-labs/orval", "~6.5k ⭐", 4074),
-              ("Agenta", "Agenta-AI/agenta", "~4.7k ⭐", 6693),
-              ("html-to-markdown", "xberg-io/html-to-markdown", "865 ⭐", 482),
-              ("LibreDB Studio", "libredb/libredb-studio", "628 ⭐", 782),
-              ("agent-me", "jzjzzzzzzz/agent-me", "201 ⭐", 133),
-              ("codex-multi-launcher", "JqyModi/codex-multi-launcher", "133 ⭐", 19),
-              ("Termlens", "vyncint/termlens", "19 ⭐", 321),
-              ("soft-track", "soft-track/soft-track", "11 ⭐", 59),
-              ("DataSemVer", "IzanVil/datasemver", "1 ⭐", 7),
-              ("Protos", "guillermomolina/protos", "0 ⭐", 315),
-              ("sotto-action", "getsotto/sotto-action", "0 ⭐", 25),
-              ("TraceOS", "junixlabs/traceos", "0 ⭐", 23),
+              (
+                  "TheAlgorithms/Python",
+                  "TheAlgorithms/Python",
+                  "~224k ⭐",
+                  15228,
+                  "[![Distribution](https://img.shields.io/badge/distribution-source--only-64748B?style=flat-square)](https://github.com/TheAlgorithms/Python)",
+              ),
+              (
+                  "Puppeteer",
+                  "puppeteer/puppeteer",
+                  "~95.6k ⭐",
+                  15445,
+                  "[![npm monthly](https://img.shields.io/npm/dm/puppeteer?style=flat-square&label=npm%2Fmonth)](https://www.npmjs.com/package/puppeteer)",
+              ),
+              (
+                  "Roboflow Supervision",
+                  "roboflow/supervision",
+                  "~50.0k ⭐",
+                  2557,
+                  "[![PyPI monthly](https://img.shields.io/pypi/dm/supervision?style=flat-square&label=PyPI%2Fmonth)](https://pypi.org/project/supervision/)",
+              ),
+              (
+                  "react-admin",
+                  "marmelab/react-admin",
+                  "~26.9k ⭐",
+                  11367,
+                  "[![npm monthly](https://img.shields.io/npm/dm/react-admin?style=flat-square&label=npm%2Fmonth)](https://www.npmjs.com/package/react-admin)",
+              ),
+              (
+                  "VidBee",
+                  "nexmoe/VidBee",
+                  "~10.6k ⭐",
+                  469,
+                  "[![GitHub release downloads](https://img.shields.io/github/downloads/nexmoe/VidBee/total?style=flat-square&label=GitHub%20releases)](https://github.com/nexmoe/VidBee/releases)",
+              ),
+              (
+                  "Orval",
+                  "orval-labs/orval",
+                  "~6.5k ⭐",
+                  4074,
+                  "[![npm monthly](https://img.shields.io/npm/dm/orval?style=flat-square&label=npm%2Fmonth)](https://www.npmjs.com/package/orval)",
+              ),
+              (
+                  "Agenta",
+                  "Agenta-AI/agenta",
+                  "~4.7k ⭐",
+                  6693,
+                  "[![PyPI monthly](https://img.shields.io/pypi/dm/agenta?style=flat-square&label=PyPI%2Fmonth)](https://pypi.org/project/agenta/)",
+              ),
+              (
+                  "html-to-markdown",
+                  "xberg-io/html-to-markdown",
+                  "865 ⭐",
+                  482,
+                  "[![npm monthly](https://img.shields.io/npm/dm/%40xberg-io%2Fhtml-to-markdown?style=flat-square&label=npm%2Fmonth)](https://www.npmjs.com/package/@xberg-io/html-to-markdown) <br> [![PyPI monthly](https://img.shields.io/pypi/dm/html-to-markdown?style=flat-square&label=PyPI%2Fmonth)](https://pypi.org/project/html-to-markdown/) <br> [![crates.io downloads](https://img.shields.io/crates/d/html-to-markdown-rs?style=flat-square&label=crates.io%20total)](https://crates.io/crates/html-to-markdown-rs)",
+              ),
+              (
+                  "LibreDB Studio",
+                  "libredb/libredb-studio",
+                  "628 ⭐",
+                  782,
+                  "[![npm monthly](https://img.shields.io/npm/dm/%40libredb%2Fstudio?style=flat-square&label=npm%2Fmonth)](https://www.npmjs.com/package/@libredb/studio) <br> [![GitHub release downloads](https://img.shields.io/github/downloads/libredb/libredb-studio/total?style=flat-square&label=GitHub%20releases)](https://github.com/libredb/libredb-studio/releases)",
+              ),
+              (
+                  "agent-me",
+                  "jzjzzzzzzz/agent-me",
+                  "201 ⭐",
+                  133,
+                  "[![Distribution](https://img.shields.io/badge/distribution-source%20%2F%20self--hosted-64748B?style=flat-square)](https://github.com/jzjzzzzzzz/agent-me#quick-start)",
+              ),
+              (
+                  "codex-multi-launcher",
+                  "JqyModi/codex-multi-launcher",
+                  "133 ⭐",
+                  19,
+                  "[![GitHub release downloads](https://img.shields.io/github/downloads/JqyModi/codex-multi-launcher/total?style=flat-square&label=GitHub%20releases)](https://github.com/JqyModi/codex-multi-launcher/releases)",
+              ),
+              (
+                  "Termlens",
+                  "vyncint/termlens",
+                  "19 ⭐",
+                  321,
+                  "[![crates.io downloads](https://img.shields.io/crates/d/termlens?style=flat-square&label=crates.io%20total)](https://crates.io/crates/termlens)",
+              ),
+              (
+                  "soft-track",
+                  "soft-track/soft-track",
+                  "11 ⭐",
+                  59,
+                  "[![Distribution](https://img.shields.io/badge/distribution-Docker%20%2F%20self--hosted-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/soft-track/soft-track#readme)",
+              ),
+              (
+                  "DataSemVer",
+                  "IzanVil/datasemver",
+                  "1 ⭐",
+                  7,
+                  "[![PyPI monthly](https://img.shields.io/pypi/dm/datasemver?style=flat-square&label=PyPI%2Fmonth)](https://pypi.org/project/datasemver/) <br> [![GitHub release downloads](https://img.shields.io/github/downloads/IzanVil/datasemver/total?style=flat-square&label=GitHub%20binaries)](https://github.com/IzanVil/datasemver/releases)",
+              ),
+              (
+                  "Protos",
+                  "guillermomolina/protos",
+                  "0 ⭐",
+                  315,
+                  "[![Distribution](https://img.shields.io/badge/distribution-source%20build-64748B?style=flat-square)](https://github.com/guillermomolina/protos#getting-started)",
+              ),
+              (
+                  "sotto-action",
+                  "getsotto/sotto-action",
+                  "0 ⭐",
+                  25,
+                  "[![GitHub Marketplace](https://img.shields.io/badge/distribution-GitHub%20Marketplace-2088FF?style=flat-square&logo=githubactions&logoColor=white)](https://github.com/marketplace/actions/sotto-setup)",
+              ),
+              (
+                  "TraceOS",
+                  "junixlabs/traceos",
+                  "0 ⭐",
+                  23,
+                  "[![Distribution](https://img.shields.io/badge/distribution-pip%20from%20source-64748B?style=flat-square&logo=python&logoColor=white)](https://github.com/junixlabs/traceos#quick-start)",
+              ),
           ]
 
           headers = {
@@ -78,7 +179,7 @@ jobs:
                       return total
                   page += 1
 
-          values = {repo: release_downloads(repo) for _, repo, _, _ in entries}
+          values = {repo: release_downloads(repo) for _, repo, _, _, _ in entries}
           combined = sum(values.values())
 
           def human(n: int) -> str:
@@ -89,7 +190,7 @@ jobs:
               return str(n)
 
           out = {
-              "metric": "GitHub release-asset downloads",
+              "metric": "GitHub release-asset downloads only",
               "combined_downloads": combined,
               "combined_downloads_human": human(combined),
               "repositories": values,
@@ -103,8 +204,8 @@ jobs:
           )
 
           value = human(combined)
-          label = "combined GitHub release downloads"
-          label_width = 214
+          label = "GitHub release assets · listed repos"
+          label_width = 210
           value_width = 72
           total_width = label_width + value_width
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{total_width}" height="20" role="img" aria-label="{label}: {value}">
@@ -129,13 +230,9 @@ jobs:
           (metrics_dir / "upstream-downloads.svg").write_text(svg, encoding="utf-8")
 
           rows = []
-          for display, repo, stars, pr in entries:
-              download_badge = (
-                  f"[![Downloads](https://img.shields.io/github/downloads/{repo}/total?style=flat-square&label=)]"
-                  f"(https://github.com/{repo}/releases)"
-              )
+          for display, repo, stars, pr, reach in entries:
               rows.append(
-                  f"| [{display}](https://github.com/{repo}) | {stars} | {download_badge} | "
+                  f"| [{display}](https://github.com/{repo}) | {stars} | {reach} | "
                   f"[#{pr}](https://github.com/{repo}/pull/{pr}) |"
               )
 
@@ -147,12 +244,12 @@ jobs:
               "[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-17-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
               "[![Largest upstream](https://img.shields.io/badge/largest_upstream-224k%E2%AD%90-F59E0B?style=flat-square)](https://github.com/TheAlgorithms/Python)",
               "[![Combined upstream stars](https://img.shields.io/badge/combined_upstream_stars-420.6k%E2%AD%90-7C3AED?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
-              "[![Combined GitHub release downloads](https://raw.githubusercontent.com/jabrailkhalil/jabrailkhalil/main/metrics/upstream-downloads.svg)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
+              "[![GitHub release asset downloads](https://raw.githubusercontent.com/jabrailkhalil/jabrailkhalil/main/metrics/upstream-downloads.svg)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
               "",
-              "> Sorted by current upstream GitHub stars (September 2026 snapshot). Downloads are GitHub release-asset downloads — not unique users, and they exclude npm/PyPI/Store installs. Project names open the upstream repository; PR numbers open the merged contribution.",
+              "> Sorted by current upstream GitHub stars (September 2026 snapshot). Distribution metrics use each project's primary public channel: npm/PyPI badges show the last 30 days; crates.io and GitHub release badges show registry/release totals. `source/self-hosted` means the project has no canonical public package-download counter. The combined badge above is **GitHub release assets only**, not a cross-registry sum.",
               "",
-              "| Project | Stars | Downloads | Merged PR |",
-              "| --- | ---: | ---: | --- |",
+              "| Project | Stars | Distribution / downloads | Merged PR |",
+              "| --- | ---: | --- | --- |",
               *rows,
           ])
 
@@ -171,5 +268,5 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "chore: refresh upstream download metrics"
+          git commit -m "chore: refresh upstream distribution metrics"
           git push
