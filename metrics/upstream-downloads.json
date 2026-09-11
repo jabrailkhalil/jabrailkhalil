@@ -1,7 +1,7 @@
 {
-  "combined_public_downloads": 1646128869,
+  "combined_public_downloads": 1646128880,
   "combined_public_downloads_human": "\u22481.65B",
-  "generated_at": "2026-09-11T19:45:27.628318+00:00",
+  "generated_at": "2026-09-11T19:48:39.433570+00:00",
   "metric": "sum of publicly measurable cumulative download counters",
   "notes": [
     "GitHub source clone/archive traffic is not publicly available for arbitrary repositories.",
@@ -124,7 +124,7 @@
     },
     "libredb/libredb-studio": {
       "approximate": false,
-      "public_downloads": 143031,
+      "public_downloads": 143039,
       "sources": [
         {
           "approximate": false,
@@ -135,14 +135,14 @@
         },
         {
           "approximate": false,
-          "count": 92821,
+          "count": 92824,
           "package": "libredb/libredb-studio",
           "source": "Docker Hub",
           "url": "https://hub.docker.com/r/libredb/libredb-studio"
         },
         {
           "approximate": false,
-          "count": 13240,
+          "count": 13245,
           "source": "GitHub Releases",
           "url": "https://github.com/libredb/libredb-studio/releases"
         },
@@ -176,11 +176,11 @@
     },
     "nexmoe/VidBee": {
       "approximate": false,
-      "public_downloads": 814310,
+      "public_downloads": 814312,
       "sources": [
         {
           "approximate": false,
-          "count": 814310,
+          "count": 814312,
           "source": "GitHub Releases",
           "url": "https://github.com/nexmoe/VidBee/releases"
         }
@@ -290,7 +290,7 @@
     },
     "xberg-io/html-to-markdown": {
       "approximate": true,
-      "public_downloads": 10519704,
+      "public_downloads": 10519705,
       "sources": [
         {
           "approximate": false,
@@ -329,7 +329,7 @@
         },
         {
           "approximate": false,
-          "count": 151900,
+          "count": 151901,
           "package": "html-to-markdown",
           "source": "RubyGems",
           "url": "https://rubygems.org/gems/html-to-markdown"

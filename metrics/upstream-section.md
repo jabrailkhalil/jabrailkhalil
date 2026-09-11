@@ -24,6 +24,6 @@
 | [DataSemVer](https://github.com/IzanVil/datasemver) | 1 ⭐ | ≈4.4k | [#7](https://github.com/IzanVil/datasemver/pull/7) |
 | [Protos](https://github.com/guillermomolina/protos) | 0 ⭐ | 9 | [#315](https://github.com/guillermomolina/protos/pull/315) |
 | [sotto-action](https://github.com/getsotto/sotto-action) | 0 ⭐ | ≈2 users | [#25](https://github.com/getsotto/sotto-action/pull/25) |
-| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | ≈1 users | [#23](https://github.com/junixlabs/traceos/pull/23) |
+| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | ≈1 user | [#23](https://github.com/junixlabs/traceos/pull/23) |
 
 > Sources: [npm](https://www.npmjs.com/), [PyPI / Pepy](https://www.pepy.tech/), [crates.io](https://crates.io/), [Docker Hub](https://hub.docker.com/), [GitHub Releases](https://github.com/), [RubyGems](https://rubygems.org/), [Packagist](https://packagist.org/) and [NuGet](https://www.nuget.org/). Download values are cumulative public download events and may overlap across channels. For source-only projects without a public cumulative download counter, `users` is an estimated public GitHub reach using `stars + 0.5 × forks` (the midpoint of the observable unique-account range from `stars` to `stars + forks`). User estimates are **not** included in the public download total. [Per-source breakdown](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-downloads.json).
