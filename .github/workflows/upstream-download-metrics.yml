@@ -3,7 +3,7 @@ name: Update upstream download metrics
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4 * * *'
+    - cron: '17 4 * * 1'
   push:
     branches: [main]
     paths:
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Calculate GitHub release downloads
+      - name: Calculate and render GitHub release downloads
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -37,24 +37,24 @@ jobs:
           import urllib.request
           from pathlib import Path
 
-          repos = [
-              "TheAlgorithms/Python",
-              "puppeteer/puppeteer",
-              "roboflow/supervision",
-              "marmelab/react-admin",
-              "nexmoe/VidBee",
-              "orval-labs/orval",
-              "Agenta-AI/agenta",
-              "xberg-io/html-to-markdown",
-              "libredb/libredb-studio",
-              "jzjzzzzzzz/agent-me",
-              "JqyModi/codex-multi-launcher",
-              "vyncint/termlens",
-              "soft-track/soft-track",
-              "IzanVil/datasemver",
-              "guillermomolina/protos",
-              "getsotto/sotto-action",
-              "junixlabs/traceos",
+          entries = [
+              ("TheAlgorithms/Python", "TheAlgorithms/Python", "~224k ⭐", 15228),
+              ("Puppeteer", "puppeteer/puppeteer", "~95.6k ⭐", 15445),
+              ("Roboflow Supervision", "roboflow/supervision", "~50.0k ⭐", 2557),
+              ("react-admin", "marmelab/react-admin", "~26.9k ⭐", 11367),
+              ("VidBee", "nexmoe/VidBee", "~10.6k ⭐", 469),
+              ("Orval", "orval-labs/orval", "~6.5k ⭐", 4074),
+              ("Agenta", "Agenta-AI/agenta", "~4.7k ⭐", 6693),
+              ("html-to-markdown", "xberg-io/html-to-markdown", "865 ⭐", 482),
+              ("LibreDB Studio", "libredb/libredb-studio", "628 ⭐", 782),
+              ("agent-me", "jzjzzzzzzz/agent-me", "201 ⭐", 133),
+              ("codex-multi-launcher", "JqyModi/codex-multi-launcher", "133 ⭐", 19),
+              ("Termlens", "vyncint/termlens", "19 ⭐", 321),
+              ("soft-track", "soft-track/soft-track", "11 ⭐", 59),
+              ("DataSemVer", "IzanVil/datasemver", "1 ⭐", 7),
+              ("Protos", "guillermomolina/protos", "0 ⭐", 315),
+              ("sotto-action", "getsotto/sotto-action", "0 ⭐", 25),
+              ("TraceOS", "junixlabs/traceos", "0 ⭐", 23),
           ]
 
           headers = {
@@ -78,7 +78,7 @@ jobs:
                       return total
                   page += 1
 
-          values = {repo: release_downloads(repo) for repo in repos}
+          values = {repo: release_downloads(repo) for _, repo, _, _ in entries}
           combined = sum(values.values())
 
           def human(n: int) -> str:
@@ -127,13 +127,47 @@ jobs:
           </g>
           </svg>'''
           (metrics_dir / "upstream-downloads.svg").write_text(svg, encoding="utf-8")
+
+          rows = []
+          for display, repo, stars, pr in entries:
+              download_badge = (
+                  f"[![Downloads](https://img.shields.io/github/downloads/{repo}/total?style=flat-square&label=)]"
+                  f"(https://github.com/{repo}/releases)"
+              )
+              rows.append(
+                  f"| [{display}](https://github.com/{repo}) | {stars} | {download_badge} | "
+                  f"[#{pr}](https://github.com/{repo}/pull/{pr}) |"
+              )
+
+          upstream = "\n".join([
+              "## 🛰️ Upstream open-source",
+              "",
+              "**17 merged PRs across 17 upstream projects.** I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation — not just drive-by edits.",
+              "",
+              "[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-17-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
+              "[![Largest upstream](https://img.shields.io/badge/largest_upstream-224k%E2%AD%90-F59E0B?style=flat-square)](https://github.com/TheAlgorithms/Python)",
+              "[![Combined upstream stars](https://img.shields.io/badge/combined_upstream_stars-420.6k%E2%AD%90-7C3AED?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
+              "[![Combined GitHub release downloads](https://raw.githubusercontent.com/jabrailkhalil/jabrailkhalil/main/metrics/upstream-downloads.svg)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
+              "",
+              "> Sorted by current upstream GitHub stars (September 2026 snapshot). Downloads are GitHub release-asset downloads — not unique users, and they exclude npm/PyPI/Store installs. Project names open the upstream repository; PR numbers open the merged contribution.",
+              "",
+              "| Project | Stars | Downloads | Merged PR |",
+              "| --- | ---: | ---: | --- |",
+              *rows,
+          ])
+
+          readme_path = Path("README.md")
+          readme = readme_path.read_text(encoding="utf-8")
+          start = readme.index("## 🛰️ Upstream open-source")
+          end = readme.index("## 🧰 Core stack")
+          readme_path.write_text(readme[:start] + upstream + "\n\n" + readme[end:], encoding="utf-8")
           PY
 
       - name: Commit refreshed metrics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metrics/upstream-downloads.json metrics/upstream-downloads.svg
+          git add README.md metrics/upstream-downloads.json metrics/upstream-downloads.svg
           if git diff --cached --quiet; then
             exit 0
           fi
