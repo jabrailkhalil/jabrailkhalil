@@ -1,0 +1,520 @@
+from __future__ import annotations
+
+import datetime as dt
+import json
+import os
+import re
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+from pathlib import Path
+
+TOKEN = os.environ["GITHUB_TOKEN"]
+USER_AGENT = "jabrailkhalil-profile-download-metrics"
+GITHUB_HEADERS = {
+    "Accept": "application/vnd.github+json",
+    "Authorization": f"Bearer {TOKEN}",
+    "X-GitHub-Api-Version": "2022-11-28",
+    "User-Agent": USER_AGENT,
+}
+
+ENTRIES = [
+    {
+        "display": "TheAlgorithms/Python",
+        "repo": "TheAlgorithms/Python",
+        "stars": "~224k ⭐",
+        "pr": 15228,
+        "sources": [("github_releases", None)],
+    },
+    {
+        "display": "Puppeteer",
+        "repo": "puppeteer/puppeteer",
+        "stars": "~95.6k ⭐",
+        "pr": 15445,
+        "sources": [
+            ("npm", "puppeteer"),
+            ("github_releases", None),
+            (
+                "static",
+                {
+                    "name": "GHCR",
+                    "count": 4_240_000,
+                    "url": "https://github.com/puppeteer/puppeteer/pkgs/container/puppeteer",
+                    "snapshot": "2026-09-11",
+                    "approx": True,
+                },
+            ),
+        ],
+    },
+    {
+        "display": "Roboflow Supervision",
+        "repo": "roboflow/supervision",
+        "stars": "~50.0k ⭐",
+        "pr": 2557,
+        "sources": [("pepy", "supervision"), ("github_releases", None)],
+    },
+    {
+        "display": "react-admin",
+        "repo": "marmelab/react-admin",
+        "stars": "~26.9k ⭐",
+        "pr": 11367,
+        "sources": [("npm", "react-admin"), ("github_releases", None)],
+    },
+    {
+        "display": "VidBee",
+        "repo": "nexmoe/VidBee",
+        "stars": "~10.6k ⭐",
+        "pr": 469,
+        "sources": [("github_releases", None)],
+    },
+    {
+        "display": "Orval",
+        "repo": "orval-labs/orval",
+        "stars": "~6.5k ⭐",
+        "pr": 4074,
+        "sources": [("npm", "orval"), ("github_releases", None)],
+    },
+    {
+        "display": "Agenta",
+        "repo": "Agenta-AI/agenta",
+        "stars": "~4.7k ⭐",
+        "pr": 6693,
+        "sources": [("pepy", "agenta"), ("github_releases", None)],
+    },
+    {
+        "display": "html-to-markdown",
+        "repo": "xberg-io/html-to-markdown",
+        "stars": "865 ⭐",
+        "pr": 482,
+        "sources": [
+            ("npm", "@xberg-io/html-to-markdown"),
+            ("npm", "@xberg-io/html-to-markdown-wasm"),
+            ("pepy", "html-to-markdown"),
+            ("crates", "html-to-markdown-rs"),
+            ("crates", "html-to-markdown-cli"),
+            ("rubygems", "html-to-markdown"),
+            ("packagist", "xberg-io/html-to-markdown"),
+            ("nuget", "XbergIo.HtmlToMarkdown"),
+            ("github_releases", None),
+        ],
+    },
+    {
+        "display": "LibreDB Studio",
+        "repo": "libredb/libredb-studio",
+        "stars": "628 ⭐",
+        "pr": 782,
+        "sources": [
+            ("npm", "@libredb/studio"),
+            ("dockerhub", "libredb/libredb-studio"),
+            ("github_releases", None),
+            (
+                "static",
+                {
+                    "name": "Unraid Community Apps",
+                    "count": 27_731,
+                    "url": "https://unraid.net/community/apps?q=libredb",
+                    "snapshot": "2026-09-11",
+                    "approx": False,
+                },
+            ),
+        ],
+    },
+    {
+        "display": "agent-me",
+        "repo": "jzjzzzzzzz/agent-me",
+        "stars": "201 ⭐",
+        "pr": 133,
+        "sources": [("github_releases", None)],
+    },
+    {
+        "display": "codex-multi-launcher",
+        "repo": "JqyModi/codex-multi-launcher",
+        "stars": "133 ⭐",
+        "pr": 19,
+        "sources": [("github_releases", None)],
+    },
+    {
+        "display": "Termlens",
+        "repo": "vyncint/termlens",
+        "stars": "19 ⭐",
+        "pr": 321,
+        "sources": [
+            ("crates", "termlens"),
+            ("crates", "termlens-cli"),
+            ("github_releases", None),
+        ],
+    },
+    {
+        "display": "soft-track",
+        "repo": "soft-track/soft-track",
+        "stars": "11 ⭐",
+        "pr": 59,
+        "sources": [("github_releases", None)],
+    },
+    {
+        "display": "DataSemVer",
+        "repo": "IzanVil/datasemver",
+        "stars": "1 ⭐",
+        "pr": 7,
+        "sources": [("pepy", "datasemver"), ("github_releases", None)],
+    },
+    {
+        "display": "Protos",
+        "repo": "guillermomolina/protos",
+        "stars": "0 ⭐",
+        "pr": 315,
+        "sources": [("github_releases", None)],
+    },
+    {
+        "display": "sotto-action",
+        "repo": "getsotto/sotto-action",
+        "stars": "0 ⭐",
+        "pr": 25,
+        "sources": [("github_releases", None)],
+    },
+    {
+        "display": "TraceOS",
+        "repo": "junixlabs/traceos",
+        "stars": "0 ⭐",
+        "pr": 23,
+        "sources": [("github_releases", None)],
+    },
+]
+
+
+def get_json(url: str, *, github: bool = False, attempts: int = 6):
+    request_headers = (
+        GITHUB_HEADERS
+        if github
+        else {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    )
+    last: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            req = urllib.request.Request(url, headers=request_headers)
+            with urllib.request.urlopen(req, timeout=60) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as exc:
+            last = exc
+            if exc.code == 429 and attempt + 1 < attempts:
+                retry_after = exc.headers.get("Retry-After")
+                try:
+                    wait = max(10.0, float(retry_after)) if retry_after else 20.0 * (attempt + 1)
+                except ValueError:
+                    wait = 20.0 * (attempt + 1)
+                print(f"rate limited: {url}; retrying in {wait:.0f}s")
+                time.sleep(wait)
+                continue
+            if 500 <= exc.code < 600 and attempt + 1 < attempts:
+                time.sleep(2**attempt)
+                continue
+            raise
+        except Exception as exc:
+            last = exc
+            if attempt + 1 < attempts:
+                time.sleep(2**attempt)
+                continue
+            raise
+    raise RuntimeError(f"failed to fetch {url}: {last}")
+
+
+def parse_human_number(value: object) -> int:
+    text = str(value).strip().replace(",", "")
+    match = re.fullmatch(r"([0-9]+(?:\.[0-9]+)?)\s*([kKmMbBtT]?)", text)
+    if not match:
+        raise ValueError(f"cannot parse download count: {value!r}")
+    number = float(match.group(1))
+    factor = {
+        "": 1,
+        "k": 1_000,
+        "m": 1_000_000,
+        "b": 1_000_000_000,
+        "t": 1_000_000_000_000,
+    }[match.group(2).lower()]
+    return int(round(number * factor))
+
+
+_last_npm_call = 0.0
+
+
+def npm_json(url: str):
+    global _last_npm_call
+    elapsed = time.monotonic() - _last_npm_call
+    if elapsed < 1.25:
+        time.sleep(1.25 - elapsed)
+    data = get_json(url)
+    _last_npm_call = time.monotonic()
+    return data
+
+
+def npm_total(package: str) -> int:
+    # npm exposes historical download data back to 2015-01-10, with bounded date ranges.
+    # Start at the package creation date and sum 500-day point queries; no extrapolation.
+    encoded = urllib.parse.quote(package, safe="")
+    metadata = npm_json(f"https://registry.npmjs.org/{encoded}")
+    created_text = metadata.get("time", {}).get("created", "2015-01-10")[:10]
+    try:
+        created = dt.date.fromisoformat(created_text)
+    except ValueError:
+        created = dt.date(2015, 1, 10)
+    start = max(dt.date(2015, 1, 10), created)
+    today = dt.datetime.now(dt.timezone.utc).date()
+    total = 0
+    while start <= today:
+        end = min(start + dt.timedelta(days=499), today)
+        url = (
+            "https://api.npmjs.org/downloads/point/"
+            f"{start.isoformat()}:{end.isoformat()}/{encoded}"
+        )
+        data = npm_json(url)
+        total += int(data.get("downloads", 0))
+        start = end + dt.timedelta(days=1)
+    return total
+
+
+def pepy_total(package: str) -> int:
+    encoded = urllib.parse.quote(package, safe="")
+    data = get_json(f"https://img.shields.io/pepy/dt/{encoded}.json")
+    return parse_human_number(data["message"])
+
+
+def crates_total(crate: str) -> int:
+    encoded = urllib.parse.quote(crate, safe="")
+    data = get_json(f"https://crates.io/api/v1/crates/{encoded}")
+    return int(data["crate"]["downloads"])
+
+
+def rubygems_total(gem: str) -> int:
+    encoded = urllib.parse.quote(gem, safe="")
+    data = get_json(f"https://rubygems.org/api/v1/gems/{encoded}.json")
+    return int(data["downloads"])
+
+
+def packagist_total(package: str) -> int:
+    encoded = urllib.parse.quote(package, safe="/")
+    data = get_json(f"https://packagist.org/packages/{encoded}.json")
+    return int(data["package"]["downloads"]["total"])
+
+
+def nuget_total(package: str) -> int:
+    query = urllib.parse.quote(f"packageid:{package}")
+    data = get_json(
+        f"https://azuresearch-usnc.nuget.org/query?q={query}&prerelease=true&take=20"
+    )
+    for item in data.get("data", []):
+        if item.get("id", "").lower() == package.lower():
+            return int(item.get("totalDownloads", 0))
+    return 0
+
+
+def dockerhub_total(image: str) -> int:
+    user, repo = image.split("/", 1)
+    data = get_json(
+        "https://hub.docker.com/v2/repositories/"
+        f"{urllib.parse.quote(user)}/{urllib.parse.quote(repo)}/"
+    )
+    return int(data.get("pull_count", 0))
+
+
+def github_release_total(repo: str) -> int:
+    total = 0
+    page = 1
+    while True:
+        releases = get_json(
+            f"https://api.github.com/repos/{repo}/releases?per_page=100&page={page}",
+            github=True,
+        )
+        for release in releases:
+            total += sum(
+                int(asset.get("download_count", 0))
+                for asset in release.get("assets", [])
+            )
+        if len(releases) < 100:
+            return total
+        page += 1
+
+
+FETCHERS = {
+    "npm": npm_total,
+    "pepy": pepy_total,
+    "crates": crates_total,
+    "rubygems": rubygems_total,
+    "packagist": packagist_total,
+    "nuget": nuget_total,
+    "dockerhub": dockerhub_total,
+}
+
+SOURCE_NAMES = {
+    "npm": "npm",
+    "pepy": "PyPI / Pepy",
+    "crates": "crates.io",
+    "rubygems": "RubyGems",
+    "packagist": "Packagist",
+    "nuget": "NuGet",
+    "dockerhub": "Docker Hub",
+}
+
+
+def source_url(kind: str, arg: str | None, repo: str) -> str | None:
+    if kind == "npm":
+        return f"https://www.npmjs.com/package/{arg}"
+    if kind == "pepy":
+        return f"https://www.pepy.tech/projects/{arg}"
+    if kind == "crates":
+        return f"https://crates.io/crates/{arg}"
+    if kind == "rubygems":
+        return f"https://rubygems.org/gems/{arg}"
+    if kind == "packagist":
+        return f"https://packagist.org/packages/{arg}"
+    if kind == "nuget":
+        return f"https://www.nuget.org/packages/{arg}"
+    if kind == "dockerhub":
+        return f"https://hub.docker.com/r/{arg}"
+    if kind == "github_releases":
+        return f"https://github.com/{repo}/releases"
+    return None
+
+
+def human(n: int | None) -> str:
+    if n is None:
+        return "—"
+    if n >= 1_000_000_000:
+        value = f"{n / 1_000_000_000:.2f}".rstrip("0").rstrip(".")
+        return f"{value}B"
+    if n >= 1_000_000:
+        value = f"{n / 1_000_000:.2f}".rstrip("0").rstrip(".")
+        return f"{value}M"
+    if n >= 1_000:
+        value = f"{n / 1_000:.1f}".rstrip("0").rstrip(".")
+        return f"{value}k"
+    return str(n)
+
+
+results: dict[str, dict] = {}
+combined = 0
+combined_approx = False
+
+for entry in ENTRIES:
+    repo = entry["repo"]
+    breakdown = []
+    total = 0
+    has_positive = False
+    approximate = False
+
+    for kind, arg in entry["sources"]:
+        if kind == "static":
+            count = int(arg["count"])
+            approx = bool(arg.get("approx", False))
+            breakdown.append(
+                {
+                    "source": arg["name"],
+                    "count": count,
+                    "url": arg["url"],
+                    "snapshot": arg.get("snapshot"),
+                    "approximate": approx,
+                }
+            )
+        elif kind == "github_releases":
+            count = github_release_total(repo)
+            approx = False
+            breakdown.append(
+                {
+                    "source": "GitHub Releases",
+                    "count": count,
+                    "url": source_url(kind, arg, repo),
+                    "approximate": False,
+                }
+            )
+        else:
+            count = FETCHERS[kind](arg)
+            # Pepy's public badge is rounded; configured registry APIs otherwise return integers.
+            approx = kind == "pepy"
+            breakdown.append(
+                {
+                    "source": SOURCE_NAMES[kind],
+                    "package": arg,
+                    "count": count,
+                    "url": source_url(kind, arg, repo),
+                    "approximate": approx,
+                }
+            )
+
+        total += count
+        has_positive = has_positive or count > 0
+        approximate = approximate or approx
+
+    public_total = total if has_positive else None
+    if public_total is not None:
+        combined += public_total
+        combined_approx = combined_approx or approximate
+
+    results[repo] = {
+        "public_downloads": public_total,
+        "approximate": approximate,
+        "sources": breakdown,
+    }
+
+rows = []
+for entry in ENTRIES:
+    metric = results[entry["repo"]]
+    value = human(metric["public_downloads"])
+    if metric["public_downloads"] is not None and metric["approximate"]:
+        value = "≈" + value
+    rows.append(
+        f"| [{entry['display']}](https://github.com/{entry['repo']}) | "
+        f"{entry['stars']} | {value} | "
+        f"[#{entry['pr']}](https://github.com/{entry['repo']}/pull/{entry['pr']}) |"
+    )
+
+combined_text = human(combined)
+if combined_approx:
+    combined_text = "≈" + combined_text
+badge_value = urllib.parse.quote(combined_text, safe="")
+
+upstream = "\n".join(
+    [
+        "## 🛰️ Upstream open-source",
+        "",
+        "**17 merged PRs across 17 upstream projects.** I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation — not just drive-by edits.",
+        "",
+        "[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-17-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
+        "[![Combined upstream stars](https://img.shields.io/badge/combined_upstream_stars-420.6k%E2%AD%90-7C3AED?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)",
+        f"[![Public downloads](https://img.shields.io/badge/public_downloads-{badge_value}-0EA5E9?style=flat-square)](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-downloads.json)",
+        "",
+        "| Project | Stars | Downloads | Merged PR |",
+        "| --- | ---: | ---: | --- |",
+        *rows,
+        "",
+        "> Sources: [npm](https://www.npmjs.com/), [PyPI / Pepy](https://www.pepy.tech/), [crates.io](https://crates.io/), [Docker Hub](https://hub.docker.com/), [GitHub Releases](https://github.com/), [RubyGems](https://rubygems.org/), [Packagist](https://packagist.org/) and [NuGet](https://www.nuget.org/). `—` means no public cumulative download counter is available; GitHub clone/archive traffic for source-only repositories is not public. Counts are download events, not unique users, and channels may overlap. [Per-source breakdown](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-downloads.json).",
+    ]
+)
+
+metrics = {
+    "metric": "sum of publicly measurable cumulative download counters",
+    "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+    "combined_public_downloads": combined,
+    "combined_public_downloads_human": combined_text,
+    "notes": [
+        "GitHub source clone/archive traffic is not publicly available for arbitrary repositories.",
+        "Download events are not unique users and channels can overlap.",
+        "Pepy totals and explicitly marked snapshots may be rounded, so affected project totals are approximate.",
+        "Puppeteer GHCR and LibreDB Unraid values are public snapshots dated 2026-09-11.",
+        "npm totals are summed from the public npm Downloads API from each package's creation date (not before 2015-01-10) through the generation date in bounded chunks.",
+    ],
+    "repositories": results,
+}
+
+Path("metrics").mkdir(exist_ok=True)
+Path("metrics/upstream-downloads.json").write_text(
+    json.dumps(metrics, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+)
+Path("metrics/upstream-section.md").write_text(upstream + "\n", encoding="utf-8")
+
+readme_path = Path("README.md")
+readme = readme_path.read_text(encoding="utf-8")
+start = readme.index("## 🛰️ Upstream open-source")
+end = readme.index("## 🧰 Core stack")
+readme_path.write_text(
+    readme[:start] + upstream + "\n\n" + readme[end:], encoding="utf-8"
+)
