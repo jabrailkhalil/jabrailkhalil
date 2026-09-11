@@ -9,21 +9,21 @@
 | Project | Stars | Usage / reach | Merged PR |
 | --- | ---: | ---: | --- |
 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | ~224k ⭐ | ≈250k users | [#15228](https://github.com/TheAlgorithms/Python/pull/15228) |
-| [Puppeteer](https://github.com/puppeteer/puppeteer) | ~95.6k ⭐ | ≈1.5B downloads | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) |
-| [Roboflow Supervision](https://github.com/roboflow/supervision) | ~50.0k ⭐ | ≈38M downloads | [#2557](https://github.com/roboflow/supervision/pull/2557) |
-| [react-admin](https://github.com/marmelab/react-admin) | ~26.9k ⭐ | 22.78M downloads | [#11367](https://github.com/marmelab/react-admin/pull/11367) |
-| [VidBee](https://github.com/nexmoe/VidBee) | ~10.6k ⭐ | 814.3k downloads | [#469](https://github.com/nexmoe/VidBee/pull/469) |
-| [Orval](https://github.com/orval-labs/orval) | ~6.5k ⭐ | 74.57M downloads | [#4074](https://github.com/orval-labs/orval/pull/4074) |
-| [Agenta](https://github.com/Agenta-AI/agenta) | ~4.7k ⭐ | ≈1.4M downloads | [#6693](https://github.com/Agenta-AI/agenta/pull/6693) |
-| [html-to-markdown](https://github.com/xberg-io/html-to-markdown) | 865 ⭐ | ≈10.52M downloads | [#482](https://github.com/xberg-io/html-to-markdown/pull/482) |
-| [LibreDB Studio](https://github.com/libredb/libredb-studio) | 628 ⭐ | 143k downloads | [#782](https://github.com/libredb/libredb-studio/pull/782) |
-| [agent-me](https://github.com/jzjzzzzzzz/agent-me) | 202 ⭐ | ≈212 users | [#133](https://github.com/jzjzzzzzzz/agent-me/pull/133) |
-| [codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 133 ⭐ | 8.4k downloads | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) |
-| [Termlens](https://github.com/vyncint/termlens) | 19 ⭐ | 3.1k downloads | [#321](https://github.com/vyncint/termlens/pull/321) |
+| [Puppeteer](https://github.com/puppeteer/puppeteer) | ~95.6k ⭐ | ≈1.5B | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) |
+| [Roboflow Supervision](https://github.com/roboflow/supervision) | ~50.0k ⭐ | ≈38M | [#2557](https://github.com/roboflow/supervision/pull/2557) |
+| [react-admin](https://github.com/marmelab/react-admin) | ~26.9k ⭐ | 22.78M | [#11367](https://github.com/marmelab/react-admin/pull/11367) |
+| [VidBee](https://github.com/nexmoe/VidBee) | ~10.6k ⭐ | 814.3k | [#469](https://github.com/nexmoe/VidBee/pull/469) |
+| [Orval](https://github.com/orval-labs/orval) | ~6.5k ⭐ | 74.57M | [#4074](https://github.com/orval-labs/orval/pull/4074) |
+| [Agenta](https://github.com/Agenta-AI/agenta) | ~4.7k ⭐ | ≈1.4M | [#6693](https://github.com/Agenta-AI/agenta/pull/6693) |
+| [html-to-markdown](https://github.com/xberg-io/html-to-markdown) | 865 ⭐ | ≈10.52M | [#482](https://github.com/xberg-io/html-to-markdown/pull/482) |
+| [LibreDB Studio](https://github.com/libredb/libredb-studio) | 628 ⭐ | 143k | [#782](https://github.com/libredb/libredb-studio/pull/782) |
+| [agent-me](https://github.com/jzjzzzzzzz/agent-me) | 201 ⭐ | ≈212 users | [#133](https://github.com/jzjzzzzzzz/agent-me/pull/133) |
+| [codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 133 ⭐ | 8.4k | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) |
+| [Termlens](https://github.com/vyncint/termlens) | 19 ⭐ | 3.1k | [#321](https://github.com/vyncint/termlens/pull/321) |
 | [soft-track](https://github.com/soft-track/soft-track) | 11 ⭐ | ≈15 users | [#59](https://github.com/soft-track/soft-track/pull/59) |
-| [DataSemVer](https://github.com/IzanVil/datasemver) | 1 ⭐ | ≈4.4k downloads | [#7](https://github.com/IzanVil/datasemver/pull/7) |
-| [Protos](https://github.com/guillermomolina/protos) | 0 ⭐ | 9 downloads | [#315](https://github.com/guillermomolina/protos/pull/315) |
+| [DataSemVer](https://github.com/IzanVil/datasemver) | 1 ⭐ | ≈4.4k | [#7](https://github.com/IzanVil/datasemver/pull/7) |
+| [Protos](https://github.com/guillermomolina/protos) | 0 ⭐ | 9 | [#315](https://github.com/guillermomolina/protos/pull/315) |
 | [sotto-action](https://github.com/getsotto/sotto-action) | 0 ⭐ | ≈2 users | [#25](https://github.com/getsotto/sotto-action/pull/25) |
-| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | ≈1 user | [#23](https://github.com/junixlabs/traceos/pull/23) |
+| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | ≈1 users | [#23](https://github.com/junixlabs/traceos/pull/23) |
 
-> Sources: [npm](https://www.npmjs.com/), [PyPI / Pepy](https://www.pepy.tech/), [crates.io](https://crates.io/), [Docker Hub](https://hub.docker.com/), [GitHub Releases](https://github.com/), [RubyGems](https://rubygems.org/), [Packagist](https://packagist.org/) and [NuGet](https://www.nuget.org/). Download values are cumulative public download events and may overlap across channels. For source-only projects without a public cumulative download counter, `users` is an estimated public GitHub reach using `stars + 0.5 × forks` (the midpoint of the observable unique-account range from `stars` to `stars + forks`). User estimates are **not** included in the ≈1.65B download total. [Per-source breakdown](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-downloads.json).
+> Sources: [npm](https://www.npmjs.com/), [PyPI / Pepy](https://www.pepy.tech/), [crates.io](https://crates.io/), [Docker Hub](https://hub.docker.com/), [GitHub Releases](https://github.com/), [RubyGems](https://rubygems.org/), [Packagist](https://packagist.org/) and [NuGet](https://www.nuget.org/). Download values are cumulative public download events and may overlap across channels. For source-only projects without a public cumulative download counter, `users` is an estimated public GitHub reach using `stars + 0.5 × forks` (the midpoint of the observable unique-account range from `stars` to `stars + forks`). User estimates are **not** included in the public download total. [Per-source breakdown](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-downloads.json).

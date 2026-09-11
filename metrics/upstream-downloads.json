@@ -1,14 +1,15 @@
 {
-  "combined_public_downloads": 1646128827,
+  "combined_public_downloads": 1646128869,
   "combined_public_downloads_human": "\u22481.65B",
-  "generated_at": "2026-09-11T19:21:54.494849+00:00",
+  "generated_at": "2026-09-11T19:45:27.628318+00:00",
   "metric": "sum of publicly measurable cumulative download counters",
   "notes": [
     "GitHub source clone/archive traffic is not publicly available for arbitrary repositories.",
     "Download events are not unique users and channels can overlap.",
     "Pepy totals and explicitly marked snapshots may be rounded, so affected project totals are approximate.",
     "Puppeteer GHCR and LibreDB Unraid values are public snapshots dated 2026-09-11.",
-    "npm totals are summed from the public npm Downloads API from each package's creation date (not before 2015-01-10) through the generation date in bounded chunks."
+    "npm totals are summed from the public npm Downloads API from each package's creation date (not before 2015-01-10) through the generation date in bounded chunks.",
+    "For source-only repositories without a public cumulative download counter, README reach is estimated as stars + 0.5 * forks; these user estimates are not added to the download total."
   ],
   "repositories": {
     "Agenta-AI/agenta": {
@@ -32,7 +33,7 @@
     },
     "IzanVil/datasemver": {
       "approximate": true,
-      "public_downloads": 4402,
+      "public_downloads": 4403,
       "sources": [
         {
           "approximate": true,
@@ -43,7 +44,7 @@
         },
         {
           "approximate": false,
-          "count": 2,
+          "count": 3,
           "source": "GitHub Releases",
           "url": "https://github.com/IzanVil/datasemver/releases"
         }
@@ -123,7 +124,7 @@
     },
     "libredb/libredb-studio": {
       "approximate": false,
-      "public_downloads": 143030,
+      "public_downloads": 143031,
       "sources": [
         {
           "approximate": false,
@@ -141,7 +142,7 @@
         },
         {
           "approximate": false,
-          "count": 13239,
+          "count": 13240,
           "source": "GitHub Releases",
           "url": "https://github.com/libredb/libredb-studio/releases"
         },
@@ -175,11 +176,11 @@
     },
     "nexmoe/VidBee": {
       "approximate": false,
-      "public_downloads": 814272,
+      "public_downloads": 814310,
       "sources": [
         {
           "approximate": false,
-          "count": 814272,
+          "count": 814310,
           "source": "GitHub Releases",
           "url": "https://github.com/nexmoe/VidBee/releases"
         }
@@ -289,7 +290,7 @@
     },
     "xberg-io/html-to-markdown": {
       "approximate": true,
-      "public_downloads": 10519702,
+      "public_downloads": 10519704,
       "sources": [
         {
           "approximate": false,
@@ -349,11 +350,43 @@
         },
         {
           "approximate": false,
-          "count": 18266,
+          "count": 18268,
           "source": "GitHub Releases",
           "url": "https://github.com/xberg-io/html-to-markdown/releases"
         }
       ]
+    }
+  },
+  "source_only_reach_estimates": {
+    "TheAlgorithms/Python": {
+      "estimated_users": 250011,
+      "forks": 51053,
+      "method": "stars + 0.5 * forks",
+      "stars": 224484
+    },
+    "getsotto/sotto-action": {
+      "estimated_users": 2,
+      "forks": 4,
+      "method": "stars + 0.5 * forks",
+      "stars": 0
+    },
+    "junixlabs/traceos": {
+      "estimated_users": 1,
+      "forks": 1,
+      "method": "stars + 0.5 * forks",
+      "stars": 0
+    },
+    "jzjzzzzzzz/agent-me": {
+      "estimated_users": 212,
+      "forks": 20,
+      "method": "stars + 0.5 * forks",
+      "stars": 202
+    },
+    "soft-track/soft-track": {
+      "estimated_users": 15,
+      "forks": 8,
+      "method": "stars + 0.5 * forks",
+      "stars": 11
     }
   }
 }
