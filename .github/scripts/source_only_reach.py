@@ -66,7 +66,12 @@ for line in lines:
     for repo, info in reach.items():
         needle = f"](https://github.com/{repo})"
         if line.startswith("| [") and needle in line and " | — | " in line:
-            line = line.replace(" | — | ", f" | ≈{human(info['estimated_users'])} users | ", 1)
+            unit = "user" if info["estimated_users"] == 1 else "users"
+            line = line.replace(
+                " | — | ",
+                f" | ≈{human(info['estimated_users'])} {unit} | ",
+                1,
+            )
             break
     if line.startswith("> Sources:"):
         line = (
