@@ -1,5 +1,5 @@
 {
-  "combined_downloads": 854561,
+  "combined_downloads": 854572,
   "combined_downloads_human": "854.6k",
   "metric": "GitHub release-asset downloads only",
   "repositories": {
@@ -11,9 +11,9 @@
     "guillermomolina/protos": 9,
     "junixlabs/traceos": 0,
     "jzjzzzzzzz/agent-me": 0,
-    "libredb/libredb-studio": 13235,
+    "libredb/libredb-studio": 13236,
     "marmelab/react-admin": 0,
-    "nexmoe/VidBee": 814174,
+    "nexmoe/VidBee": 814184,
     "orval-labs/orval": 0,
     "puppeteer/puppeteer": 0,
     "roboflow/supervision": 443,
