@@ -60,28 +60,29 @@ Evaluation, reliability, reproducibility, AI-agent planning, controlled experime
 
 [![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-17-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)
 [![Largest upstream](https://img.shields.io/badge/largest_upstream-224k%E2%AD%90-F59E0B?style=flat-square)](https://github.com/TheAlgorithms/Python)
+[![Combined upstream stars](https://img.shields.io/badge/combined_upstream_stars-420.6k%E2%AD%90-7C3AED?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)
 
 > Sorted by current upstream GitHub stars (September 2026 snapshot). Project names open the upstream repository; PR numbers open the merged contribution with its diff, review, CI, and discussion.
 
-| Project | Stars | Merged PR | What I shipped |
-| --- | ---: | --- | --- |
-| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | ~224k ⭐ | [#15228](https://github.com/TheAlgorithms/Python/pull/15228) | Hardened `bucket_sort` with explicit `bucket_count` validation, tighter typing, and doctest coverage. |
-| [Puppeteer](https://github.com/puppeteer/puppeteer) | ~95.6k ⭐ | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) | Clarified JavaScript coverage behavior across navigations and documented safe per-page collection/merge guidance. |
-| [Roboflow Supervision](https://github.com/roboflow/supervision) | ~50.0k ⭐ | [#2557](https://github.com/roboflow/supervision/pull/2557) | Shipped public `sv.match_detections`: greedy one-to-one IoU matching, class-aware/agnostic modes, tests, docs, and changelog. |
-| [react-admin](https://github.com/marmelab/react-admin) | ~26.9k ⭐ | [#11367](https://github.com/marmelab/react-admin/pull/11367) | Fixed React 19 custom-field labeling docs by moving labels onto the element props consumed by parent layouts. |
-| [VidBee](https://github.com/nexmoe/VidBee) | ~10.6k ⭐ | [#469](https://github.com/nexmoe/VidBee/pull/469) | Added per-playlist video container selection across desktop and web without mutating global settings; covered MP4/MKV/WebM/Original flows. |
-| [Orval](https://github.com/orval-labs/orval) | ~6.5k ⭐ | [#4074](https://github.com/orval-labs/orval/pull/4074) | Enabled explicit filenames for single-file Zod schema generation, fixed mutator placement, and added validation, docs, and end-to-end tests. |
-| [Agenta](https://github.com/Agenta-AI/agenta) | ~4.7k ⭐ | [#6693](https://github.com/Agenta-AI/agenta/pull/6693) | Repaired test-environment docs so quoted values survive by using the runners' native `--env-file` paths. |
-| [html-to-markdown](https://github.com/xberg-io/html-to-markdown) | 865 ⭐ | [#482](https://github.com/xberg-io/html-to-markdown/pull/482) | Refactored Rust head-metadata extraction to remove deep nesting and retire a quality-debt baseline entry without behavior changes. |
-| [LibreDB Studio](https://github.com/libredb/libredb-studio) | 628 ⭐ | [#782](https://github.com/libredb/libredb-studio/pull/782) | Added global Cmd/Ctrl+Shift+X new-query-tab shortcut, editable-target guards, discoverability, cleanup, and regression tests. |
-| [agent-me](https://github.com/jzjzzzzzzz/agent-me) | 201 ⭐ | [#133](https://github.com/jzjzzzzzzz/agent-me/pull/133) | Hardened Markdown title parsing for indented ATX H1s, closing hashes, invalid indentation, heading levels, and filename fallback. |
-| [codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 133 ⭐ | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) | Added full RU/EN localization, persisted language selection, localized native UI/announcements, and replaced a Unix-only preload copy with a Windows-safe Node script. |
-| [Termlens](https://github.com/vyncint/termlens) | 19 ⭐ | [#321](https://github.com/vyncint/termlens/pull/321) | Made `--version` work consistently in `inspect`, `diff`, and `render`, with shared formatting and regression coverage. |
-| [soft-track](https://github.com/soft-track/soft-track) | 11 ⭐ | [#59](https://github.com/soft-track/soft-track/pull/59) | Fixed frontend absolute timestamps to prevent viewer-local timezone shifts across search, issues, comments, and cycles. |
-| [DataSemVer](https://github.com/IzanVil/datasemver) | 1 ⭐ | [#7](https://github.com/IzanVil/datasemver/pull/7) | Added gzip CSV/TSV loading, compound-suffix dispatch, decompressed delimiter sniffing, and compressed-vs-plain equivalence tests. |
-| [Protos](https://github.com/guillermomolina/protos) | 0 ⭐ | [#315](https://github.com/guillermomolina/protos/pull/315) | Added an isolated-parallel cookbook example covering Futures and deterministic parallel map/filter/find/reduce/sort behavior, plus docs and tests. |
-| [sotto-action](https://github.com/getsotto/sotto-action) | 0 ⭐ | [#25](https://github.com/getsotto/sotto-action/pull/25) | Added cross-platform checksum regression coverage for paths with spaces, tampering, PowerShell, and macOS `shasum` fallback. |
-| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | [#23](https://github.com/junixlabs/traceos/pull/23) | Packaged the engine as an installable `traceos` CLI, moved schema/skills into package resources, stopped freezing engine copies in scaffolds, and updated CI/docs/tests. |
+| Project | Stars | Merged PR |
+| --- | ---: | --- |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | ~224k ⭐ | [#15228](https://github.com/TheAlgorithms/Python/pull/15228) |
+| [Puppeteer](https://github.com/puppeteer/puppeteer) | ~95.6k ⭐ | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) |
+| [Roboflow Supervision](https://github.com/roboflow/supervision) | ~50.0k ⭐ | [#2557](https://github.com/roboflow/supervision/pull/2557) |
+| [react-admin](https://github.com/marmelab/react-admin) | ~26.9k ⭐ | [#11367](https://github.com/marmelab/react-admin/pull/11367) |
+| [VidBee](https://github.com/nexmoe/VidBee) | ~10.6k ⭐ | [#469](https://github.com/nexmoe/VidBee/pull/469) |
+| [Orval](https://github.com/orval-labs/orval) | ~6.5k ⭐ | [#4074](https://github.com/orval-labs/orval/pull/4074) |
+| [Agenta](https://github.com/Agenta-AI/agenta) | ~4.7k ⭐ | [#6693](https://github.com/Agenta-AI/agenta/pull/6693) |
+| [html-to-markdown](https://github.com/xberg-io/html-to-markdown) | 865 ⭐ | [#482](https://github.com/xberg-io/html-to-markdown/pull/482) |
+| [LibreDB Studio](https://github.com/libredb/libredb-studio) | 628 ⭐ | [#782](https://github.com/libredb/libredb-studio/pull/782) |
+| [agent-me](https://github.com/jzjzzzzzzz/agent-me) | 201 ⭐ | [#133](https://github.com/jzjzzzzzzz/agent-me/pull/133) |
+| [codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 133 ⭐ | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) |
+| [Termlens](https://github.com/vyncint/termlens) | 19 ⭐ | [#321](https://github.com/vyncint/termlens/pull/321) |
+| [soft-track](https://github.com/soft-track/soft-track) | 11 ⭐ | [#59](https://github.com/soft-track/soft-track/pull/59) |
+| [DataSemVer](https://github.com/IzanVil/datasemver) | 1 ⭐ | [#7](https://github.com/IzanVil/datasemver/pull/7) |
+| [Protos](https://github.com/guillermomolina/protos) | 0 ⭐ | [#315](https://github.com/guillermomolina/protos/pull/315) |
+| [sotto-action](https://github.com/getsotto/sotto-action) | 0 ⭐ | [#25](https://github.com/getsotto/sotto-action/pull/25) |
+| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | [#23](https://github.com/junixlabs/traceos/pull/23) |
 
 ## 🧰 Core stack
 
