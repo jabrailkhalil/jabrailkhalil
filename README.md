@@ -60,7 +60,8 @@ Evaluation, reliability, reproducibility, AI-agent planning, controlled experime
 
 [![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-17-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)
 [![Combined upstream stars](https://img.shields.io/badge/combined_upstream_stars-420.6k%E2%AD%90-7C3AED?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged)
-[![GitHub release downloads](https://img.shields.io/badge/GitHub_release_downloads-854.6k-0EA5E9?style=flat-square)](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-downloads.json)
+[![Package downloads](https://img.shields.io/badge/package_downloads-%E2%89%8834.4M%2Fmonth-0EA5E9?style=flat-square)](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-section.md)
+[![GitHub release downloads](https://img.shields.io/badge/GitHub_release_downloads-854.6k_total-64748B?style=flat-square)](https://github.com/jabrailkhalil/jabrailkhalil/blob/main/metrics/upstream-downloads.json)
 
 | Project | Stars | Downloads | Merged PR |
 | --- | ---: | ---: | --- |
