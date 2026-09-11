@@ -10,19 +10,19 @@
 | Project | Stars | Downloads (≈) | Merged PR |
 | --- | ---: | ---: | --- |
 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | ~224k ⭐ | ≈10M+ · [GitHub source](https://github.com/TheAlgorithms/Python) | [#15228](https://github.com/TheAlgorithms/Python/pull/15228) |
-| [Puppeteer](https://github.com/puppeteer/puppeteer) | ~95.6k ⭐ | ≈1,000M · [npm](https://www.npmjs.com/package/puppeteer) | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) |
+| [Puppeteer](https://github.com/puppeteer/puppeteer) | ~95.6k ⭐ | ≈1B · [npm](https://www.npmjs.com/package/puppeteer) | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) |
 | [Roboflow Supervision](https://github.com/roboflow/supervision) | ~50.0k ⭐ | ≈25M · [PyPI](https://pypi.org/project/supervision/) | [#2557](https://github.com/roboflow/supervision/pull/2557) |
 | [react-admin](https://github.com/marmelab/react-admin) | ~26.9k ⭐ | ≈30M · [npm](https://www.npmjs.com/package/react-admin) | [#11367](https://github.com/marmelab/react-admin/pull/11367) |
-| [VidBee](https://github.com/nexmoe/VidBee) | ~10.6k ⭐ | ≈0.81M · [GitHub Releases](https://github.com/nexmoe/VidBee/releases) | [#469](https://github.com/nexmoe/VidBee/pull/469) |
+| [VidBee](https://github.com/nexmoe/VidBee) | ~10.6k ⭐ | ≈810k · [GitHub Releases](https://github.com/nexmoe/VidBee/releases) | [#469](https://github.com/nexmoe/VidBee/pull/469) |
 | [Orval](https://github.com/orval-labs/orval) | ~6.5k ⭐ | ≈100M · [npm](https://www.npmjs.com/package/orval) | [#4074](https://github.com/orval-labs/orval/pull/4074) |
 | [Agenta](https://github.com/Agenta-AI/agenta) | ~4.7k ⭐ | ≈1M · [PyPI](https://pypi.org/project/agenta/) | [#6693](https://github.com/Agenta-AI/agenta/pull/6693) |
 | [html-to-markdown](https://github.com/xberg-io/html-to-markdown) | 865 ⭐ | ≈5M · [PyPI](https://pypi.org/project/html-to-markdown/) · [npm](https://www.npmjs.com/package/@xberg-io/html-to-markdown) · [crates.io](https://crates.io/crates/html-to-markdown-rs) | [#482](https://github.com/xberg-io/html-to-markdown/pull/482) |
-| [LibreDB Studio](https://github.com/libredb/libredb-studio) | 628 ⭐ | ≈0.02M · [GitHub Releases](https://github.com/libredb/libredb-studio/releases) · [npm](https://www.npmjs.com/package/@libredb/studio) | [#782](https://github.com/libredb/libredb-studio/pull/782) |
-| [agent-me](https://github.com/jzjzzzzzzz/agent-me) | 201 ⭐ | ≈0.01M · [GitHub](https://github.com/jzjzzzzzzz/agent-me) | [#133](https://github.com/jzjzzzzzzz/agent-me/pull/133) |
-| [codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 133 ⭐ | ≈0.01M · [GitHub Releases](https://github.com/JqyModi/codex-multi-launcher/releases) | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) |
-| [Termlens](https://github.com/vyncint/termlens) | 19 ⭐ | ≈0.03M · [crates.io](https://crates.io/crates/termlens) | [#321](https://github.com/vyncint/termlens/pull/321) |
-| [soft-track](https://github.com/soft-track/soft-track) | 11 ⭐ | ≈0.01M · [GitHub](https://github.com/soft-track/soft-track) | [#59](https://github.com/soft-track/soft-track/pull/59) |
-| [DataSemVer](https://github.com/IzanVil/datasemver) | 1 ⭐ | ≈0.01M · [PyPI](https://pypi.org/project/datasemver/) · [GitHub Releases](https://github.com/IzanVil/datasemver/releases) | [#7](https://github.com/IzanVil/datasemver/pull/7) |
-| [Protos](https://github.com/guillermomolina/protos) | 0 ⭐ | ≈0.01M · [GitHub](https://github.com/guillermomolina/protos) | [#315](https://github.com/guillermomolina/protos/pull/315) |
-| [sotto-action](https://github.com/getsotto/sotto-action) | 0 ⭐ | ≈0.01M · [GitHub Action](https://github.com/getsotto/sotto-action) | [#25](https://github.com/getsotto/sotto-action/pull/25) |
-| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | ≈0.01M · [GitHub](https://github.com/junixlabs/traceos) | [#23](https://github.com/junixlabs/traceos/pull/23) |
+| [LibreDB Studio](https://github.com/libredb/libredb-studio) | 628 ⭐ | ≈20k · [GitHub Releases](https://github.com/libredb/libredb-studio/releases) · [npm](https://www.npmjs.com/package/@libredb/studio) | [#782](https://github.com/libredb/libredb-studio/pull/782) |
+| [agent-me](https://github.com/jzjzzzzzzz/agent-me) | 201 ⭐ | ≈10k · [GitHub](https://github.com/jzjzzzzzzz/agent-me) | [#133](https://github.com/jzjzzzzzzz/agent-me/pull/133) |
+| [codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 133 ⭐ | ≈10k · [GitHub Releases](https://github.com/JqyModi/codex-multi-launcher/releases) | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) |
+| [Termlens](https://github.com/vyncint/termlens) | 19 ⭐ | ≈30k · [crates.io](https://crates.io/crates/termlens) | [#321](https://github.com/vyncint/termlens/pull/321) |
+| [soft-track](https://github.com/soft-track/soft-track) | 11 ⭐ | ≈10k · [GitHub](https://github.com/soft-track/soft-track) | [#59](https://github.com/soft-track/soft-track/pull/59) |
+| [DataSemVer](https://github.com/IzanVil/datasemver) | 1 ⭐ | ≈10k · [PyPI](https://pypi.org/project/datasemver/) · [GitHub Releases](https://github.com/IzanVil/datasemver/releases) | [#7](https://github.com/IzanVil/datasemver/pull/7) |
+| [Protos](https://github.com/guillermomolina/protos) | 0 ⭐ | ≈10k · [GitHub](https://github.com/guillermomolina/protos) | [#315](https://github.com/guillermomolina/protos/pull/315) |
+| [sotto-action](https://github.com/getsotto/sotto-action) | 0 ⭐ | ≈10k · [GitHub Action](https://github.com/getsotto/sotto-action) | [#25](https://github.com/getsotto/sotto-action/pull/25) |
+| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | ≈10k · [GitHub](https://github.com/junixlabs/traceos) | [#23](https://github.com/junixlabs/traceos/pull/23) |
