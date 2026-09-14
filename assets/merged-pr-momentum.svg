@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+  <title id="title">Merged PR momentum</title>
+  <desc id="desc">Cumulative timeline of 29 upstream pull requests merged between August 15 and September 14, 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="998" height="468" rx="22" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <style>
+    text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .title { fill: #f8fafc; font-size: 28px; font-weight: 750; letter-spacing: -0.4px; }
+    .subtitle { fill: #94a3b8; font-size: 14px; }
+    .label { fill: #e2e8f0; font-size: 15px; font-weight: 600; }
+    .value { fill: #cbd5e1; font-size: 14px; font-weight: 650; }
+    .muted { fill: #64748b; font-size: 12px; }
+    .metric { fill: #f8fafc; font-size: 22px; font-weight: 800; }
+    .metric-label { fill: #94a3b8; font-size: 11px; font-weight: 650; letter-spacing: 0.8px; }
+  </style>
+  <text class="title" x="42" y="54">Merged PR momentum</text>
+  <text class="subtitle" x="42" y="80">Cumulative upstream merges · Aug 15 – Sep 14, 2026</text>
+  <text class="metric" x="926" y="55" text-anchor="end">+3,982 / −615</text>
+  <text class="metric-label" x="926" y="78" text-anchor="end">LINES SHIPPED ACROSS 140 FILES</text>
+  <line x1="68" y1="376.0" x2="932" y2="376.0" stroke="#334155" stroke-width="1" opacity="0.55"/><text class="muted" x="53" y="380.0" text-anchor="end">0</text><line x1="68" y1="336.3" x2="932" y2="336.3" stroke="#334155" stroke-width="1" opacity="0.55"/><text class="muted" x="53" y="340.3" text-anchor="end">5</text><line x1="68" y1="296.7" x2="932" y2="296.7" stroke="#334155" stroke-width="1" opacity="0.55"/><text class="muted" x="53" y="300.7" text-anchor="end">10</text><line x1="68" y1="257.0" x2="932" y2="257.0" stroke="#334155" stroke-width="1" opacity="0.55"/><text class="muted" x="53" y="261.0" text-anchor="end">15</text><line x1="68" y1="217.4" x2="932" y2="217.4" stroke="#334155" stroke-width="1" opacity="0.55"/><text class="muted" x="53" y="221.4" text-anchor="end">20</text><line x1="68" y1="177.7" x2="932" y2="177.7" stroke="#334155" stroke-width="1" opacity="0.55"/><text class="muted" x="53" y="181.7" text-anchor="end">25</text><line x1="68" y1="146.0" x2="932" y2="146.0" stroke="#334155" stroke-width="1" opacity="0.55"/><text class="muted" x="53" y="150.0" text-anchor="end">29</text>
+  <polygon points="68,376 68.0,368.1 96.8,368.1 125.6,368.1 154.4,368.1 183.2,368.1 212.0,368.1 240.8,368.1 269.6,368.1 298.4,368.1 327.2,368.1 356.0,368.1 384.8,368.1 413.6,368.1 442.4,368.1 471.2,368.1 500.0,368.1 528.8,368.1 557.6,368.1 586.4,368.1 615.2,368.1 644.0,368.1 672.8,368.1 701.6,360.1 730.4,360.1 759.2,320.5 788.0,312.6 816.8,272.9 845.6,241.2 874.4,161.9 903.2,153.9 932.0,146.0 932,376" fill="url(#area)"/>
+  <polyline points="68.0,368.1 96.8,368.1 125.6,368.1 154.4,368.1 183.2,368.1 212.0,368.1 240.8,368.1 269.6,368.1 298.4,368.1 327.2,368.1 356.0,368.1 384.8,368.1 413.6,368.1 442.4,368.1 471.2,368.1 500.0,368.1 528.8,368.1 557.6,368.1 586.4,368.1 615.2,368.1 644.0,368.1 672.8,368.1 701.6,360.1 730.4,360.1 759.2,320.5 788.0,312.6 816.8,272.9 845.6,241.2 874.4,161.9 903.2,153.9 932.0,146.0" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>
+  <circle cx="68.0" cy="368.1" r="5.0" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-08-15: 1 merged, 1 cumulative</title></circle><circle cx="701.6" cy="360.1" r="5.0" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-06: 1 merged, 2 cumulative</title></circle><circle cx="759.2" cy="320.5" r="7.2" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-08: 5 merged, 7 cumulative</title></circle><circle cx="788.0" cy="312.6" r="5.0" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-09: 1 merged, 8 cumulative</title></circle><circle cx="816.8" cy="272.9" r="7.2" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-10: 5 merged, 13 cumulative</title></circle><circle cx="845.6" cy="241.2" r="6.7" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-11: 4 merged, 17 cumulative</title></circle><circle cx="874.4" cy="161.9" r="9.5" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-12: 10 merged, 27 cumulative</title></circle><circle cx="903.2" cy="153.9" r="5.0" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-13: 1 merged, 28 cumulative</title></circle><circle cx="932.0" cy="146.0" r="5.0" fill="#a5b4fc" stroke="#111827" stroke-width="3" filter="url(#glow)"><title>2026-09-14: 1 merged, 29 cumulative</title></circle>
+  <text class="muted" x="68" y="405">Aug 15</text>
+  <text class="muted" x="932" y="405" text-anchor="end">Sep 14</text>
+  <text class="subtitle" x="500" y="443" text-anchor="middle">Each glowing point marks a day when an upstream contribution was merged.</text>
+</svg>

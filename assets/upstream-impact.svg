@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610" role="img" aria-labelledby="title desc">
+  <title id="title">Upstream impact</title>
+  <desc id="desc">Top ten upstream projects by GitHub stars, with 29 merged pull requests across 22 projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="998" height="608" rx="22" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <style>
+    text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .title { fill: #f8fafc; font-size: 28px; font-weight: 750; letter-spacing: -0.4px; }
+    .subtitle { fill: #94a3b8; font-size: 14px; }
+    .label { fill: #e2e8f0; font-size: 15px; font-weight: 600; }
+    .value { fill: #cbd5e1; font-size: 14px; font-weight: 650; }
+    .muted { fill: #64748b; font-size: 12px; }
+    .metric { fill: #f8fafc; font-size: 22px; font-weight: 800; }
+    .metric-label { fill: #94a3b8; font-size: 11px; font-weight: 650; letter-spacing: 0.8px; }
+  </style>
+  <text class="title" x="42" y="54">Upstream impact</text>
+  <text class="subtitle" x="42" y="80">Projects where my contributions have shipped</text>
+  <g transform="translate(42 105)">
+    <rect width="190" height="72" rx="14" fill="#ffffff" opacity="0.055" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="metric" x="18" y="32">29</text><text class="metric-label" x="18" y="54">MERGED PRS</text>
+  </g>
+  <g transform="translate(248 105)">
+    <rect width="190" height="72" rx="14" fill="#ffffff" opacity="0.055" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="metric" x="18" y="32">22</text><text class="metric-label" x="18" y="54">UPSTREAM PROJECTS</text>
+  </g>
+  <g transform="translate(454 105)">
+    <rect width="230" height="72" rx="14" fill="#ffffff" opacity="0.055" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="metric" x="18" y="32">465.7k</text><text class="metric-label" x="18" y="54">COMBINED STARS</text>
+  </g>
+  <text class="subtitle" x="718" y="126">Top 10 projects</text>
+  <text class="muted" x="718" y="148">current GitHub stars</text>
+  <text class="label" x="42" y="221">Python</text>
+  <rect x="242" y="206" width="510.0" height="20" rx="10" fill="url(#accent)" opacity="0.98"/>
+  <text class="value" x="762.0" y="221">224.6k ★</text>
+  <text class="label" x="42" y="258">puppeteer</text>
+  <rect x="242" y="243" width="474.6" height="20" rx="10" fill="url(#accent)" opacity="0.93"/>
+  <text class="value" x="726.6" y="258">95.6k ★</text>
+  <text class="label" x="42" y="295">supervision</text>
+  <rect x="242" y="280" width="447.8" height="20" rx="10" fill="url(#accent)" opacity="0.89"/>
+  <text class="value" x="699.8" y="295">50.0k ★</text>
+  <text class="label" x="42" y="332">LightRAG</text>
+  <rect x="242" y="317" width="438.2" height="20" rx="10" fill="url(#accent)" opacity="0.84"/>
+  <text class="value" x="690.2" y="332">39.6k ★</text>
+  <text class="label" x="42" y="369">react-admin</text>
+  <rect x="242" y="354" width="422.2" height="20" rx="10" fill="url(#accent)" opacity="0.80"/>
+  <text class="value" x="674.2" y="369">26.9k ★</text>
+  <text class="label" x="42" y="406">VidBee</text>
+  <rect x="242" y="391" width="383.8" height="20" rx="10" fill="url(#accent)" opacity="0.76"/>
+  <text class="value" x="635.8" y="406">10.6k ★</text>
+  <text class="label" x="42" y="443">orval</text>
+  <rect x="242" y="428" width="363.1" height="20" rx="10" fill="url(#accent)" opacity="0.71"/>
+  <text class="value" x="615.1" y="443">6.5k ★</text>
+  <text class="label" x="42" y="480">agenta</text>
+  <rect x="242" y="465" width="350.4" height="20" rx="10" fill="url(#accent)" opacity="0.67"/>
+  <text class="value" x="602.4" y="480">4.8k ★</text>
+  <text class="label" x="42" y="517">numpyro</text>
+  <rect x="242" y="502" width="327.8" height="20" rx="10" fill="url(#accent)" opacity="0.62"/>
+  <text class="value" x="579.8" y="517">2.8k ★</text>
+  <text class="label" x="42" y="554">kamaji</text>
+  <rect x="242" y="539" width="315.1" height="20" rx="10" fill="url(#accent)" opacity="0.57"/>
+  <text class="value" x="567.1" y="554">2.0k ★</text>
+  <text class="muted" x="42" y="586">Bar length uses a logarithmic scale so smaller projects remain visible · snapshot: 2026-09-14</text>
+</svg>
