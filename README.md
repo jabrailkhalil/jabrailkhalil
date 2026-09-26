@@ -215,26 +215,6 @@ Evaluation, reliability, reproducibility, AI-agent planning, controlled experime
   </a>
 </div>
 
-## 🌀 Contribution streak
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=jabrailkhalil&theme=dark&hide_border=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=jabrailkhalil&theme=default&hide_border=true" />
-  <img alt="Jabrail's GitHub streak" src="https://streak-stats.demolab.com?user=jabrailkhalil&hide_border=true" />
-</picture>
-</div>
-
-## 🐍 Contributions in motion
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jabrailkhalil/jabrailkhalil/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jabrailkhalil/jabrailkhalil/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/jabrailkhalil/jabrailkhalil/output/github-contribution-grid-snake.svg" />
-</picture>
-</div>
-
 ---
 
 <div align="center">
