@@ -4,6 +4,8 @@
 
 ### AI systems · Developer tooling · Open-source engineering · Applied ML
 
+**M.Sc. in Applied Mathematics and Computer Science · HSE University**
+
 *Glad you stopped by.* I build practical software, experiment with AI-assisted development, run reproducible engineering research, and contribute production fixes and features upstream.
 
 [![GitHub](https://img.shields.io/badge/GitHub-jabrailkhalil-181717?style=flat-square&logo=github)](https://github.com/jabrailkhalil)
@@ -106,7 +108,11 @@ Evaluation, reliability, reproducibility, AI-agent planning, controlled experime
   </a>
   <br />
   <a href="https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged">
-    <img width="100%" alt="Cumulative upstream merged pull request timeline" src="./assets/merged-pr-momentum.svg" />
+    <img width="100%" alt="Breakdown of merged upstream contributions by type" src="./assets/contribution-spectrum.svg" />
+  </a>
+  <br />
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged">
+    <img width="100%" alt="Distribution of upstream projects by GitHub scale" src="./assets/project-scale.svg" />
   </a>
 </div>
 
