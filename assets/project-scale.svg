@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution reach</title>
+  <desc id="desc">Distribution of 33 upstream projects by current GitHub star count: 4 projects at 50 thousand stars or more, 5 from 10 to 50 thousand, 9 from 1 to 10 thousand, and 15 below 1 thousand.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="998" height="468" rx="22" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <style>
+    text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .title { fill: #f8fafc; font-size: 28px; font-weight: 750; letter-spacing: -0.4px; }
+    .subtitle { fill: #94a3b8; font-size: 14px; }
+    .bucket { fill: #e2e8f0; font-size: 14px; font-weight: 650; }
+    .big { fill: #f8fafc; font-size: 30px; font-weight: 850; }
+    .small { fill: #94a3b8; font-size: 11px; font-weight: 650; letter-spacing: 0.7px; }
+    .muted { fill: #64748b; font-size: 12px; }
+  </style>
+
+  <text class="title" x="42" y="54">Contribution reach</text>
+  <text class="subtitle" x="42" y="80">From large ecosystems to focused niche tools · 33 upstream projects</text>
+
+  <g transform="translate(42 118)">
+    <rect width="210" height="180" rx="18" fill="#ffffff" opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="big" x="24" y="54">4</text>
+    <text class="bucket" x="24" y="84">50k+ stars</text>
+    <rect x="24" y="112" width="162" height="14" rx="7" fill="url(#accent)" opacity="0.98" filter="url(#glow)"/>
+    <text class="small" x="24" y="153">MAJOR ECOSYSTEMS</text>
+  </g>
+
+  <g transform="translate(270 118)">
+    <rect width="210" height="180" rx="18" fill="#ffffff" opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="big" x="24" y="54">5</text>
+    <text class="bucket" x="24" y="84">10k–50k stars</text>
+    <rect x="24" y="112" width="132" height="14" rx="7" fill="url(#accent)" opacity="0.86"/>
+    <text class="small" x="24" y="153">LARGE PROJECTS</text>
+  </g>
+
+  <g transform="translate(498 118)">
+    <rect width="210" height="180" rx="18" fill="#ffffff" opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="big" x="24" y="54">9</text>
+    <text class="bucket" x="24" y="84">1k–10k stars</text>
+    <rect x="24" y="112" width="104" height="14" rx="7" fill="url(#accent)" opacity="0.74"/>
+    <text class="small" x="24" y="153">ESTABLISHED OSS</text>
+  </g>
+
+  <g transform="translate(726 118)">
+    <rect width="232" height="180" rx="18" fill="#ffffff" opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="big" x="24" y="54">15</text>
+    <text class="bucket" x="24" y="84">&lt;1k stars</text>
+    <rect x="24" y="112" width="76" height="14" rx="7" fill="url(#accent)" opacity="0.62"/>
+    <text class="small" x="24" y="153">NICHE / EARLY PROJECTS</text>
+  </g>
+
+  <g transform="translate(42 330)">
+    <rect width="916" height="78" rx="16" fill="#ffffff" opacity="0.045" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="big" x="24" y="43">653.3k ★</text>
+    <text class="small" x="208" y="40">COMBINED CURRENT STARS ACROSS PROJECTS</text>
+    <text class="subtitle" x="208" y="61">A broad footprint rather than a single-repository contribution history.</text>
+  </g>
+
+  <text class="muted" x="42" y="447">Current GitHub star snapshot · 2026-09-29</text>
+</svg>
