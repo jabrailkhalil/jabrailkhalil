@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="470" viewBox="0 0 1000 470" role="img" aria-labelledby="title desc">
+  <title id="title">What ships upstream</title>
+  <desc id="desc">Breakdown of 43 merged upstream pull requests by primary contribution type: 18 fixes, 12 features, 7 engineering and CI changes, and 6 documentation and examples changes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="998" height="468" rx="22" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <style>
+    text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .title { fill: #f8fafc; font-size: 28px; font-weight: 750; letter-spacing: -0.4px; }
+    .subtitle { fill: #94a3b8; font-size: 14px; }
+    .label { fill: #e2e8f0; font-size: 16px; font-weight: 650; }
+    .value { fill: #f8fafc; font-size: 18px; font-weight: 800; }
+    .muted { fill: #64748b; font-size: 12px; }
+    .metric { fill: #f8fafc; font-size: 24px; font-weight: 800; }
+    .metric-label { fill: #94a3b8; font-size: 11px; font-weight: 650; letter-spacing: 0.8px; }
+  </style>
+
+  <text class="title" x="42" y="54">What ships upstream</text>
+  <text class="subtitle" x="42" y="80">43 merged PRs · classified by primary contribution type</text>
+
+  <g transform="translate(706 34)">
+    <rect width="250" height="70" rx="14" fill="#ffffff" opacity="0.055" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text class="metric" x="18" y="31">33 projects</text>
+    <text class="metric-label" x="18" y="52">BREADTH ACROSS ECOSYSTEMS</text>
+  </g>
+
+  <text class="label" x="42" y="154">Bug fixes & reliability</text>
+  <rect x="285" y="135" width="590" height="24" rx="12" fill="#ffffff" opacity="0.055"/>
+  <rect x="285" y="135" width="590" height="24" rx="12" fill="url(#accent)" opacity="0.98" filter="url(#glow)"/>
+  <text class="value" x="900" y="154">18</text>
+
+  <text class="label" x="42" y="219">Features & APIs</text>
+  <rect x="285" y="200" width="590" height="24" rx="12" fill="#ffffff" opacity="0.055"/>
+  <rect x="285" y="200" width="393" height="24" rx="12" fill="url(#accent)" opacity="0.88"/>
+  <text class="value" x="900" y="219">12</text>
+
+  <text class="label" x="42" y="284">Engineering / CI</text>
+  <rect x="285" y="265" width="590" height="24" rx="12" fill="#ffffff" opacity="0.055"/>
+  <rect x="285" y="265" width="229" height="24" rx="12" fill="url(#accent)" opacity="0.76"/>
+  <text class="value" x="900" y="284">7</text>
+
+  <text class="label" x="42" y="349">Docs & examples</text>
+  <rect x="285" y="330" width="590" height="24" rx="12" fill="#ffffff" opacity="0.055"/>
+  <rect x="285" y="330" width="197" height="24" rx="12" fill="url(#accent)" opacity="0.66"/>
+  <text class="value" x="900" y="349">6</text>
+
+  <line x1="42" y1="392" x2="958" y2="392" stroke="#334155" stroke-width="1"/>
+  <text class="subtitle" x="42" y="425">The mix spans product work, APIs, cross-platform behavior, build systems, testing, reliability and documentation.</text>
+  <text class="muted" x="42" y="447">Classification uses each merged PR's primary purpose · snapshot: 2026-09-29</text>
+</svg>
