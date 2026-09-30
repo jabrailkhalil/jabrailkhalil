@@ -56,6 +56,12 @@ Evaluation, reliability, reproducibility, AI-agent planning, controlled experime
 </tr>
 </table>
 
+## 🔬 JAX case studies and reproducible demos
+
+I document small JAX correctness investigations in [JAX reliability notes](https://github.com/jabrailkhalil/jax-reliability-notes): keyword forwarding in reusable autodiff and means over uneven replica groups. The material includes runnable CPU examples before and after the fixes, regression-test evidence, and a short technical-session outline.
+
+The associated [#41156](https://github.com/jax-ml/jax/pull/41156) and [#41157](https://github.com/jax-ml/jax/pull/41157) contributions are open for upstream review as of 1 October 2026.
+
 ## 🛰️ Upstream open-source
 
 **43 merged PRs across 33 upstream projects.** I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation — not just drive-by edits.
