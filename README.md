@@ -60,7 +60,9 @@ Evaluation, reliability, reproducibility, AI-agent planning, controlled experime
 
 I document small JAX correctness investigations in [JAX reliability notes](https://github.com/jabrailkhalil/jax-reliability-notes): keyword forwarding in reusable autodiff and means over uneven replica groups. The material includes runnable CPU examples before and after the fixes, regression-test evidence, and a short technical-session outline.
 
-The associated [#41156](https://github.com/jax-ml/jax/pull/41156) and [#41157](https://github.com/jax-ml/jax/pull/41157) contributions are open for upstream review as of 1 October 2026.
+I added generalized Hermitian eigenproblems to `jax.scipy.linalg.eigh` in [#41162](https://github.com/jax-ml/jax/pull/41162), merged on 1 October 2026. The implementation uses Cholesky reduction and supports broadcast batch dimensions, JIT, vmap, and differentiation, with tests against SciPy and the defining eigenproblem.
+
+My keyword-forwarding fix in [#41156](https://github.com/jax-ml/jax/pull/41156) also merged on 1 October. The uneven-replica-group fix [#41157](https://github.com/jax-ml/jax/pull/41157) and the extension to type-2/type-3 generalized eigenproblems [#41197](https://github.com/jax-ml/jax/pull/41197) remain open for upstream review as of 2 October 2026.
 
 ## 🛰️ Upstream open-source
 
