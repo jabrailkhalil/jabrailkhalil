@@ -66,6 +66,8 @@ My keyword-forwarding fix in [#41156](https://github.com/jax-ml/jax/pull/41156) 
 
 I prepared a [generalized-eigh CPU lab](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/case-studies/generalized-eigh.md) with SciPy references, numerical identities, JIT/vmap checks, and derivatives with respect to both input matrices. It includes a 45-minute teaching outline; no workshop delivery is claimed yet.
 
+I also published a [Russian-language Fisher LDA article and runnable example](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda-ru.md). I use generalized `eigh` for dimensionality reduction, compare PCA and LDA on synthetic data, and check gradients through regularization and feature scaling against independent SciPy finite differences.
+
 ## 🛰️ Upstream open-source
 
 **43 merged PRs across 33 upstream projects.** I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation — not just drive-by edits.
