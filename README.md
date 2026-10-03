@@ -72,12 +72,12 @@ The [English version](https://github.com/jabrailkhalil/jax-reliability-notes/blo
 
 ## 🛰️ Upstream open-source
 
-**51 merged PRs across 35 upstream projects, verified on 3 October 2026.** This excludes my own repositories. I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation; merge counts do not by themselves measure downstream or community impact.
+**52 merged PRs across 36 upstream projects, verified on 3 October 2026.** This excludes my own repositories. I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation; merge counts do not by themselves measure downstream or community impact.
 
-[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-51-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
-[![Upstream projects](https://img.shields.io/badge/upstream_projects-35-0EA5E9?style=flat-square&logo=opensourceinitiative)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-52-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+[![Upstream projects](https://img.shields.io/badge/upstream_projects-36-0EA5E9?style=flat-square&logo=opensourceinitiative)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
 
-The project table and charts below are an older 43-PR snapshot, not current star counts or a complete list of the 51 merges. The JAX section above records the newer numerical contributions; the linked GitHub query shows the current merged contributions.
+The project table and charts below are an older 43-PR snapshot, not current star counts or a complete list of the 52 merges. The JAX section above records the newer numerical contributions; [Google pprof #1034](https://github.com/google/pprof/pull/1034) was also merged on 3 October. The linked GitHub query shows the current merged contributions.
 
 | Project | Stars | Merged PRs |
 | --- | ---: | --- |
