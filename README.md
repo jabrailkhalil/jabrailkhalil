@@ -68,13 +68,16 @@ I prepared a [generalized-eigh CPU lab](https://github.com/jabrailkhalil/jax-rel
 
 I also published a [Russian-language Fisher LDA article and runnable example](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda-ru.md). I use generalized `eigh` for dimensionality reduction, compare PCA and LDA on synthetic data, and check gradients through regularization and feature scaling against independent SciPy finite differences.
 
+The [English version](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda.md) and [Russian 45-minute workshop worksheet](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/workshops/fisher-lda-ru.md) are now public. The CPU lab was rerun on 3 October 2026, and its repository CI passes. These are prepared teaching materials; I have not yet delivered the workshop or measured external adoption.
+
 ## 🛰️ Upstream open-source
 
-**43 merged PRs across 33 upstream projects.** I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation — not just drive-by edits.
+**51 merged PRs across 35 upstream projects, verified on 3 October 2026.** This excludes my own repositories. I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation; merge counts do not by themselves measure downstream or community impact.
 
-[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-43-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
-[![Upstream projects](https://img.shields.io/badge/upstream_projects-33-0EA5E9?style=flat-square&logo=opensourceinitiative)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
-[![Combined upstream stars](https://img.shields.io/badge/combined_upstream_stars-653%2E3k%E2%AD%90-7C3AED?style=flat-square)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-51-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+[![Upstream projects](https://img.shields.io/badge/upstream_projects-35-0EA5E9?style=flat-square&logo=opensourceinitiative)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+
+The project table and charts below are an older 43-PR snapshot, not current star counts or a complete list of the 51 merges. The JAX section above records the newer numerical contributions; the linked GitHub query shows the current merged contributions.
 
 | Project | Stars | Merged PRs |
 | --- | ---: | --- |
