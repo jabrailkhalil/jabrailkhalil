@@ -70,14 +70,20 @@ I also published a [Russian-language Fisher LDA article and runnable example](ht
 
 The [English version](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda.md) and [Russian 45-minute workshop worksheet](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/workshops/fisher-lda-ru.md) are now public. The CPU lab was rerun on 3 October 2026, and its repository CI passes. These are prepared teaching materials; I have not yet delivered the workshop or measured external adoption.
 
+## Google AI infrastructure
+
+In ADK for Go, I continued earlier contributions on [foreign-thought isolation](https://github.com/google/adk-go/pull/1719) and [concurrent live completion-tool injection](https://github.com/google/adk-go/pull/1722), merged on 6 and 7 October 2026. My follow-up work added caller/boundary regressions and concurrency/panic-retry validation; both PRs credit the original implementations. I have not yet confirmed these fixes in a published release.
+
+Current review work includes [mixed single-replica checkpoint restores in Orbax](https://github.com/google/orbax/pull/3613), [database event-order regressions in ADK Python](https://github.com/google/adk-python/pull/7492), and [array-valued auth-token field masks in the GenAI JavaScript SDK](https://github.com/googleapis/js-genai/pull/2002). These PRs are open, not accepted changes. The ADK Python PR is a tests-only draft; the schema and primary-order decision remain with maintainers.
+
 ## 🛰️ Upstream open-source
 
-**52 merged PRs across 36 upstream projects, verified on 3 October 2026.** This excludes my own repositories. I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation; merge counts do not by themselves measure downstream or community impact.
+**60 merged PRs across 37 upstream projects, verified on 12 October 2026.** This excludes my own repositories. I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation; merge counts do not by themselves measure downstream or community impact.
 
-[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-52-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
-[![Upstream projects](https://img.shields.io/badge/upstream_projects-36-0EA5E9?style=flat-square&logo=opensourceinitiative)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-60-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+[![Upstream projects](https://img.shields.io/badge/upstream_projects-37-0EA5E9?style=flat-square&logo=opensourceinitiative)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
 
-The project table and charts below are an older 43-PR snapshot, not current star counts or a complete list of the 52 merges. The JAX section above records the newer numerical contributions; [Google pprof #1034](https://github.com/google/pprof/pull/1034) was also merged on 3 October. The linked GitHub query shows the current merged contributions.
+The project table and charts below are an older 43-PR snapshot, not current star counts or a complete list of the 60 merges. The JAX and Google AI sections above record newer contributions; [Google pprof #1034](https://github.com/google/pprof/pull/1034) was also merged on 3 October. The linked GitHub query shows the current merged contributions.
 
 | Project | Stars | Merged PRs |
 | --- | ---: | --- |
