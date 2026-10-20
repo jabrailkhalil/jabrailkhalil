@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-20",
+  "username": "jabrailkhalil",
+  "query": "is:pr author:jabrailkhalil is:merged -user:jabrailkhalil",
+  "pull_requests": [
+    {
+      "repository": "google-deepmind/optax",
+      "number": 1815,
+      "title": "fix(clipping): keep zero-update reverse gradients finite",
+      "url": "https://github.com/google-deepmind/optax/pull/1815",
+      "merged_at": "2026-10-19T21:21:49Z"
+    },
+    {
+      "repository": "valyala/fasthttp",
+      "number": 2479,
+      "title": "fix: match complete Accept-Encoding tokens",
+      "url": "https://github.com/valyala/fasthttp/pull/2479",
+      "merged_at": "2026-10-17T02:12:00Z"
+    },
+    {
+      "repository": "gofiber/fiber",
+      "number": 4721,
+      "title": "🐛 bug: reject unrepresentable route parameters with conditional scans",
+      "url": "https://github.com/gofiber/fiber/pull/4721",
+      "merged_at": "2026-10-01T17:11:35Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 13337,
+      "title": "fix(feishu): preserve text and clean up failed inbound file writes",
+      "url": "https://github.com/QwenLM/qwen-code/pull/13337",
+      "merged_at": "2026-10-08T02:13:37Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 13147,
+      "title": "fix(mobile): resolve document providers once per selection",
+      "url": "https://github.com/QwenLM/qwen-code/pull/13147",
+      "merged_at": "2026-10-06T16:22:42Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 12247,
+      "title": "feat(mobile): restore scoped connections after Activity recreation",
+      "url": "https://github.com/QwenLM/qwen-code/pull/12247",
+      "merged_at": "2026-10-05T14:23:58Z"
+    },
+    {
+      "repository": "google/adk-go",
+      "number": 1722,
+      "title": "fix(sequentialagent): serialize live completion tool injection",
+      "url": "https://github.com/google/adk-go/pull/1722",
+      "merged_at": "2026-10-07T08:55:47Z"
+    },
+    {
+      "repository": "google/adk-go",
+      "number": 1719,
+      "title": "fix(llminternal): omit foreign thoughts from agent context",
+      "url": "https://github.com/google/adk-go/pull/1719",
+      "merged_at": "2026-10-06T14:03:21Z"
+    },
+    {
+      "repository": "OpenHands/OpenHands",
+      "number": 17152,
+      "title": "fix: detect Dockerfile language from directory-qualified paths",
+      "url": "https://github.com/OpenHands/OpenHands/pull/17152",
+      "merged_at": "2026-09-26T00:05:22Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 12129,
+      "title": "feat(mobile): improve profile screen accessibility (Phase 2)",
+      "url": "https://github.com/QwenLM/qwen-code/pull/12129",
+      "merged_at": "2026-10-05T14:25:00Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 13176,
+      "title": "fix(web-shell): preserve authentication fragment on offline retry",
+      "url": "https://github.com/QwenLM/qwen-code/pull/13176",
+      "merged_at": "2026-10-02T16:13:54Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 13170,
+      "title": "test(feishu): isolate media dispatch coverage from external APIs",
+      "url": "https://github.com/QwenLM/qwen-code/pull/13170",
+      "merged_at": "2026-10-03T08:51:50Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 12963,
+      "title": "fix(mobile): allow bracketed IPv6 loopback cleartext",
+      "url": "https://github.com/QwenLM/qwen-code/pull/12963",
+      "merged_at": "2026-10-04T13:11:35Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 12127,
+      "title": "feat(mobile): add scoped microphone consent (Phase 2)",
+      "url": "https://github.com/QwenLM/qwen-code/pull/12127",
+      "merged_at": "2026-10-03T08:08:08Z"
+    },
+    {
+      "repository": "pyro-ppl/numpyro",
+      "number": 2323,
+      "title": "doc(gh-2187): explain GaussianStateSpace joint distribution",
+      "url": "https://github.com/pyro-ppl/numpyro/pull/2323",
+      "merged_at": "2026-10-04T08:15:55Z"
+    },
+    {
+      "repository": "google/pprof",
+      "number": 1034,
+      "title": "internal/report: include the last byte in disassembly",
+      "url": "https://github.com/google/pprof/pull/1034",
+      "merged_at": "2026-10-03T20:08:31Z"
+    },
+    {
+      "repository": "jax-ml/jax",
+      "number": 41197,
+      "title": "Support type-2 and type-3 generalized Hermitian eigenproblems",
+      "url": "https://github.com/jax-ml/jax/pull/41197",
+      "merged_at": "2026-10-02T16:00:47Z"
+    },
+    {
+      "repository": "apache/arrow-rs",
+      "number": 11320,
+      "title": "Simplify homogeneous VariantArray doctest fixtures",
+      "url": "https://github.com/apache/arrow-rs/pull/11320",
+      "merged_at": "2026-10-02T02:26:35Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 12121,
+      "title": "feat(mobile): add encrypted, isolated connection profiles (Phase 2)",
+      "url": "https://github.com/QwenLM/qwen-code/pull/12121",
+      "merged_at": "2026-09-22T05:51:51Z"
+    },
+    {
+      "repository": "jax-ml/jax",
+      "number": 41162,
+      "title": "Support generalized Hermitian eigenproblems in scipy.linalg.eigh",
+      "url": "https://github.com/jax-ml/jax/pull/41162",
+      "merged_at": "2026-10-01T17:31:20Z"
+    },
+    {
+      "repository": "jax-ml/jax",
+      "number": 41156,
+      "title": "Fix keyword argument forwarding in fwd_and_bwd",
+      "url": "https://github.com/jax-ml/jax/pull/41156",
+      "merged_at": "2026-10-01T17:02:21Z"
+    },
+    {
+      "repository": "apache/arrow-rs",
+      "number": 11053,
+      "title": "feat(variant): allow creating VariantArray from Option items convertible to Variant",
+      "url": "https://github.com/apache/arrow-rs/pull/11053",
+      "merged_at": "2026-09-28T20:19:14Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 12126,
+      "title": "feat(mobile): support scoped native document selection (Phase 2)",
+      "url": "https://github.com/QwenLM/qwen-code/pull/12126",
+      "merged_at": "2026-09-26T22:14:29Z"
+    },
+    {
+      "repository": "ONEARMY/community-platform",
+      "number": 4887,
+      "title": "feat(ui): migrate Loader to Platform UI Spinner (#4886)",
+      "url": "https://github.com/ONEARMY/community-platform/pull/4887",
+      "merged_at": "2026-09-27T03:46:59Z"
+    },
+    {
+      "repository": "oppia/oppia-android",
+      "number": 6444,
+      "title": "Fix #6188: Fail test file check for stale test_file_not_required exemptions",
+      "url": "https://github.com/oppia/oppia-android/pull/6444",
+      "merged_at": "2026-09-25T08:31:22Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
+      "number": 11722,
+      "title": "feat(web-shell): add PWA installability and Android development shell",
+      "url": "https://github.com/QwenLM/qwen-code/pull/11722",
+      "merged_at": "2026-09-17T22:24:15Z"
+    },
+    {
+      "repository": "internetarchive/openlibrary",
+      "number": 13598,
+      "title": "fix(models): only save known user preference keys",
+      "url": "https://github.com/internetarchive/openlibrary/pull/13598",
+      "merged_at": "2026-09-19T01:17:38Z"
+    },
+    {
+      "repository": "AcademySoftwareFoundation/MaterialX",
+      "number": 3065,
+      "title": "Clarify vector2 roughness inputs of BSDF nodes",
+      "url": "https://github.com/AcademySoftwareFoundation/MaterialX/pull/3065",
+      "merged_at": "2026-09-18T19:16:30Z"
+    },
+    {
+      "repository": "finos/FDC3",
+      "number": 2199,
+      "title": "fix(fdc3-conformance): fix pre-existing type errors and enable typecheck",
+      "url": "https://github.com/finos/FDC3/pull/2199",
+      "merged_at": "2026-09-15T17:39:52Z"
+    },
+    {
+      "repository": "uber/NullAway",
+      "number": 1839,
+      "title": "Replace deprecated addSourceFile calls in AndroidTest",
+      "url": "https://github.com/uber/NullAway/pull/1839",
+      "merged_at": "2026-09-15T15:36:22Z"
+    },
+    {
+      "repository": "lacs-project/sysknife",
+      "number": 422,
+      "title": "fix(daemon): report the first differing line when the action reference doc drifts",
+      "url": "https://github.com/lacs-project/sysknife/pull/422",
+      "merged_at": "2026-09-15T13:15:23Z"
+    },
+    {
+      "repository": "kroxylicious/kroxylicious",
+      "number": 4890,
+      "title": "build: add Implementation-Version to packaged jars",
+      "url": "https://github.com/kroxylicious/kroxylicious/pull/4890",
+      "merged_at": "2026-09-14T23:21:18Z"
+    },
+    {
+      "repository": "slidevjs/slidev",
+      "number": 2739,
+      "title": "fix(cli): handle publicIpv4() errors when resolving public IP",
+      "url": "https://github.com/slidevjs/slidev/pull/2739",
+      "merged_at": "2026-09-14T23:12:00Z"
+    },
+    {
+      "repository": "libredb/libredb-studio",
+      "number": 803,
+      "title": "refactor: share keyboard shortcuts and generated feature documentation",
+      "url": "https://github.com/libredb/libredb-studio/pull/803",
+      "merged_at": "2026-09-14T17:43:44Z"
+    },
+    {
+      "repository": "pyro-ppl/numpyro",
+      "number": 2266,
+      "title": "doc(gh-2187): mathematical details for GaussianRandomWalk",
+      "url": "https://github.com/pyro-ppl/numpyro/pull/2266",
+      "merged_at": "2026-09-14T07:08:24Z"
+    },
+    {
+      "repository": "HKUDS/LightRAG",
+      "number": 3905,
+      "title": "fix: recognize repeated-letter alpha ordinals (aa, zz, aaa) in smart_heading",
+      "url": "https://github.com/HKUDS/LightRAG/pull/3905",
+      "merged_at": "2026-09-13T18:37:12Z"
+    },
+    {
+      "repository": "nexmoe/vscode-monitor-pro",
+      "number": 482,
+      "title": "🐛 fix: clamp battery charge and health percentages",
+      "url": "https://github.com/nexmoe/vscode-monitor-pro/pull/482",
+      "merged_at": "2026-09-12T16:52:40Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 536,
+      "title": "fix(dashboard): keep log line numbers stable while filtering",
+      "url": "https://github.com/orka-agents/orka/pull/536",
+      "merged_at": "2026-09-12T14:45:28Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 535,
+      "title": "docs(website): add website contribution guide",
+      "url": "https://github.com/orka-agents/orka/pull/535",
+      "merged_at": "2026-09-12T14:45:06Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 534,
+      "title": "chore(devcontainer): install pinned Bun for dashboard contributors",
+      "url": "https://github.com/orka-agents/orka/pull/534",
+      "merged_at": "2026-09-12T14:44:54Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 532,
+      "title": "fix(cli): apply task wait timeout to in-flight requests",
+      "url": "https://github.com/orka-agents/orka/pull/532",
+      "merged_at": "2026-09-12T14:44:33Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 531,
+      "title": "feat(cli): complete values for output, type, and status flags",
+      "url": "https://github.com/orka-agents/orka/pull/531",
+      "merged_at": "2026-09-12T14:44:10Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 528,
+      "title": "feat(cli): add json and yaml output to task artifacts",
+      "url": "https://github.com/orka-agents/orka/pull/528",
+      "merged_at": "2026-09-12T14:43:38Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 538,
+      "title": "fix(dashboard): number only source lines in the diff viewer",
+      "url": "https://github.com/orka-agents/orka/pull/538",
+      "merged_at": "2026-09-12T14:36:28Z"
+    },
+    {
+      "repository": "orka-agents/orka",
+      "number": 537,
+      "title": "fix(dashboard): surface loading, failure, and retry states in task result panel",
+      "url": "https://github.com/orka-agents/orka/pull/537",
+      "merged_at": "2026-09-12T14:38:59Z"
+    },
+    {
+      "repository": "clastix/kamaji",
+      "number": 1311,
+      "title": "fix(konnectivity): render egress selector flag in deterministic position",
+      "url": "https://github.com/clastix/kamaji/pull/1311",
+      "merged_at": "2026-09-12T08:16:15Z"
+    },
+    {
+      "repository": "guillermomolina/protos",
+      "number": 315,
+      "title": "Examples: add isolated parallel execution cookbook program (#12)",
+      "url": "https://github.com/guillermomolina/protos/pull/315",
+      "merged_at": "2026-09-11T15:18:21Z"
+    },
+    {
+      "repository": "orval-labs/orval",
+      "number": 4074,
+      "title": "feat(schemas): allow schemas.path to name the schema file in single mode",
+      "url": "https://github.com/orval-labs/orval/pull/4074",
+      "merged_at": "2026-09-11T12:24:35Z"
+    },
+    {
+      "repository": "xberg-io/html-to-markdown",
+      "number": 482,
+      "title": "chore: pay down nesting-too-deep baseline for head_metadata.rs",
+      "url": "https://github.com/xberg-io/html-to-markdown/pull/482",
+      "merged_at": "2026-09-11T12:04:18Z"
+    },
+    {
+      "repository": "junixlabs/traceos",
+      "number": 23,
+      "title": "Package the engine so it installs as a command instead of a script path (#6)",
+      "url": "https://github.com/junixlabs/traceos/pull/23",
+      "merged_at": "2026-09-11T03:49:12Z"
+    },
+    {
+      "repository": "getsotto/sotto-action",
+      "number": 25,
+      "title": "test(ci): cover checksum helper paths containing spaces",
+      "url": "https://github.com/getsotto/sotto-action/pull/25",
+      "merged_at": "2026-09-10T21:37:24Z"
+    },
+    {
+      "repository": "libredb/libredb-studio",
+      "number": 782,
+      "title": "feat(studio): add keyboard shortcut for new query tabs (#745)",
+      "url": "https://github.com/libredb/libredb-studio/pull/782",
+      "merged_at": "2026-09-10T21:30:28Z"
+    },
+    {
+      "repository": "Agenta-AI/agenta",
+      "number": 6693,
+      "title": "docs(docs): preserve quoted values when loading test env files",
+      "url": "https://github.com/Agenta-AI/agenta/pull/6693",
+      "merged_at": "2026-09-10T15:43:27Z"
+    },
+    {
+      "repository": "marmelab/react-admin",
+      "number": 11367,
+      "title": "[Docs] Fix custom field uses defaultProps for labels",
+      "url": "https://github.com/marmelab/react-admin/pull/11367",
+      "merged_at": "2026-09-10T15:00:11Z"
+    },
+    {
+      "repository": "roboflow/supervision",
+      "number": 2557,
+      "title": "feat: expose `sv.match_detections` as a public matching primitive",
+      "url": "https://github.com/roboflow/supervision/pull/2557",
+      "merged_at": "2026-09-10T09:25:08Z"
+    },
+    {
+      "repository": "puppeteer/puppeteer",
+      "number": 15445,
+      "title": "docs: clarify JavaScript coverage across navigations",
+      "url": "https://github.com/puppeteer/puppeteer/pull/15445",
+      "merged_at": "2026-09-09T16:18:49Z"
+    },
+    {
+      "repository": "soft-track/soft-track",
+      "number": 59,
+      "title": "fix(frontend): render absolute timestamps correctly",
+      "url": "https://github.com/soft-track/soft-track/pull/59",
+      "merged_at": "2026-09-08T16:34:49Z"
+    },
+    {
+      "repository": "IzanVil/datasemver",
+      "number": 7,
+      "title": "feat(loader): add support for gzip-compressed CSV and TSV files",
+      "url": "https://github.com/IzanVil/datasemver/pull/7",
+      "merged_at": "2026-09-08T15:14:19Z"
+    },
+    {
+      "repository": "vyncint/termlens",
+      "number": 321,
+      "title": "fix(cli): handle --version in each subcommand",
+      "url": "https://github.com/vyncint/termlens/pull/321",
+      "merged_at": "2026-09-08T13:50:50Z"
+    },
+    {
+      "repository": "TheAlgorithms/Python",
+      "number": 15228,
+      "title": "fix(sorts): validate bucket count in bucket_sort",
+      "url": "https://github.com/TheAlgorithms/Python/pull/15228",
+      "merged_at": "2026-09-08T13:41:18Z"
+    },
+    {
+      "repository": "nexmoe/VidBee",
+      "number": 469,
+      "title": "fix(download): allow choosing the playlist video container",
+      "url": "https://github.com/nexmoe/VidBee/pull/469",
+      "merged_at": "2026-09-06T05:09:54Z"
+    },
+    {
+      "repository": "JqyModi/codex-multi-launcher",
+      "number": 19,
+      "title": "[Feature] Add Russian and English localization",
+      "url": "https://github.com/JqyModi/codex-multi-launcher/pull/19",
+      "merged_at": "2026-08-15T16:54:53Z"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "google-deepmind/optax",
+      "stars": 2351,
+      "url": "https://github.com/google-deepmind/optax"
+    },
+    {
+      "name": "valyala/fasthttp",
+      "stars": 23486,
+      "url": "https://github.com/valyala/fasthttp"
+    },
+    {
+      "name": "gofiber/fiber",
+      "stars": 40225,
+      "url": "https://github.com/gofiber/fiber"
+    },
+    {
+      "name": "QwenLM/qwen-code",
+      "stars": 28586,
+      "url": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "name": "google/adk-go",
+      "stars": 8894,
+      "url": "https://github.com/google/adk-go"
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "stars": 91310,
+      "url": "https://github.com/OpenHands/OpenHands"
+    },
+    {
+      "name": "pyro-ppl/numpyro",
+      "stars": 2769,
+      "url": "https://github.com/pyro-ppl/numpyro"
+    },
+    {
+      "name": "google/pprof",
+      "stars": 9309,
+      "url": "https://github.com/google/pprof"
+    },
+    {
+      "name": "jax-ml/jax",
+      "stars": 36468,
+      "url": "https://github.com/jax-ml/jax"
+    },
+    {
+      "name": "apache/arrow-rs",
+      "stars": 3641,
+      "url": "https://github.com/apache/arrow-rs"
+    },
+    {
+      "name": "ONEARMY/community-platform",
+      "stars": 1405,
+      "url": "https://github.com/ONEARMY/community-platform"
+    },
+    {
+      "name": "oppia/oppia-android",
+      "stars": 418,
+      "url": "https://github.com/oppia/oppia-android"
+    },
+    {
+      "name": "internetarchive/openlibrary",
+      "stars": 6769,
+      "url": "https://github.com/internetarchive/openlibrary"
+    },
+    {
+      "name": "AcademySoftwareFoundation/MaterialX",
+      "stars": 2287,
+      "url": "https://github.com/AcademySoftwareFoundation/MaterialX"
+    },
+    {
+      "name": "finos/FDC3",
+      "stars": 273,
+      "url": "https://github.com/finos/FDC3"
+    },
+    {
+      "name": "uber/NullAway",
+      "stars": 4124,
+      "url": "https://github.com/uber/NullAway"
+    },
+    {
+      "name": "lacs-project/sysknife",
+      "stars": 16,
+      "url": "https://github.com/lacs-project/sysknife"
+    },
+    {
+      "name": "kroxylicious/kroxylicious",
+      "stars": 330,
+      "url": "https://github.com/kroxylicious/kroxylicious"
+    },
+    {
+      "name": "slidevjs/slidev",
+      "stars": 49134,
+      "url": "https://github.com/slidevjs/slidev"
+    },
+    {
+      "name": "libredb/libredb-studio",
+      "stars": 1232,
+      "url": "https://github.com/libredb/libredb-studio"
+    },
+    {
+      "name": "HKUDS/LightRAG",
+      "stars": 40215,
+      "url": "https://github.com/HKUDS/LightRAG"
+    },
+    {
+      "name": "nexmoe/vscode-monitor-pro",
+      "stars": 222,
+      "url": "https://github.com/nexmoe/vscode-monitor-pro"
+    },
+    {
+      "name": "orka-agents/orka",
+      "stars": 33,
+      "url": "https://github.com/orka-agents/orka"
+    },
+    {
+      "name": "clastix/kamaji",
+      "stars": 2054,
+      "url": "https://github.com/clastix/kamaji"
+    },
+    {
+      "name": "guillermomolina/protos",
+      "stars": 3,
+      "url": "https://github.com/guillermomolina/protos"
+    },
+    {
+      "name": "orval-labs/orval",
+      "stars": 6548,
+      "url": "https://github.com/orval-labs/orval"
+    },
+    {
+      "name": "xberg-io/html-to-markdown",
+      "stars": 882,
+      "url": "https://github.com/xberg-io/html-to-markdown"
+    },
+    {
+      "name": "junixlabs/traceos",
+      "stars": 0,
+      "url": "https://github.com/junixlabs/traceos"
+    },
+    {
+      "name": "getsotto/sotto-action",
+      "stars": 1,
+      "url": "https://github.com/getsotto/sotto-action"
+    },
+    {
+      "name": "Agenta-AI/agenta",
+      "stars": 4845,
+      "url": "https://github.com/Agenta-AI/agenta"
+    },
+    {
+      "name": "marmelab/react-admin",
+      "stars": 26970,
+      "url": "https://github.com/marmelab/react-admin"
+    },
+    {
+      "name": "roboflow/supervision",
+      "stars": 51255,
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "name": "puppeteer/puppeteer",
+      "stars": 95727,
+      "url": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "name": "soft-track/soft-track",
+      "stars": 14,
+      "url": "https://github.com/soft-track/soft-track"
+    },
+    {
+      "name": "IzanVil/datasemver",
+      "stars": 2,
+      "url": "https://github.com/IzanVil/datasemver"
+    },
+    {
+      "name": "vyncint/termlens",
+      "stars": 28,
+      "url": "https://github.com/vyncint/termlens"
+    },
+    {
+      "name": "TheAlgorithms/Python",
+      "stars": 225405,
+      "url": "https://github.com/TheAlgorithms/Python"
+    },
+    {
+      "name": "nexmoe/VidBee",
+      "stars": 10895,
+      "url": "https://github.com/nexmoe/VidBee"
+    },
+    {
+      "name": "JqyModi/codex-multi-launcher",
+      "stars": 153,
+      "url": "https://github.com/JqyModi/codex-multi-launcher"
+    }
+  ]
+}

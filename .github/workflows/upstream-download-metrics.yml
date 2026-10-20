@@ -1,4 +1,4 @@
-name: Update upstream public download totals
+name: Refresh verified upstream contributions
 
 on:
   workflow_dispatch:
@@ -9,43 +9,37 @@ on:
       - main
     paths:
       - .github/workflows/upstream-download-metrics.yml
-      - .github/scripts/upstream_downloads.py
-      - .github/scripts/source_only_reach.py
+      - .github/scripts/update_upstream.py
 
 permissions:
   contents: write
 
 concurrency:
-  group: upstream-public-downloads
+  group: upstream-profile-metrics
   cancel-in-progress: true
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Collect cumulative public download counters
+      - name: Collect merges and render one consistent snapshot
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .github/scripts/upstream_downloads.py
+        run: python .github/scripts/update_upstream.py
 
-      - name: Estimate reach for source-only projects
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .github/scripts/source_only_reach.py
-
-      - name: Commit refreshed metrics
+      - name: Commit refreshed profile metrics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md metrics/upstream-section.md metrics/upstream-downloads.json
+          git add README.md metrics/upstream.json metrics/upstream-section.md assets/*.svg
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "chore: refresh public download and reach totals"
+          git commit -m "chore: refresh verified upstream contributions"
           git push

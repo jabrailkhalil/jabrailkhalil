@@ -2,16 +2,15 @@
 
 # Hey, I'm Jabrail 👋🏻
 
-### AI systems · Developer tooling · Open-source engineering · Applied ML
+### AI systems · Developer tools · Numerical computing
 
 **M.Sc. in Applied Mathematics and Computer Science · HSE University**
 
-*Glad you stopped by.* I build practical software, experiment with AI-assisted development, run reproducible engineering research, and contribute production fixes and features upstream.
+I build desktop software and AI developer tools, investigate numerical and concurrency bugs, and contribute fixes and features upstream. My research starts with a reproducible failure and an independent reference result.
 
-[![GitHub](https://img.shields.io/badge/GitHub-jabrailkhalil-181717?style=flat-square&logo=github)](https://github.com/jabrailkhalil)
+[![Website](https://img.shields.io/badge/Website-clickn.dev-6366F1?style=flat-square)](https://clickn.dev/)
 [![Telegram](https://img.shields.io/badge/Telegram-@jabrail__digital-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/jabrail_digital)
-[![Xynapse](https://img.shields.io/badge/Xynapse-AI%20IDE-6366F1?style=flat-square)](https://github.com/jabrailkhalil/xynapse)
-[![Click'n'Translate](https://img.shields.io/badge/Click'n'Translate-OCR%20%2B%20Translation-8B5CF6?style=flat-square)](https://github.com/jabrailkhalil/clickntranslate)
+[![GitHub](https://img.shields.io/badge/GitHub-jabrailkhalil-181717?style=flat-square&logo=github)](https://github.com/jabrailkhalil)
 
 </div>
 
@@ -21,18 +20,24 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [Xynapse](https://github.com/jabrailkhalil/xynapse)
-A Code - OSS based IDE with an integrated AI assistant, agent workflows, Council/BVC planning, and auditable planning controls.
+### 🪟 [Click'n'Translate](https://github.com/jabrailkhalil/clickntranslate)
+Screen OCR and translation for **Windows, Linux and macOS**. Translate games, apps, images and documents, follow changing screen regions, or use offline engines.
 
-`AI agents` `Code - OSS` `TypeScript` `LLM tooling`
+[![GitHub release downloads](https://img.shields.io/github/downloads/jabrailkhalil/clickntranslate/total?style=flat-square&label=release%20downloads)](https://github.com/jabrailkhalil/clickntranslate/releases)
+
+[Website & guides](https://translate.clickn.dev/en/) · [Downloads](https://github.com/jabrailkhalil/clickntranslate/releases/latest)
+
+`Python` `OCR` `Desktop` `Translation`
 
 </td>
 <td width="50%" valign="top">
 
-### 🪟 [Click'n'Translate](https://github.com/jabrailkhalil/clickntranslate)
-Open-source screen OCR and translation: games, images, video, apps, documents, offline engines, and global hotkeys. **3,400+ downloads.**
+### 🧠 [Xynapse](https://github.com/jabrailkhalil/xynapse)
+A Windows IDE built on **Code - OSS**, plus a standalone AI assistant extension. Codebase context, agent workflows, Council/BVC planning, and reviewable code changes.
 
-`Python` `OCR` `Desktop` `Translation`
+[Website](https://code.clickn.dev/en/) · [IDE & assistant releases](https://github.com/jabrailkhalil/xynapse/releases)
+
+`TypeScript` `AI agents` `Code - OSS` `LLM tooling`
 
 </td>
 </tr>
@@ -40,106 +45,130 @@ Open-source screen OCR and translation: games, images, video, apps, documents, o
 <td width="50%" valign="top">
 
 ### 🕸️ [Mesh Grid Studio](https://github.com/jabrailkhalil/MeshGridStudio)
-Interactive software and reproducible research for comparing structured numerical mesh-generation methods.
+Interactive software and reproducible research for comparing structured numerical mesh-generation methods, geometry and mesh quality.
 
-`Numerical methods` `Research` `Python` `LaTeX`
+`Numerical methods` `Python` `Research` `LaTeX`
 
 </td>
 <td width="50%" valign="top">
 
-### ⚗️ Engineering research
-Evaluation, reliability, reproducibility, AI-agent planning, controlled experiments, benchmarking, and turning prototypes into auditable software artifacts.
+### 🎯 [clickngoal](https://goal.clickn.dev/)
+A web app for setting goals, keeping daily progress reports and sharing the journey with communities working toward their own goals.
 
-`Evaluation` `Reproducibility` `AI systems` `DevTools`
+`Web app` `Goals` `Progress journals` `Communities`
 
 </td>
 </tr>
 </table>
 
-## 🔬 JAX case studies and reproducible demos
-
-I document small JAX correctness investigations in [JAX reliability notes](https://github.com/jabrailkhalil/jax-reliability-notes): keyword forwarding in reusable autodiff and means over uneven replica groups. The material includes runnable CPU examples before and after the fixes, regression-test evidence, and a short technical-session outline.
-
-I added generalized Hermitian eigenproblems to `jax.scipy.linalg.eigh` in [#41162](https://github.com/jax-ml/jax/pull/41162), merged on 1 October 2026. The implementation uses Cholesky reduction and supports broadcast batch dimensions, JIT, vmap, and differentiation, with tests against SciPy and the defining eigenproblem.
-
-My keyword-forwarding fix in [#41156](https://github.com/jax-ml/jax/pull/41156) also merged on 1 October. The extension to type-2/type-3 generalized eigenproblems [#41197](https://github.com/jax-ml/jax/pull/41197) merged on 2 October. The uneven-replica-group fix [#41157](https://github.com/jax-ml/jax/pull/41157) remains open for upstream review.
-
-I prepared a [generalized-eigh CPU lab](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/case-studies/generalized-eigh.md) with SciPy references, numerical identities, JIT/vmap checks, and derivatives with respect to both input matrices. It includes a 45-minute teaching outline; no workshop delivery is claimed yet.
-
-I also published a [Russian-language Fisher LDA article and runnable example](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda-ru.md). I use generalized `eigh` for dimensionality reduction, compare PCA and LDA on synthetic data, and check gradients through regularization and feature scaling against independent SciPy finite differences.
-
-The [English version](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda.md) and [Russian 45-minute workshop worksheet](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/workshops/fisher-lda-ru.md) are now public. The CPU lab was rerun on 3 October 2026, and its repository CI passes. These are prepared teaching materials; I have not yet delivered the workshop or measured external adoption.
-
-## Google AI infrastructure
-
-In ADK for Go, I continued earlier contributions on [foreign-thought isolation](https://github.com/google/adk-go/pull/1719) and [concurrent live completion-tool injection](https://github.com/google/adk-go/pull/1722), merged on 6 and 7 October 2026. My follow-up work added caller/boundary regressions and concurrency/panic-retry validation; both PRs credit the original implementations. I have not yet confirmed these fixes in a published release.
-
-My [SQLite memory-URI session fix in ADK Python](https://github.com/google/adk-python/pull/7406) was accepted through Copybara on 7 October: [the imported commit](https://github.com/google/adk-python/commit/51a20e24918c8d4b2b05909f408fc1c79f80020a) retains the SQLite connection, adapting my original implementation upstream. It is in main, but I have not confirmed it in a published release. The [paired documentation PR](https://github.com/google/adk-docs/pull/2328) remains a draft pending that release check.
-
-Current review work includes [mixed single-replica checkpoint restores in Orbax](https://github.com/google/orbax/pull/3613), [database event-order regressions in ADK Python](https://github.com/google/adk-python/pull/7492), and [array-valued auth-token field masks in the GenAI JavaScript SDK](https://github.com/googleapis/js-genai/pull/2002). These PRs are open, not accepted changes. The ADK Python PR is a tests-only draft; the schema and primary-order decision remain with maintainers.
-
 ## 🛰️ Upstream open-source
 
-**60 GitHub-merged PRs across 37 upstream projects, verified on 12 October 2026.** This excludes my own repositories. I contribute APIs, product fixes, packaging, CI, cross-platform behavior, regression tests, and documentation; merge counts do not by themselves measure downstream or community impact.
+<!-- UPSTREAM:START -->
+**62 merged PRs across 39 upstream projects**, verified on **20 October 2026**.
 
-[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-60-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
-[![Upstream projects](https://img.shields.io/badge/upstream_projects-37-0EA5E9?style=flat-square&logo=opensourceinitiative)](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged+-user%3Ajabrailkhalil)
+[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-62-2EA44F?style=flat-square&logo=github)](https://github.com/pulls?q=is%3Apr%20author%3Ajabrailkhalil%20is%3Amerged%20-user%3Ajabrailkhalil)
+[![Upstream projects](https://img.shields.io/badge/upstream_projects-39-0EA5E9?style=flat-square)](https://github.com/pulls?q=is%3Apr%20author%3Ajabrailkhalil%20is%3Amerged%20-user%3Ajabrailkhalil)
 
-Two additional contributions were accepted through import workflows: [ADK Python #7406](https://github.com/google/adk-python/commit/51a20e24918c8d4b2b05909f408fc1c79f80020a) and [PyTorch #196518](https://github.com/pytorch/pytorch/commit/11cc3f2c2feafe59bf1d7f19c46edaa02b3eac25). GitHub marks their PRs closed without a merge timestamp; their linked upstream commits verify acceptance. Including these gives **62 accepted contributions across 39 upstream projects**. The badges and GitHub query above count only GitHub-recorded merges, not these imports or release inclusion.
+Including **2 contributions accepted through upstream imports**, the total is **64 accepted contributions across 41 projects**. GitHub records those imported PRs as closed without a merge timestamp, so they are listed separately:
 
-The project table and charts below are an older 43-PR snapshot, not current star counts or a complete list of the 60 merges. The JAX and Google AI sections above record newer contributions; [Google pprof #1034](https://github.com/google/pprof/pull/1034) was also merged on 3 October. The linked GitHub query shows the current merged contributions.
+- [google/adk-python #7406](https://github.com/google/adk-python/pull/7406) — SQLite in-memory session retention; [accepted commit](https://github.com/google/adk-python/commit/51a20e24918c8d4b2b05909f408fc1c79f80020a).
+- [pytorch/pytorch #196518](https://github.com/pytorch/pytorch/pull/196518) — CPython 3.13 list-comprehension tests for Dynamo; [accepted commit](https://github.com/pytorch/pytorch/commit/11cc3f2c2feafe59bf1d7f19c46edaa02b3eac25).
+
+These counts describe accepted upstream work; release inclusion and downstream adoption are separate questions.
+
+<details>
+<summary><strong>All 39 projects and 62 merged PRs</strong></summary>
 
 | Project | Stars | Merged PRs |
 | --- | ---: | --- |
-| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 225.1k ⭐ | [#15228](https://github.com/TheAlgorithms/Python/pull/15228) |
-| [Puppeteer](https://github.com/puppeteer/puppeteer) | 95.6k ⭐ | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) |
-| [OpenHands](https://github.com/OpenHands/OpenHands) | 89.4k ⭐ | [#17152](https://github.com/OpenHands/OpenHands/pull/17152) |
-| [Roboflow Supervision](https://github.com/roboflow/supervision) | 51.1k ⭐ | [#2557](https://github.com/roboflow/supervision/pull/2557) |
-| [Slidev](https://github.com/slidevjs/slidev) | 48.9k ⭐ | [#2739](https://github.com/slidevjs/slidev/pull/2739) |
-| [LightRAG](https://github.com/HKUDS/LightRAG) | 39.9k ⭐ | [#3905](https://github.com/HKUDS/LightRAG/pull/3905) |
-| [Qwen Code](https://github.com/QwenLM/qwen-code) | 28.2k ⭐ | [#11722](https://github.com/QwenLM/qwen-code/pull/11722), [#12121](https://github.com/QwenLM/qwen-code/pull/12121), [#12126](https://github.com/QwenLM/qwen-code/pull/12126) |
-| [react-admin](https://github.com/marmelab/react-admin) | 26.9k ⭐ | [#11367](https://github.com/marmelab/react-admin/pull/11367) |
-| [VidBee](https://github.com/nexmoe/VidBee) | 10.7k ⭐ | [#469](https://github.com/nexmoe/VidBee/pull/469) |
-| [Open Library](https://github.com/internetarchive/openlibrary) | 6.7k ⭐ | [#13598](https://github.com/internetarchive/openlibrary/pull/13598) |
-| [Orval](https://github.com/orval-labs/orval) | 6.5k ⭐ | [#4074](https://github.com/orval-labs/orval/pull/4074) |
-| [Agenta](https://github.com/Agenta-AI/agenta) | 4.8k ⭐ | [#6693](https://github.com/Agenta-AI/agenta/pull/6693) |
-| [NullAway](https://github.com/uber/NullAway) | 4.1k ⭐ | [#1839](https://github.com/uber/NullAway/pull/1839) |
-| [Apache Arrow Rust](https://github.com/apache/arrow-rs) | 3.6k ⭐ | [#11053](https://github.com/apache/arrow-rs/pull/11053) |
-| [NumPyro](https://github.com/pyro-ppl/numpyro) | 2.8k ⭐ | [#2266](https://github.com/pyro-ppl/numpyro/pull/2266) |
-| [MaterialX](https://github.com/AcademySoftwareFoundation/MaterialX) | 2.3k ⭐ | [#3065](https://github.com/AcademySoftwareFoundation/MaterialX/pull/3065) |
-| [Kamaji](https://github.com/clastix/kamaji) | 2.0k ⭐ | [#1311](https://github.com/clastix/kamaji/pull/1311) |
-| [ONEARMY Community Platform](https://github.com/ONEARMY/community-platform) | 1.4k ⭐ | [#4887](https://github.com/ONEARMY/community-platform/pull/4887) |
-| [LibreDB Studio](https://github.com/libredb/libredb-studio) | 906 ⭐ | [#782](https://github.com/libredb/libredb-studio/pull/782), [#803](https://github.com/libredb/libredb-studio/pull/803) |
-| [html-to-markdown](https://github.com/xberg-io/html-to-markdown) | 880 ⭐ | [#482](https://github.com/xberg-io/html-to-markdown/pull/482) |
-| [Oppia Android](https://github.com/oppia/oppia-android) | 415 ⭐ | [#6444](https://github.com/oppia/oppia-android/pull/6444) |
-| [Kroxylicious](https://github.com/kroxylicious/kroxylicious) | 324 ⭐ | [#4890](https://github.com/kroxylicious/kroxylicious/pull/4890) |
-| [FDC3](https://github.com/finos/FDC3) | 271 ⭐ | [#2199](https://github.com/finos/FDC3/pull/2199) |
-| [VSCode Monitor Pro](https://github.com/nexmoe/vscode-monitor-pro) | 221 ⭐ | [#482](https://github.com/nexmoe/vscode-monitor-pro/pull/482) |
-| [codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 143 ⭐ | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) |
-| [Orka](https://github.com/orka-agents/orka) | 28 ⭐ | [#528](https://github.com/orka-agents/orka/pull/528), [#531](https://github.com/orka-agents/orka/pull/531), [#532](https://github.com/orka-agents/orka/pull/532), [#534](https://github.com/orka-agents/orka/pull/534), [#535](https://github.com/orka-agents/orka/pull/535), [#536](https://github.com/orka-agents/orka/pull/536), [#537](https://github.com/orka-agents/orka/pull/537), [#538](https://github.com/orka-agents/orka/pull/538) |
-| [Termlens](https://github.com/vyncint/termlens) | 27 ⭐ | [#321](https://github.com/vyncint/termlens/pull/321) |
-| [sysknife](https://github.com/lacs-project/sysknife) | 14 ⭐ | [#422](https://github.com/lacs-project/sysknife/pull/422) |
-| [soft-track](https://github.com/soft-track/soft-track) | 12 ⭐ | [#59](https://github.com/soft-track/soft-track/pull/59) |
-| [DataSemVer](https://github.com/IzanVil/datasemver) | 2 ⭐ | [#7](https://github.com/IzanVil/datasemver/pull/7) |
-| [sotto-action](https://github.com/getsotto/sotto-action) | 1 ⭐ | [#25](https://github.com/getsotto/sotto-action/pull/25) |
-| [Protos](https://github.com/guillermomolina/protos) | 1 ⭐ | [#315](https://github.com/guillermomolina/protos/pull/315) |
-| [TraceOS](https://github.com/junixlabs/traceos) | 0 ⭐ | [#23](https://github.com/junixlabs/traceos/pull/23) |
+| [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 225.4k ⭐ | [#15228](https://github.com/TheAlgorithms/Python/pull/15228) |
+| [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer) | 95.7k ⭐ | [#15445](https://github.com/puppeteer/puppeteer/pull/15445) |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 91.3k ⭐ | [#17152](https://github.com/OpenHands/OpenHands/pull/17152) |
+| [roboflow/supervision](https://github.com/roboflow/supervision) | 51.3k ⭐ | [#2557](https://github.com/roboflow/supervision/pull/2557) |
+| [slidevjs/slidev](https://github.com/slidevjs/slidev) | 49.1k ⭐ | [#2739](https://github.com/slidevjs/slidev/pull/2739) |
+| [gofiber/fiber](https://github.com/gofiber/fiber) | 40.2k ⭐ | [#4721](https://github.com/gofiber/fiber/pull/4721) |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 40.2k ⭐ | [#3905](https://github.com/HKUDS/LightRAG/pull/3905) |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 36.5k ⭐ | [#41156](https://github.com/jax-ml/jax/pull/41156), [#41162](https://github.com/jax-ml/jax/pull/41162), [#41197](https://github.com/jax-ml/jax/pull/41197) |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 28.6k ⭐ | [#11722](https://github.com/QwenLM/qwen-code/pull/11722), [#12121](https://github.com/QwenLM/qwen-code/pull/12121), [#12126](https://github.com/QwenLM/qwen-code/pull/12126), [#12127](https://github.com/QwenLM/qwen-code/pull/12127), [#12129](https://github.com/QwenLM/qwen-code/pull/12129), [#12247](https://github.com/QwenLM/qwen-code/pull/12247), [#12963](https://github.com/QwenLM/qwen-code/pull/12963), [#13147](https://github.com/QwenLM/qwen-code/pull/13147), [#13170](https://github.com/QwenLM/qwen-code/pull/13170), [#13176](https://github.com/QwenLM/qwen-code/pull/13176), [#13337](https://github.com/QwenLM/qwen-code/pull/13337) |
+| [marmelab/react-admin](https://github.com/marmelab/react-admin) | 27.0k ⭐ | [#11367](https://github.com/marmelab/react-admin/pull/11367) |
+| [valyala/fasthttp](https://github.com/valyala/fasthttp) | 23.5k ⭐ | [#2479](https://github.com/valyala/fasthttp/pull/2479) |
+| [nexmoe/VidBee](https://github.com/nexmoe/VidBee) | 10.9k ⭐ | [#469](https://github.com/nexmoe/VidBee/pull/469) |
+| [google/pprof](https://github.com/google/pprof) | 9.3k ⭐ | [#1034](https://github.com/google/pprof/pull/1034) |
+| [google/adk-go](https://github.com/google/adk-go) | 8.9k ⭐ | [#1719](https://github.com/google/adk-go/pull/1719), [#1722](https://github.com/google/adk-go/pull/1722) |
+| [internetarchive/openlibrary](https://github.com/internetarchive/openlibrary) | 6.8k ⭐ | [#13598](https://github.com/internetarchive/openlibrary/pull/13598) |
+| [orval-labs/orval](https://github.com/orval-labs/orval) | 6.5k ⭐ | [#4074](https://github.com/orval-labs/orval/pull/4074) |
+| [Agenta-AI/agenta](https://github.com/Agenta-AI/agenta) | 4.8k ⭐ | [#6693](https://github.com/Agenta-AI/agenta/pull/6693) |
+| [uber/NullAway](https://github.com/uber/NullAway) | 4.1k ⭐ | [#1839](https://github.com/uber/NullAway/pull/1839) |
+| [apache/arrow-rs](https://github.com/apache/arrow-rs) | 3.6k ⭐ | [#11053](https://github.com/apache/arrow-rs/pull/11053), [#11320](https://github.com/apache/arrow-rs/pull/11320) |
+| [pyro-ppl/numpyro](https://github.com/pyro-ppl/numpyro) | 2.8k ⭐ | [#2266](https://github.com/pyro-ppl/numpyro/pull/2266), [#2323](https://github.com/pyro-ppl/numpyro/pull/2323) |
+| [google-deepmind/optax](https://github.com/google-deepmind/optax) | 2.4k ⭐ | [#1815](https://github.com/google-deepmind/optax/pull/1815) |
+| [AcademySoftwareFoundation/MaterialX](https://github.com/AcademySoftwareFoundation/MaterialX) | 2.3k ⭐ | [#3065](https://github.com/AcademySoftwareFoundation/MaterialX/pull/3065) |
+| [clastix/kamaji](https://github.com/clastix/kamaji) | 2.1k ⭐ | [#1311](https://github.com/clastix/kamaji/pull/1311) |
+| [ONEARMY/community-platform](https://github.com/ONEARMY/community-platform) | 1.4k ⭐ | [#4887](https://github.com/ONEARMY/community-platform/pull/4887) |
+| [libredb/libredb-studio](https://github.com/libredb/libredb-studio) | 1.2k ⭐ | [#782](https://github.com/libredb/libredb-studio/pull/782), [#803](https://github.com/libredb/libredb-studio/pull/803) |
+| [xberg-io/html-to-markdown](https://github.com/xberg-io/html-to-markdown) | 882 ⭐ | [#482](https://github.com/xberg-io/html-to-markdown/pull/482) |
+| [oppia/oppia-android](https://github.com/oppia/oppia-android) | 418 ⭐ | [#6444](https://github.com/oppia/oppia-android/pull/6444) |
+| [kroxylicious/kroxylicious](https://github.com/kroxylicious/kroxylicious) | 330 ⭐ | [#4890](https://github.com/kroxylicious/kroxylicious/pull/4890) |
+| [finos/FDC3](https://github.com/finos/FDC3) | 273 ⭐ | [#2199](https://github.com/finos/FDC3/pull/2199) |
+| [nexmoe/vscode-monitor-pro](https://github.com/nexmoe/vscode-monitor-pro) | 222 ⭐ | [#482](https://github.com/nexmoe/vscode-monitor-pro/pull/482) |
+| [JqyModi/codex-multi-launcher](https://github.com/JqyModi/codex-multi-launcher) | 153 ⭐ | [#19](https://github.com/JqyModi/codex-multi-launcher/pull/19) |
+| [orka-agents/orka](https://github.com/orka-agents/orka) | 33 ⭐ | [#528](https://github.com/orka-agents/orka/pull/528), [#531](https://github.com/orka-agents/orka/pull/531), [#532](https://github.com/orka-agents/orka/pull/532), [#534](https://github.com/orka-agents/orka/pull/534), [#535](https://github.com/orka-agents/orka/pull/535), [#536](https://github.com/orka-agents/orka/pull/536), [#537](https://github.com/orka-agents/orka/pull/537), [#538](https://github.com/orka-agents/orka/pull/538) |
+| [vyncint/termlens](https://github.com/vyncint/termlens) | 28 ⭐ | [#321](https://github.com/vyncint/termlens/pull/321) |
+| [lacs-project/sysknife](https://github.com/lacs-project/sysknife) | 16 ⭐ | [#422](https://github.com/lacs-project/sysknife/pull/422) |
+| [soft-track/soft-track](https://github.com/soft-track/soft-track) | 14 ⭐ | [#59](https://github.com/soft-track/soft-track/pull/59) |
+| [guillermomolina/protos](https://github.com/guillermomolina/protos) | 3 ⭐ | [#315](https://github.com/guillermomolina/protos/pull/315) |
+| [IzanVil/datasemver](https://github.com/IzanVil/datasemver) | 2 ⭐ | [#7](https://github.com/IzanVil/datasemver/pull/7) |
+| [getsotto/sotto-action](https://github.com/getsotto/sotto-action) | 1 ⭐ | [#25](https://github.com/getsotto/sotto-action/pull/25) |
+| [junixlabs/traceos](https://github.com/junixlabs/traceos) | 0 ⭐ | [#23](https://github.com/junixlabs/traceos/pull/23) |
 
-## 📈 Open-source impact
+Stars are a dated GitHub snapshot. Own repositories and open or unmerged PRs are excluded.
 
-<div align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged">
-    <img width="100%" alt="Upstream impact across projects with merged contributions" src="./assets/upstream-impact.svg" />
-  </a>
-  <br />
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged">
-    <img width="100%" alt="Breakdown of merged upstream contributions by type" src="./assets/contribution-spectrum.svg" />
-  </a>
-  <br />
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged">
-    <img width="100%" alt="Distribution of upstream projects by GitHub scale" src="./assets/project-scale.svg" />
-  </a>
-</div>
+</details>
+
+<a href="https://github.com/pulls?q=is%3Apr%20author%3Ajabrailkhalil%20is%3Amerged%20-user%3Ajabrailkhalil"><img width="100%" alt="62 merged PRs across 39 upstream projects and repository star context" src="./assets/upstream-impact.svg" /></a>
+
+<details>
+<summary><strong>Contribution breakdown and history</strong></summary>
+
+![Merged PRs by upstream repository](./assets/contribution-spectrum.svg)
+
+![Distribution of upstream repository sizes](./assets/project-scale.svg)
+
+![Monthly upstream merge counts](./assets/merged-pr-momentum.svg)
+
+</details>
+
+[Live merged-PR query](https://github.com/pulls?q=is%3Apr%20author%3Ajabrailkhalil%20is%3Amerged%20-user%3Ajabrailkhalil) · [Verified snapshot](./metrics/upstream.json) · Counts, table and charts refresh together weekly.
+<!-- UPSTREAM:END -->
+
+## 🛠️ Selected upstream work
+
+| Project | What I contributed | Evidence |
+| --- | --- | --- |
+| **JAX** | Generalized Hermitian `eigh` for problem types 1–3, including batching, JIT, vmap and differentiation; a separate keyword-forwarding fix in reusable autodiff. | Merged [#41162](https://github.com/jax-ml/jax/pull/41162), [#41197](https://github.com/jax-ml/jax/pull/41197), [#41156](https://github.com/jax-ml/jax/pull/41156) |
+| **Google DeepMind Optax** | Finite reverse-mode gradients through global-norm clipping at zero updates. The regression includes a short optimizer loop whose meta-gradient previously became NaN. | Merged [#1815](https://github.com/google-deepmind/optax/pull/1815) on 19 October 2026 |
+| **Qwen Code** | PWA and Android development shell, encrypted connection profiles, scoped document selection and microphone consent, accessibility, and lifecycle/retry fixes. | [Merged contributions](https://github.com/QwenLM/qwen-code/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Amerged) |
+| **Google ADK** | Go context isolation and concurrent completion-tool injection, continuing and crediting earlier implementations; SQLite in-memory session retention in Python. | Merged [#1719](https://github.com/google/adk-go/pull/1719), [#1722](https://github.com/google/adk-go/pull/1722); Python [imported fix](https://github.com/google/adk-python/commit/51a20e24918c8d4b2b05909f408fc1c79f80020a) |
+| **fasthttp** | Complete, case-insensitive `Accept-Encoding` token matching while preserving distinct punctuation in custom encodings. | Merged [#2479](https://github.com/valyala/fasthttp/pull/2479) on 17 October 2026 |
+| **Roboflow Supervision** | Exposed `sv.match_detections` as a public detection-matching primitive. | Merged [#2557](https://github.com/roboflow/supervision/pull/2557) |
+| **PyTorch** | Ported CPython 3.13 list-comprehension tests into Dynamo's compatibility suite, with expected-failure markers for unsupported tracing cases. | Accepted [#196518](https://github.com/pytorch/pytorch/pull/196518) via [upstream import](https://github.com/pytorch/pytorch/commit/11cc3f2c2feafe59bf1d7f19c46edaa02b3eac25) |
+
+## 📚 Research and teaching materials
+
+In [JAX reliability notes](https://github.com/jabrailkhalil/jax-reliability-notes), I publish the reproduction, reference calculation and regression evidence alongside the explanation:
+
+- **Differentiable linear algebra:** [generalized-eigh CPU lab](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/case-studies/generalized-eigh.md), Fisher LDA articles in [English](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda.md) and [Russian](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/generalized-eigh-lda-ru.md), and a 45-minute worksheet in [English](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/workshops/fisher-lda.md) / [Russian](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/workshops/fisher-lda-ru.md).
+- **Optimizer correctness:** [finite meta-gradients through clipping](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/clipping-meta-gradients-ru.md), with an analytic reference and finite-difference checks.
+- **ML infrastructure reliability:** [concurrent Grain worker shutdown](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/grain-shutdown-ru.md) and [etils lazy-import scope isolation](https://github.com/jabrailkhalil/jax-reliability-notes/blob/main/articles/etils-import-scopes-ru.md), including lifecycle, threading and finalization cases. Both upstream fixes remain under review.
+- **AI-agent planning:** [Xynapse BVC evaluation](https://github.com/jabrailkhalil/xynapse#development-and-research), a 60-task evaluation with reproducible artifacts and research articles.
+
+The JAX labs and worksheets are prepared teaching material, with CPU validation recorded in the repository. I have not yet delivered the workshop.
+
+## 🔭 Work in review
+
+Current areas include [Orbax mixed checkpoint restores](https://github.com/google/orbax/pull/3613), [ADK Go tracing lifecycles](https://github.com/google/adk-go/pull/1911), [ADK Python tied-timestamp persistence tests](https://github.com/google/adk-python/pull/7492), [Genkit multipart tool handling](https://github.com/genkit-ai/genkit/pull/6545), and [traceAI streaming lifecycles](https://github.com/future-agi/traceAI/pull/268).
+
+My ADK JavaScript [bundle-lifetime investigation and regression tests](https://github.com/google/adk-js/pull/983) were consolidated into maintainer PR [#1008](https://github.com/google/adk-js/pull/1008), which is still open. These proposals are separate from the accepted totals above. [All open upstream PRs →](https://github.com/pulls?q=is%3Apr+author%3Ajabrailkhalil+is%3Aopen+-user%3Ajabrailkhalil)
 
 ---
 
