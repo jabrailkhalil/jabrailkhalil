@@ -1,9 +1,16 @@
 {
   "schema_version": 1,
-  "verified_on": "2026-10-20",
+  "verified_on": "2026-10-26",
   "username": "jabrailkhalil",
   "query": "is:pr author:jabrailkhalil is:merged -user:jabrailkhalil",
   "pull_requests": [
+    {
+      "repository": "1andrevich/Re-filter-lists",
+      "number": 437,
+      "title": "Add Miro domains to the community list",
+      "url": "https://github.com/1andrevich/Re-filter-lists/pull/437",
+      "merged_at": "2026-10-23T12:47:14Z"
+    },
     {
       "repository": "AcademySoftwareFoundation/MaterialX",
       "number": 3065,
@@ -125,6 +132,13 @@
     },
     {
       "repository": "QwenLM/qwen-code",
+      "number": 13278,
+      "title": "test(feishu): cover inbound file attachment lifecycle",
+      "url": "https://github.com/QwenLM/qwen-code/pull/13278",
+      "merged_at": "2026-10-24T10:29:33Z"
+    },
+    {
+      "repository": "QwenLM/qwen-code",
       "number": 13337,
       "title": "fix(feishu): preserve text and clean up failed inbound file writes",
       "url": "https://github.com/QwenLM/qwen-code/pull/13337",
@@ -199,6 +213,20 @@
       "title": "fix(sequentialagent): serialize live completion tool injection",
       "url": "https://github.com/google/adk-go/pull/1722",
       "merged_at": "2026-10-07T08:55:47Z"
+    },
+    {
+      "repository": "google/adk-go",
+      "number": 1910,
+      "title": "fix(agentanalytics): preserve live spans when tasks resume",
+      "url": "https://github.com/google/adk-go/pull/1910",
+      "merged_at": "2026-10-22T12:39:09Z"
+    },
+    {
+      "repository": "google/adk-go",
+      "number": 1911,
+      "title": "fix(agentanalytics): preserve invocation spans for late callbacks",
+      "url": "https://github.com/google/adk-go/pull/1911",
+      "merged_at": "2026-10-23T07:49:50Z"
     },
     {
       "repository": "google/pprof",
@@ -441,19 +469,24 @@
   ],
   "repositories": [
     {
+      "name": "1andrevich/Re-filter-lists",
+      "url": "https://github.com/1andrevich/Re-filter-lists",
+      "stars": 1337
+    },
+    {
       "name": "AcademySoftwareFoundation/MaterialX",
       "url": "https://github.com/AcademySoftwareFoundation/MaterialX",
-      "stars": 2287
+      "stars": 2288
     },
     {
       "name": "Agenta-AI/agenta",
       "url": "https://github.com/Agenta-AI/agenta",
-      "stars": 4845
+      "stars": 4862
     },
     {
       "name": "HKUDS/LightRAG",
       "url": "https://github.com/HKUDS/LightRAG",
-      "stars": 40216
+      "stars": 40340
     },
     {
       "name": "IzanVil/datasemver",
@@ -463,7 +496,7 @@
     {
       "name": "JqyModi/codex-multi-launcher",
       "url": "https://github.com/JqyModi/codex-multi-launcher",
-      "stars": 153
+      "stars": 159
     },
     {
       "name": "ONEARMY/community-platform",
@@ -473,32 +506,32 @@
     {
       "name": "OpenHands/OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
-      "stars": 91310
+      "stars": 91878
     },
     {
       "name": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
-      "stars": 28586
+      "stars": 28726
     },
     {
       "name": "TheAlgorithms/Python",
       "url": "https://github.com/TheAlgorithms/Python",
-      "stars": 225405
+      "stars": 225524
     },
     {
       "name": "apache/arrow-rs",
       "url": "https://github.com/apache/arrow-rs",
-      "stars": 3641
+      "stars": 3648
     },
     {
       "name": "clastix/kamaji",
       "url": "https://github.com/clastix/kamaji",
-      "stars": 2054
+      "stars": 2062
     },
     {
       "name": "finos/FDC3",
       "url": "https://github.com/finos/FDC3",
-      "stars": 273
+      "stars": 275
     },
     {
       "name": "getsotto/sotto-action",
@@ -508,22 +541,22 @@
     {
       "name": "gofiber/fiber",
       "url": "https://github.com/gofiber/fiber",
-      "stars": 40225
+      "stars": 40230
     },
     {
       "name": "google-deepmind/optax",
       "url": "https://github.com/google-deepmind/optax",
-      "stars": 2351
+      "stars": 2359
     },
     {
       "name": "google/adk-go",
       "url": "https://github.com/google/adk-go",
-      "stars": 8894
+      "stars": 8899
     },
     {
       "name": "google/pprof",
       "url": "https://github.com/google/pprof",
-      "stars": 9309
+      "stars": 9311
     },
     {
       "name": "guillermomolina/protos",
@@ -533,12 +566,12 @@
     {
       "name": "internetarchive/openlibrary",
       "url": "https://github.com/internetarchive/openlibrary",
-      "stars": 6769
+      "stars": 6780
     },
     {
       "name": "jax-ml/jax",
       "url": "https://github.com/jax-ml/jax",
-      "stars": 36468
+      "stars": 36500
     },
     {
       "name": "junixlabs/traceos",
@@ -548,27 +581,27 @@
     {
       "name": "kroxylicious/kroxylicious",
       "url": "https://github.com/kroxylicious/kroxylicious",
-      "stars": 330
+      "stars": 332
     },
     {
       "name": "lacs-project/sysknife",
       "url": "https://github.com/lacs-project/sysknife",
-      "stars": 16
+      "stars": 65
     },
     {
       "name": "libredb/libredb-studio",
       "url": "https://github.com/libredb/libredb-studio",
-      "stars": 1232
+      "stars": 1281
     },
     {
       "name": "marmelab/react-admin",
       "url": "https://github.com/marmelab/react-admin",
-      "stars": 26970
+      "stars": 26973
     },
     {
       "name": "nexmoe/VidBee",
       "url": "https://github.com/nexmoe/VidBee",
-      "stars": 10896
+      "stars": 10969
     },
     {
       "name": "nexmoe/vscode-monitor-pro",
@@ -583,32 +616,32 @@
     {
       "name": "orka-agents/orka",
       "url": "https://github.com/orka-agents/orka",
-      "stars": 33
+      "stars": 36
     },
     {
       "name": "orval-labs/orval",
       "url": "https://github.com/orval-labs/orval",
-      "stars": 6548
+      "stars": 6559
     },
     {
       "name": "puppeteer/puppeteer",
       "url": "https://github.com/puppeteer/puppeteer",
-      "stars": 95727
+      "stars": 95745
     },
     {
       "name": "pyro-ppl/numpyro",
       "url": "https://github.com/pyro-ppl/numpyro",
-      "stars": 2769
+      "stars": 2771
     },
     {
       "name": "roboflow/supervision",
       "url": "https://github.com/roboflow/supervision",
-      "stars": 51255
+      "stars": 51367
     },
     {
       "name": "slidevjs/slidev",
       "url": "https://github.com/slidevjs/slidev",
-      "stars": 49134
+      "stars": 49220
     },
     {
       "name": "soft-track/soft-track",
@@ -623,17 +656,17 @@
     {
       "name": "valyala/fasthttp",
       "url": "https://github.com/valyala/fasthttp",
-      "stars": 23486
+      "stars": 23488
     },
     {
       "name": "vyncint/termlens",
       "url": "https://github.com/vyncint/termlens",
-      "stars": 28
+      "stars": 27
     },
     {
       "name": "xberg-io/html-to-markdown",
       "url": "https://github.com/xberg-io/html-to-markdown",
-      "stars": 882
+      "stars": 885
     }
   ]
 }
