@@ -6,5 +6,5 @@
 <rect x="1" y="1" width="998" height="388" rx="20" fill="url(#bg)" stroke="#30363d"/>
 <text x="38" y="49" class="title">Projects of different sizes</text><text x="38" y="77" class="subtitle">41 repositories · each project counted once</text>
 <text x="38" y="132" class="label">50k+ stars</text><rect x="240" y="117" width="56.6" height="18" rx="6" fill="url(#accent)"/><text x="855" y="132" class="value">4 projects</text><text x="38" y="180" class="label">10k–50k stars</text><rect x="240" y="165" width="127.3" height="18" rx="6" fill="url(#accent)"/><text x="855" y="180" class="value">9 projects</text><text x="38" y="228" class="label">1k–10k stars</text><rect x="240" y="213" width="198.0" height="18" rx="6" fill="url(#accent)"/><text x="855" y="228" class="value">14 projects</text><text x="38" y="276" class="label">Under 1k stars</text><rect x="240" y="261" width="198.0" height="18" rx="6" fill="url(#accent)"/><text x="855" y="276" class="value">14 projects</text><text x="38" y="339" class="muted">Repository popularity provides context; it does not measure adoption of my changes.</text>
-<text x="38" y="370" class="muted">Verified 2026-11-02 · GitHub-recorded merges in external repositories</text>
+<text x="38" y="370" class="muted">Verified 2026-11-09 · GitHub-recorded merges in external repositories</text>
 </svg>

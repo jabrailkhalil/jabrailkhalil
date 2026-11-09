@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="317" viewBox="0 0 1000 317" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="361" viewBox="0 0 1000 361" role="img" aria-labelledby="title desc">
 <title id="title">Merged contributions over time</title><desc id="desc">GitHub-recorded upstream PR merges by calendar month (UTC).</desc>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient>
 <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient></defs>
 <style>text{font-family:Inter,"Segoe UI",sans-serif}.title{fill:#f8fafc;font-size:27px;font-weight:700}.subtitle{fill:#a5b4c9;font-size:14px}.label{fill:#e2e8f0;font-size:15px}.value{fill:#f8fafc;font-size:17px;font-weight:700}.muted{fill:#94a3b8;font-size:12px}</style>
-<rect x="1" y="1" width="998" height="315" rx="20" fill="url(#bg)" stroke="#30363d"/>
+<rect x="1" y="1" width="998" height="359" rx="20" fill="url(#bg)" stroke="#30363d"/>
 <text x="38" y="49" class="title">Merged contributions over time</text><text x="38" y="77" class="subtitle">Monthly merge counts · current month is partial · UTC timestamps</text>
-<text x="38" y="130" class="label">2026-08</text><rect x="200" y="115" width="15.0" height="18" rx="6" fill="url(#accent)"/><text x="865" y="130" class="value">1</text><text x="38" y="174" class="label">2026-09</text><rect x="200" y="159" width="630.0" height="18" rx="6" fill="url(#accent)"/><text x="865" y="174" class="value">42</text><text x="38" y="218" class="label">2026-10</text><rect x="200" y="203" width="390.0" height="18" rx="6" fill="url(#accent)"/><text x="865" y="218" class="value">26</text>
-<text x="38" y="297" class="muted">Verified 2026-11-02 · GitHub-recorded merges in external repositories</text>
+<text x="38" y="130" class="label">2026-08</text><rect x="200" y="115" width="15.0" height="18" rx="6" fill="url(#accent)"/><text x="865" y="130" class="value">1</text><text x="38" y="174" class="label">2026-09</text><rect x="200" y="159" width="630.0" height="18" rx="6" fill="url(#accent)"/><text x="865" y="174" class="value">42</text><text x="38" y="218" class="label">2026-10</text><rect x="200" y="203" width="390.0" height="18" rx="6" fill="url(#accent)"/><text x="865" y="218" class="value">26</text><text x="38" y="262" class="label">2026-11</text><rect x="200" y="247" width="75.0" height="18" rx="6" fill="url(#accent)"/><text x="865" y="262" class="value">5</text>
+<text x="38" y="341" class="muted">Verified 2026-11-09 · GitHub-recorded merges in external repositories</text>
 </svg>
