@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "verified_on": "2026-11-09",
+  "verified_on": "2026-11-16",
   "username": "jabrailkhalil",
   "query": "is:pr author:jabrailkhalil is:merged -user:jabrailkhalil",
   "pull_requests": [
@@ -199,6 +199,20 @@
       "title": "fix(fdc3-conformance): fix pre-existing type errors and enable typecheck",
       "url": "https://github.com/finos/FDC3/pull/2199",
       "merged_at": "2026-09-15T17:39:52Z"
+    },
+    {
+      "repository": "future-agi/traceAI",
+      "number": 276,
+      "title": "fix(google-genai): preserve distinct streaming response parts",
+      "url": "https://github.com/future-agi/traceAI/pull/276",
+      "merged_at": "2026-11-09T19:00:47Z"
+    },
+    {
+      "repository": "future-agi/traceAI",
+      "number": 280,
+      "title": "feat(n8n): add workflow and node execution tracing",
+      "url": "https://github.com/future-agi/traceAI/pull/280",
+      "merged_at": "2026-11-09T19:00:47Z"
     },
     {
       "repository": "getsotto/sotto-action",
@@ -502,6 +516,13 @@
       "merged_at": "2026-09-15T15:36:22Z"
     },
     {
+      "repository": "ulianachupanova/apartment13",
+      "number": 1,
+      "title": "Убрать швы текстур и поправить управление",
+      "url": "https://github.com/ulianachupanova/apartment13/pull/1",
+      "merged_at": "2026-11-13T15:08:12Z"
+    },
+    {
       "repository": "valyala/fasthttp",
       "number": 2479,
       "title": "fix: match complete Accept-Encoding tokens",
@@ -527,22 +548,22 @@
     {
       "name": "1andrevich/Re-filter-lists",
       "url": "https://github.com/1andrevich/Re-filter-lists",
-      "stars": 1352
+      "stars": 1357
     },
     {
       "name": "AcademySoftwareFoundation/MaterialX",
       "url": "https://github.com/AcademySoftwareFoundation/MaterialX",
-      "stars": 2303
+      "stars": 2309
     },
     {
       "name": "Agenta-AI/agenta",
       "url": "https://github.com/Agenta-AI/agenta",
-      "stars": 4899
+      "stars": 4912
     },
     {
       "name": "HKUDS/LightRAG",
       "url": "https://github.com/HKUDS/LightRAG",
-      "stars": 40621
+      "stars": 40719
     },
     {
       "name": "IzanVil/datasemver",
@@ -552,42 +573,47 @@
     {
       "name": "JqyModi/codex-multi-launcher",
       "url": "https://github.com/JqyModi/codex-multi-launcher",
-      "stars": 164
+      "stars": 166
     },
     {
       "name": "ONEARMY/community-platform",
       "url": "https://github.com/ONEARMY/community-platform",
-      "stars": 1405
+      "stars": 1408
     },
     {
       "name": "OpenHands/OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
-      "stars": 93027
+      "stars": 93580
     },
     {
       "name": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
-      "stars": 29128
+      "stars": 30582
     },
     {
       "name": "TheAlgorithms/Python",
       "url": "https://github.com/TheAlgorithms/Python",
-      "stars": 225973
+      "stars": 226169
     },
     {
       "name": "apache/arrow-rs",
       "url": "https://github.com/apache/arrow-rs",
-      "stars": 3664
+      "stars": 3669
     },
     {
       "name": "clastix/kamaji",
       "url": "https://github.com/clastix/kamaji",
-      "stars": 2077
+      "stars": 2087
     },
     {
       "name": "finos/FDC3",
       "url": "https://github.com/finos/FDC3",
-      "stars": 275
+      "stars": 274
+    },
+    {
+      "name": "future-agi/traceAI",
+      "url": "https://github.com/future-agi/traceAI",
+      "stars": 266
     },
     {
       "name": "getsotto/sotto-action",
@@ -597,7 +623,7 @@
     {
       "name": "gofiber/fiber",
       "url": "https://github.com/gofiber/fiber",
-      "stars": 40254
+      "stars": 40282
     },
     {
       "name": "google-deepmind/optax",
@@ -607,17 +633,17 @@
     {
       "name": "google/adk-go",
       "url": "https://github.com/google/adk-go",
-      "stars": 8956
+      "stars": 8965
     },
     {
       "name": "google/benchmark",
       "url": "https://github.com/google/benchmark",
-      "stars": 10501
+      "stars": 10519
     },
     {
       "name": "google/pprof",
       "url": "https://github.com/google/pprof",
-      "stars": 9322
+      "stars": 9327
     },
     {
       "name": "guillermomolina/protos",
@@ -627,12 +653,12 @@
     {
       "name": "internetarchive/openlibrary",
       "url": "https://github.com/internetarchive/openlibrary",
-      "stars": 6817
+      "stars": 6921
     },
     {
       "name": "jax-ml/jax",
       "url": "https://github.com/jax-ml/jax",
-      "stars": 36586
+      "stars": 36634
     },
     {
       "name": "junixlabs/traceos",
@@ -642,67 +668,67 @@
     {
       "name": "kroxylicious/kroxylicious",
       "url": "https://github.com/kroxylicious/kroxylicious",
-      "stars": 334
+      "stars": 335
     },
     {
       "name": "lacs-project/sysknife",
       "url": "https://github.com/lacs-project/sysknife",
-      "stars": 187
+      "stars": 282
     },
     {
       "name": "libredb/libredb-studio",
       "url": "https://github.com/libredb/libredb-studio",
-      "stars": 1323
+      "stars": 1335
     },
     {
       "name": "marmelab/react-admin",
       "url": "https://github.com/marmelab/react-admin",
-      "stars": 26986
+      "stars": 26998
     },
     {
       "name": "nexmoe/VidBee",
       "url": "https://github.com/nexmoe/VidBee",
-      "stars": 11104
+      "stars": 11157
     },
     {
       "name": "nexmoe/vscode-monitor-pro",
       "url": "https://github.com/nexmoe/vscode-monitor-pro",
-      "stars": 221
+      "stars": 222
     },
     {
       "name": "oppia/oppia-android",
       "url": "https://github.com/oppia/oppia-android",
-      "stars": 420
+      "stars": 422
     },
     {
       "name": "orka-agents/orka",
       "url": "https://github.com/orka-agents/orka",
-      "stars": 46
+      "stars": 47
     },
     {
       "name": "orval-labs/orval",
       "url": "https://github.com/orval-labs/orval",
-      "stars": 6598
+      "stars": 6620
     },
     {
       "name": "puppeteer/puppeteer",
       "url": "https://github.com/puppeteer/puppeteer",
-      "stars": 95815
+      "stars": 95845
     },
     {
       "name": "pyro-ppl/numpyro",
       "url": "https://github.com/pyro-ppl/numpyro",
-      "stars": 2777
+      "stars": 2779
     },
     {
       "name": "roboflow/supervision",
       "url": "https://github.com/roboflow/supervision",
-      "stars": 51566
+      "stars": 51639
     },
     {
       "name": "slidevjs/slidev",
       "url": "https://github.com/slidevjs/slidev",
-      "stars": 49409
+      "stars": 49508
     },
     {
       "name": "soft-track/soft-track",
@@ -712,22 +738,27 @@
     {
       "name": "uber/NullAway",
       "url": "https://github.com/uber/NullAway",
-      "stars": 4131
+      "stars": 4136
+    },
+    {
+      "name": "ulianachupanova/apartment13",
+      "url": "https://github.com/ulianachupanova/apartment13",
+      "stars": 0
     },
     {
       "name": "valyala/fasthttp",
       "url": "https://github.com/valyala/fasthttp",
-      "stars": 23506
+      "stars": 23514
     },
     {
       "name": "vyncint/termlens",
       "url": "https://github.com/vyncint/termlens",
-      "stars": 28
+      "stars": 29
     },
     {
       "name": "xberg-io/html-to-markdown",
       "url": "https://github.com/xberg-io/html-to-markdown",
-      "stars": 888
+      "stars": 887
     }
   ]
 }
