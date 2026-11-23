@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "verified_on": "2026-11-16",
+  "verified_on": "2026-11-23",
   "username": "jabrailkhalil",
   "query": "is:pr author:jabrailkhalil is:merged -user:jabrailkhalil",
   "pull_requests": [
@@ -24,6 +24,48 @@
       "title": "docs(docs): preserve quoted values when loading test env files",
       "url": "https://github.com/Agenta-AI/agenta/pull/6693",
       "merged_at": "2026-09-10T15:43:27Z"
+    },
+    {
+      "repository": "Bionus/imgbrd-grabber",
+      "number": 3697,
+      "title": "Bound retries for rate-limited page requests",
+      "url": "https://github.com/Bionus/imgbrd-grabber/pull/3697",
+      "merged_at": "2026-11-16T18:23:55Z"
+    },
+    {
+      "repository": "Bionus/imgbrd-grabber",
+      "number": 3700,
+      "title": "Handle empty and failed QML image previews",
+      "url": "https://github.com/Bionus/imgbrd-grabber/pull/3700",
+      "merged_at": "2026-11-18T00:48:55Z"
+    },
+    {
+      "repository": "Bionus/imgbrd-grabber",
+      "number": 3701,
+      "title": "Decode HTML entities in image and gallery names",
+      "url": "https://github.com/Bionus/imgbrd-grabber/pull/3701",
+      "merged_at": "2026-11-16T18:27:08Z"
+    },
+    {
+      "repository": "Bionus/imgbrd-grabber",
+      "number": 3706,
+      "title": "Use the active palette for search suggestion links",
+      "url": "https://github.com/Bionus/imgbrd-grabber/pull/3706",
+      "merged_at": "2026-11-16T18:26:23Z"
+    },
+    {
+      "repository": "Bionus/imgbrd-grabber",
+      "number": 3709,
+      "title": "Identify and throttle Zerochan API requests",
+      "url": "https://github.com/Bionus/imgbrd-grabber/pull/3709",
+      "merged_at": "2026-11-16T19:36:10Z"
+    },
+    {
+      "repository": "Bionus/imgbrd-grabber",
+      "number": 3711,
+      "title": "Support WallHaven resolution and color filters",
+      "url": "https://github.com/Bionus/imgbrd-grabber/pull/3711",
+      "merged_at": "2026-11-16T20:35:34Z"
     },
     {
       "repository": "HKUDS/LightRAG",
@@ -548,22 +590,27 @@
     {
       "name": "1andrevich/Re-filter-lists",
       "url": "https://github.com/1andrevich/Re-filter-lists",
-      "stars": 1357
+      "stars": 1366
     },
     {
       "name": "AcademySoftwareFoundation/MaterialX",
       "url": "https://github.com/AcademySoftwareFoundation/MaterialX",
-      "stars": 2309
+      "stars": 2314
     },
     {
       "name": "Agenta-AI/agenta",
       "url": "https://github.com/Agenta-AI/agenta",
-      "stars": 4912
+      "stars": 4932
+    },
+    {
+      "name": "Bionus/imgbrd-grabber",
+      "url": "https://github.com/Bionus/imgbrd-grabber",
+      "stars": 3242
     },
     {
       "name": "HKUDS/LightRAG",
       "url": "https://github.com/HKUDS/LightRAG",
-      "stars": 40719
+      "stars": 40830
     },
     {
       "name": "IzanVil/datasemver",
@@ -583,37 +630,37 @@
     {
       "name": "OpenHands/OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
-      "stars": 93580
+      "stars": 94144
     },
     {
       "name": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
-      "stars": 30582
+      "stars": 30893
     },
     {
       "name": "TheAlgorithms/Python",
       "url": "https://github.com/TheAlgorithms/Python",
-      "stars": 226169
+      "stars": 226412
     },
     {
       "name": "apache/arrow-rs",
       "url": "https://github.com/apache/arrow-rs",
-      "stars": 3669
+      "stars": 3677
     },
     {
       "name": "clastix/kamaji",
       "url": "https://github.com/clastix/kamaji",
-      "stars": 2087
+      "stars": 2098
     },
     {
       "name": "finos/FDC3",
       "url": "https://github.com/finos/FDC3",
-      "stars": 274
+      "stars": 275
     },
     {
       "name": "future-agi/traceAI",
       "url": "https://github.com/future-agi/traceAI",
-      "stars": 266
+      "stars": 267
     },
     {
       "name": "getsotto/sotto-action",
@@ -623,27 +670,27 @@
     {
       "name": "gofiber/fiber",
       "url": "https://github.com/gofiber/fiber",
-      "stars": 40282
+      "stars": 40312
     },
     {
       "name": "google-deepmind/optax",
       "url": "https://github.com/google-deepmind/optax",
-      "stars": 2366
+      "stars": 2368
     },
     {
       "name": "google/adk-go",
       "url": "https://github.com/google/adk-go",
-      "stars": 8965
+      "stars": 8996
     },
     {
       "name": "google/benchmark",
       "url": "https://github.com/google/benchmark",
-      "stars": 10519
+      "stars": 10535
     },
     {
       "name": "google/pprof",
       "url": "https://github.com/google/pprof",
-      "stars": 9327
+      "stars": 9329
     },
     {
       "name": "guillermomolina/protos",
@@ -653,12 +700,12 @@
     {
       "name": "internetarchive/openlibrary",
       "url": "https://github.com/internetarchive/openlibrary",
-      "stars": 6921
+      "stars": 6980
     },
     {
       "name": "jax-ml/jax",
       "url": "https://github.com/jax-ml/jax",
-      "stars": 36634
+      "stars": 36675
     },
     {
       "name": "junixlabs/traceos",
@@ -668,27 +715,27 @@
     {
       "name": "kroxylicious/kroxylicious",
       "url": "https://github.com/kroxylicious/kroxylicious",
-      "stars": 335
+      "stars": 334
     },
     {
       "name": "lacs-project/sysknife",
       "url": "https://github.com/lacs-project/sysknife",
-      "stars": 282
+      "stars": 334
     },
     {
       "name": "libredb/libredb-studio",
       "url": "https://github.com/libredb/libredb-studio",
-      "stars": 1335
+      "stars": 1364
     },
     {
       "name": "marmelab/react-admin",
       "url": "https://github.com/marmelab/react-admin",
-      "stars": 26998
+      "stars": 27000
     },
     {
       "name": "nexmoe/VidBee",
       "url": "https://github.com/nexmoe/VidBee",
-      "stars": 11157
+      "stars": 11201
     },
     {
       "name": "nexmoe/vscode-monitor-pro",
@@ -703,32 +750,32 @@
     {
       "name": "orka-agents/orka",
       "url": "https://github.com/orka-agents/orka",
-      "stars": 47
+      "stars": 50
     },
     {
       "name": "orval-labs/orval",
       "url": "https://github.com/orval-labs/orval",
-      "stars": 6620
+      "stars": 6653
     },
     {
       "name": "puppeteer/puppeteer",
       "url": "https://github.com/puppeteer/puppeteer",
-      "stars": 95845
+      "stars": 95894
     },
     {
       "name": "pyro-ppl/numpyro",
       "url": "https://github.com/pyro-ppl/numpyro",
-      "stars": 2779
+      "stars": 2784
     },
     {
       "name": "roboflow/supervision",
       "url": "https://github.com/roboflow/supervision",
-      "stars": 51639
+      "stars": 51704
     },
     {
       "name": "slidevjs/slidev",
       "url": "https://github.com/slidevjs/slidev",
-      "stars": 49508
+      "stars": 49610
     },
     {
       "name": "soft-track/soft-track",
@@ -748,17 +795,17 @@
     {
       "name": "valyala/fasthttp",
       "url": "https://github.com/valyala/fasthttp",
-      "stars": 23514
+      "stars": 23527
     },
     {
       "name": "vyncint/termlens",
       "url": "https://github.com/vyncint/termlens",
-      "stars": 29
+      "stars": 32
     },
     {
       "name": "xberg-io/html-to-markdown",
       "url": "https://github.com/xberg-io/html-to-markdown",
-      "stars": 887
+      "stars": 889
     }
   ]
 }
